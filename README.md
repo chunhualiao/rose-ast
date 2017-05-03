@@ -8,9 +8,9 @@ For example, func1.c has the following AST dump files.
 * PNG file converted from DOT graph        : func1.c_WholeAST.dot.png
 
 To view those files, you can try to use
-  xdg-open file.pdf
-  xdg-open file.png
-  zgrviewer-0.8.2/run.sh file.dot
+* xdg-open file.pdf
+* xdg-open file.png
+* zgrviewer-0.8.2/run.sh file.dot
 
 To regenerate all the pdf and dot graphs
 1. Install ROSE
