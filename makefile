@@ -1,7 +1,8 @@
 # regular C files
 # -----------------------------------------------
 C_FILES = \
-  func1.c 
+  func1.c \
+  accumulationStmt.c
 
 C_FILES_PDF = $(C_FILES:.c=.c.pdf) 
 C_FILES_DOT = $(C_FILES:.c=.c_WholeAST.dot) 
