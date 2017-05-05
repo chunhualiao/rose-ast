@@ -13,6 +13,28 @@ $(C_FILES_PDF): %.c.pdf:%.c
 $(C_FILES_DOT): %.c_WholeAST.dot:%.c
 	dotGeneratorWholeASTGraph -c $<
 
+# C++ files, with C++11 features
+# -----------------------------------------------
+CXX_FILES = \
+  lambda.cxx
+
+CXX_FILES_PDF = $(CXX_FILES:.cxx=.cxx.pdf) 
+# cannot generate C++ dot files now.
+# builtin function declarations are needed to compile them.
+# But with builtin functions, the AST is too large to be generated. 
+# "/usr/include/bits/byteswap.h", line 47: error: identifier "__builtin_bswap32"
+#           is undefined
+#    return __builtin_bswap32 (__bsx);
+#
+#CXX_FILES_DOT = $(CXX_FILES:.cxx=.cxx_WholeAST.dot) 
+
+$(CXX_FILES_PDF): %.cxx.pdf:%.cxx
+	pdfGenerator -std=c++11 -c $<
+
+# AST may be too large to generate dot file sometimes.
+$(CXX_FILES_DOT): %.cxx_WholeAST.dot:%.cxx
+	dotGeneratorWholeASTGraph -std=c++11 -c $<
+
 # OpenMP C files
 # -----------------------------------------------
 OMP_C_FILES = \
@@ -27,8 +49,8 @@ $(OMP_C_FILES_PDF): %.c.pdf:%.c
 $(OMP_C_FILES_DOT): %.c_WholeAST.dot:%.c
 	dotGeneratorWholeASTGraph -rose:OpenMP:ast_only -c $<
  
-#--------convert dot file to pdf and pgn file------
-ALL_FILES_DOT = $(C_FILES_DOT) $(OMP_C_FILES_DOT) 
+#--------further convert dot file to pdf and pgn file------
+ALL_FILES_DOT = $(C_FILES_DOT) $(OMP_C_FILES_DOT) $(CXX_FILES_DOT)
 ALL_FILES_DOT_PDF = $(ALL_FILES_DOT:.dot=.dot.pdf)
 
 ALL_FILES_DOT_PNG = $(ALL_FILES_DOT:.dot=.dot.png)
@@ -39,7 +61,10 @@ $(ALL_FILES_DOT_PDF): %.dot.pdf:%.dot
 $(ALL_FILES_DOT_PNG): %.dot.png:%.dot
 	dot -Tpng $< -o $@
 
-all: $(OMP_C_FILES_PDF) $(OMP_C_FILES_DOT) $(C_FILES_PDF) $(C_FILES_DOT) $(ALL_FILES_DOT_PDF) $(ALL_FILES_DOT_PNG)
+all: $(OMP_C_FILES_PDF) $(OMP_C_FILES_DOT) \
+     $(C_FILES_PDF) $(C_FILES_DOT) \
+     $(CXX_FILES_PDF) $(CXX_FILES_DOT) \
+     $(ALL_FILES_DOT_PDF) $(ALL_FILES_DOT_PNG)
 
 clean:
 	rm -rf rose_*.* *.pdf *.dot
