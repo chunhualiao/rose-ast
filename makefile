@@ -13,6 +13,7 @@ $(C_FILES_PDF): %.c.pdf:%.c
 $(C_FILES_DOT): %.c_WholeAST.dot:%.c
 	dotGeneratorWholeASTGraph -c $<
 
+
 # C++ files, with C++11 features
 # -----------------------------------------------
 CXX_FILES = \
@@ -48,11 +49,24 @@ $(OMP_C_FILES_PDF): %.c.pdf:%.c
 
 $(OMP_C_FILES_DOT): %.c_WholeAST.dot:%.c
 	dotGeneratorWholeASTGraph -rose:OpenMP:ast_only -c $<
+# .f Files 
+# -----------------------------------------------
+F77_FILES = \
+  subroutine1.f
+
+F77_FILES_PDF = $(F77_FILES:.f=.f.pdf) 
+F77_FILES_DOT = $(F77_FILES:.f=.f_WholeAST.dot) 
+
+$(F77_FILES_PDF): %.f.pdf:%.f
+	pdfGenerator -c $<
+
+$(F77_FILES_DOT): %.f_WholeAST.dot:%.f
+	dotGeneratorWholeASTGraph -c $<
  
 #--------further convert dot file to pdf and pgn file------
-ALL_FILES_DOT = $(C_FILES_DOT) $(OMP_C_FILES_DOT) $(CXX_FILES_DOT)
-ALL_FILES_DOT_PDF = $(ALL_FILES_DOT:.dot=.dot.pdf)
+ALL_FILES_DOT = $(C_FILES_DOT) $(OMP_C_FILES_DOT) $(CXX_FILES_DOT) $(F77_FILES_DOT)
 
+ALL_FILES_DOT_PDF = $(ALL_FILES_DOT:.dot=.dot.pdf)
 ALL_FILES_DOT_PNG = $(ALL_FILES_DOT:.dot=.dot.png)
 
 $(ALL_FILES_DOT_PDF): %.dot.pdf:%.dot
@@ -63,6 +77,7 @@ $(ALL_FILES_DOT_PNG): %.dot.png:%.dot
 
 all: $(OMP_C_FILES_PDF) $(OMP_C_FILES_DOT) \
      $(C_FILES_PDF) $(C_FILES_DOT) \
+     $(F77_FILES_PDF) $(F77_FILES_DOT) \
      $(CXX_FILES_PDF) $(CXX_FILES_DOT) \
      $(ALL_FILES_DOT_PDF) $(ALL_FILES_DOT_PNG)
 
