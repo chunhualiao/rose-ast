@@ -5,7 +5,8 @@ C_FILES = \
   accumulationStmt.c \
   constType.c \
   typedefType.c \
-  pointerArray.c
+  pointerArray.c \
+  forLoop.c
 
 C_FILES_PDF = $(C_FILES:.c=.c.pdf) 
 C_FILES_DOT = $(C_FILES:.c=.c_WholeAST.dot) 
@@ -17,11 +18,27 @@ $(C_FILES_DOT): %.c_WholeAST.dot:%.c
 	source ./set.rose ; dotGeneratorWholeASTGraph -c $<
 
 
-# C++ files, with C++11 features
+# C++ files with .cpp suffix, small enough for dot graph generation
+CPP_FILES = \
+   autoKernel.cpp
+CPP_FILES_PDF = $(CPP_FILES:.cpp=.cpp.pdf) 
+
+CPP_FILES_DOT = $(CPP_FILES:.cpp=.cpp_WholeAST.dot) 
+
+$(CPP_FILES_PDF): %.cpp.pdf:%.cpp
+	source ./set.rose ; pdfGenerator -std=c++11 -c $<
+
+# AST may be too large to generate dot file sometimes.
+$(CPP_FILES_DOT): %.cpp_WholeAST.dot:%.cpp
+	source ./set.rose ; dotGeneratorWholeASTGraph -std=c++11 -c $<
+
+
+# C++ files, with C++11 features, too large for dot graph generation
 # Must use .cxx suffix here.
 # -----------------------------------------------
 CXX_FILES = \
-  lambda.cxx
+  lambda.cxx \
+  indirectLambdaCall.cxx
 
 CXX_FILES_PDF = $(CXX_FILES:.cxx=.cxx.pdf) 
 # cannot generate C++ dot files now.
@@ -68,7 +85,7 @@ $(F77_FILES_DOT): %.f_WholeAST.dot:%.f
 	source ./set.rose ; dotGeneratorWholeASTGraph -c $<
  
 #--------further convert dot file to pdf and pgn file------
-ALL_FILES_DOT = $(C_FILES_DOT) $(OMP_C_FILES_DOT) $(CXX_FILES_DOT) $(F77_FILES_DOT)
+ALL_FILES_DOT = $(C_FILES_DOT) $(OMP_C_FILES_DOT) $(CXX_FILES_DOT) $(F77_FILES_DOT) $(CPP_FILES_DOT)
 
 ALL_FILES_DOT_PDF = $(ALL_FILES_DOT:.dot=.dot.pdf)
 ALL_FILES_DOT_PNG = $(ALL_FILES_DOT:.dot=.dot.png)
@@ -86,7 +103,7 @@ all: $(OMP_C_FILES_PDF) $(OMP_C_FILES_DOT) \
      $(ALL_FILES_DOT_PDF) $(ALL_FILES_DOT_PNG)
 
 clean:
-	rm -rf *.o
+	rm -rf *.o *.out
 
 distclean:
 	rm -rf rose_*.* *.pdf *.dot
