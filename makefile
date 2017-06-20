@@ -20,7 +20,9 @@ $(C_FILES_DOT): %.c_WholeAST.dot:%.c
 
 # C++ files with .cpp suffix, small enough for dot graph generation
 CPP_FILES = \
-   autoKernel.cpp
+   autoKernel.cpp \
+   arrayRefs.cpp
+
 CPP_FILES_PDF = $(CPP_FILES:.cpp=.cpp.pdf) 
 
 CPP_FILES_DOT = $(CPP_FILES:.cpp=.cpp_WholeAST.dot) 
