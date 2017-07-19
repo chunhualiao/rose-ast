@@ -1,0 +1,6825 @@
+%PDF-1.3
+%·¾­ª
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/PageMode /UseOutlines
+/Outlines 91 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [ 5 0 R ]
+/Count 21
+>>
+endobj
+3 0 obj
+<<
+/Producer (Haru\040Free\040PDF\040Library\0402.1.0)
+/Keywords (Abstract\040Syntax\040Tree\040\050AST\051\040ROSE)
+/Subject (Display\040of\040AST\040for\040ROSE)
+/Title (AST\040for\040program\040code)
+/Creator (ROSE)
+/Author (generic)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /StandardEncoding
+>>
+endobj
+5 0 obj
+<<
+/Type /Pages
+/Kids [ 6 0 R 10 0 R 14 0 R 18 0 R 22 0 R 26 0 R 30 0 R 34 0 R 38 0 R 42 0 R 46 0 R 50 0 R 54 0 R 58 0 R 62 0 R 66 0 R 70 0 R 74 0 R 78 0 R 82 0 R 86 0 R ]
+/Count 21
+/Parent 2 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 7 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 90 0 R ]
+>>
+endobj
+7 0 obj
+<<
+/Length 8 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98ebf6010) '
+(SgSourceFile) '
+0 1 0 rg
+T*
+(\040\040\040\040\040\040root\040node) '
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x147a350) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98eda9068) Tj
+0.5 0 0.1 rg
+(SgStringList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalCommandLineArgumentList) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133pdfGenerator,\040-std=c++11,\040-c,\040arrayRefs.cpp\135) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_verbose) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_output_warnings) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_C_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_UPC_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_UPCxx_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_upc_threads) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_C89_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_C89_gnu_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_C99_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_C99_gnu_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Cxx_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_C11_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_C11_gnu_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Cxx0x_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Cxx11_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Cxx11_gnu_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_C14_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_C14_gnu_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Cxx14_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Cxx14_gnu_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Fortran_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_F77_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_F90_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_F95_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_F2003_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_F2008_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_CoArrayFortran_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Java_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_X10_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_PHP_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Python_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_Cuda_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_OpenCL_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_requires_C_preprocessor) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_binary_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgFile::outputFormatOption_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_inputFormat) Tj
+(\040:\040) Tj
+0 0 0 rg
+(2) Tj
+0.5 0 0.1 rg
+(SgFile::outputFormatOption_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_outputFormat) Tj
+(\040:\040) Tj
+0 0 0 rg
+(2) Tj
+0.5 0 0.1 rg
+(SgFile::outputFormatOption_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_backendCompileFormat) Tj
+(\040:\040) Tj
+0 0 0 rg
+(2) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_fortran_implicit_none) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_openmp) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_openmp_parse_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_openmp_ast_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_openmp_lowering) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_cray_pointer_support) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_failsafe) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_output_parser_actions) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_exit_after_parser) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_skip_syntax_check) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_relax_syntax_check) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_skip_translation_from_edg_ast_to_rose_ast) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_skip_transformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_skip_unparse) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_skipfinalCompileStep) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_includes) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_line_directives) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_function_calls_using_operator_syntax) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_function_calls_using_operator_names) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_instruction_addresses) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_raw_memory_contents) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_binary_file_format) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(SgFile::outputLanguageOption_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_outputLanguage) Tj
+(\040:\040) Tj
+0 0 0 rg
+(3) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileNameWithPath) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileNameWithoutPath) Tj
+(\040:\040) Tj
+0 0 0 rg
+(arrayRefs.cpp) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_output_filename) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_objectFileNameWithPath) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_objectFileNameWithoutPath) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_useBackendOnly) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_compileOnly) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_savedFrontendCommandLine) Tj
+(\040:\040) Tj
+0 0 0 rg
+(pdfGenerator\040-std=c++11\040-c\040arrayRefs.cpp\040) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_no_implicit_templates) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_no_implicit_inline_templates) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_skip_commentsAndDirectives) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_collectAllCommentsAndDirectives) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparseHeaderFiles) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(ROSEAttributesListContainerPtr) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_preprocessorDirectivesAndCommentsList) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x18d46b0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_KCC_frontend) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_new_frontend) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_disable_edg_backend) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_disable_sage_backend) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_testingLevel) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_preinit_il) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_enable_cp_backend) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_markGeneratedFiles) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_negative_test) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_strict_language_handling) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_wave) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_embedColorCodesInGeneratedCode) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_generateSourcePositionCodes) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesCppFileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesFortranFileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesFortran77FileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesFortran90FileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesFortran95FileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesFortran2003FileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesFortran2008FileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesCoArrayFortranFileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesPHPFileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesPythonFileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesJavaFileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesBinaryFileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileTypeIsUnknown) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_sourceFileUsesX10FileExtension) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_detect_dangling_pointers) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_experimental_fortran_frontend) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_experimental_fortran_frontend_OFP_test) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_read_executable_file_format_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_visualize_executable_file_format_skip_symbols) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_visualize_dwarf_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_read_instructions_only) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgStringList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_libraryArchiveObjectFileNameList) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isLibraryArchive) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isObjectFile) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_tokens) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_tokens_testing) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_using_leading_and_trailing_token_mappings) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparse_template_ast) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_skipAstConsistancyTests) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_multifile_support) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_optimization) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_use_token_stream_to_improve_source_position_info) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_suppress_variable_declaration_normalization) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_frontendErrorCode) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_javacErrorCode) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_ecjErrorCode) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_midendErrorCode) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparserErrorCode) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_backendCompilerErrorCode) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_unparsedFileFailedCompilation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgGlobal*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_globalScope) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98ed24120) Tj
+0.5 0 0.1 rg
+(SgModuleStatementPtrList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_module_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(SgTokenPtrList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_token_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(SgGlobal*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_temp_holding_scope) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgJavaPackageStatement\040*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_package) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgJavaImportStatementList*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_import_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgJavaClassDeclarationList*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_class_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+8 0 obj
+15425
+endobj
+9 0 obj
+[ 6 0 R /Fit ]
+endobj
+10 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 11 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 93 0 R 94 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/Length 12 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98ed24120) '
+(SgGlobal) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0400:0) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98ebf6010) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98eda90c0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98eda9118) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgLabelRefExp*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_numeric_label) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_source_sequence_value) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(SgSymbolTable*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_symbol_table) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98ecd9140) Tj
+0.5 0 0.1 rg
+(SgTypeTable*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_table) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x14b4d98) Tj
+0.5 0 0.1 rg
+(std::set\074SgSymbol*\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(std::set\074SgSymbol*\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hidden_type_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(std::set\074SgSymbol*\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hidden_declaration_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatementPtrList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_declarations) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\074too\040long\076:\040\074too\040long\076:\040\1330x7fc98ea4b010,\0400x7fc98ea4b2b0,\0400x7fc98e57c010,\0400x7fc98e57c3e0,\0400x7) Tj
+ET
+
+endstream
+endobj
+12 0 obj
+2487
+endobj
+13 0 obj
+[ 10 0 R /Fit ]
+endobj
+14 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 15 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 96 0 R 97 0 R 98 0 R 99 0 R 100 0 R 101 0 R ]
+>>
+endobj
+15 0 obj
+<<
+/Length 16 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98dbc79e0) '
+(SgFunctionDeclaration) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0401:1) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Declaration\040mangled\040name:\040L2R__L3R) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98ed24120) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b5a98) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b5a40) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgLabelRefExp*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_numeric_label) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_source_sequence_value) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(unsigned\040int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_decl_attributes) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_linkage) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgDeclarationModifier) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_declarationModifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\074too\040long\076:\040\074too\040long\076:\040SgDeclarationModifier\050isUnknown\050\051\040=\040false\040isDefault\050\051\040=\040false\040isFrie) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_nameOnly) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_forward) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_externBrace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_skipElaborateType) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_definingDeclaration) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dbc79e0) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_firstNondefiningDeclaration) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dbc7610) Tj
+0.5 0 0.1 rg
+(SgQualifiedNamePtrList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_qualifiedNameList) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_binding_label) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgName) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(foo) Tj
+0.5 0 0.1 rg
+(SgFunctionParameterList*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parameterList) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dd17860) Tj
+0.5 0 0.1 rg
+(SgFunctionModifier) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_functionModifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\074too\040long\076:\040\074too\040long\076:\040SgFunctionModifier\050isUnknown\050\051\040=\040false\040isDefault\050\051\040=\040true\040isInline\050\051) Tj
+0.5 0 0.1 rg
+(SgSpecialFunctionModifier) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_specialFunctionModifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\074too\040long\076:\040\074too\040long\076:\040SgSpecialFunctionModifier\050isUnknown\050\051\040=\040false\040isDefault\050\051\040=\040true\040isN) Tj
+0.5 0 0.1 rg
+(SgTypePtrList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_exceptionSpecification) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_named_in_end_statement) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_asm_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgExprListExp*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_decoratorList) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgFunctionType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98e770470) Tj
+0.5 0 0.1 rg
+(SgFunctionDefinition*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_definition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4fd010) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_oldStyleDefinition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgScopeStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_scope) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98ed24120) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatement::template_specialization_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_specialization) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_requiresNameQualificationOnReturnType) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_extension_section) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_extension_alias) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgDeclarationStatement::gnu_extension_visability_attribute_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_extension_visability) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length_for_return_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required_for_return_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required_for_return_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_prototypeIsWithoutParameters) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_regparm_attribute) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(SgFunctionType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_syntax) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_syntax_is_available) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_C11_Noreturn_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_is_constexpr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_new_function_return_type_syntax) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgFunctionParameterScope*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_functionParameterScope) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_marked_as_edg_normalization) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+16 0 obj
+7013
+endobj
+17 0 obj
+[ 14 0 R /Fit ]
+endobj
+18 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 19 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 103 0 R 104 0 R 105 0 R ]
+>>
+endobj
+19 0 obj
+<<
+/Length 20 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98dd17860) '
+(SgFunctionParameterList) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0401:1) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Declaration\040mangled\040name:\040L3R) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dbc79e0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6330) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6388) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgLabelRefExp*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_numeric_label) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_source_sequence_value) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(unsigned\040int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_decl_attributes) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_linkage) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgDeclarationModifier) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_declarationModifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\074too\040long\076:\040\074too\040long\076:\040SgDeclarationModifier\050isUnknown\050\051\040=\040false\040isDefault\050\051\040=\040true\040isFrien) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_nameOnly) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_forward) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_externBrace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_skipElaborateType) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_definingDeclaration) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_firstNondefiningDeclaration) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dd17860) Tj
+0.5 0 0.1 rg
+(SgQualifiedNamePtrList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_qualifiedNameList) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_binding_label) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgInitializedNamePtrList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_args) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\1330x7fc98d8a4ac0,\0400x7fc98d8a4c08,\0400x7fc98d8a4d50,\0400x7fc98d8a4e98\135) Tj
+ET
+
+endstream
+endobj
+20 0 obj
+3191
+endobj
+21 0 obj
+[ 18 0 R /Fit ]
+endobj
+22 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 23 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 107 0 R 108 0 R 109 0 R 110 0 R ]
+>>
+endobj
+23 0 obj
+<<
+/Length 24 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d8a4ac0) '
+(SgInitializedName) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0401:15) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dd17860) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b5f10) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b5f68) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgName) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(a) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_microsoft_uuid_string) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_typeptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d6a4130) Tj
+0.5 0 0.1 rg
+(SgInitializer*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_initptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_prev_decl_item) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_is_initializer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_declptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dbc79e0) Tj
+0.5 0 0.1 rg
+(SgStorageModifier*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_storageModifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x20fa570) Tj
+0.5 0 0.1 rg
+(SgScopeStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_scope) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4fd010) Tj
+0.5 0 0.1 rg
+(SgInitializedName::preinitialization_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_preinitialization) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isCoArray) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName::asm_register_name_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_register_name_code) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName::excess_specifier_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_excess_specifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_register_name_string) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_requiresGlobalNameQualificationOnType) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_shapeDeferred) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_initializationDeferred) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgBitVector) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_modifierVector) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F\135) Tj
+0.5 0 0.1 rg
+(unsigned\040long\040int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_initialization_priority) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_named_weak_reference) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_named_alias) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_cleanup_function) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_section_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_alignment) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(SgDeclarationModifier::gnu_declaration_visability_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_visability) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_protected_declaration) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hasArrayTypeWithEmptyBracketSyntax) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_C11_Alignas_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_constant_or_type_argument_for_Alignas_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_auto_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_device_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_is_braced_initialized) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+24 0 obj
+5550
+endobj
+25 0 obj
+[ 22 0 R /Fit ]
+endobj
+26 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 27 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 112 0 R 113 0 R 114 0 R 115 0 R ]
+>>
+endobj
+27 0 obj
+<<
+/Length 28 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d8a4c08) '
+(SgInitializedName) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0401:34) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dd17860) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b5fc0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6018) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgName) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(i) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_microsoft_uuid_string) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_typeptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98e870010) Tj
+0.5 0 0.1 rg
+(SgInitializer*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_initptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_prev_decl_item) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_is_initializer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_declptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dbc79e0) Tj
+0.5 0 0.1 rg
+(SgStorageModifier*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_storageModifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x20fa598) Tj
+0.5 0 0.1 rg
+(SgScopeStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_scope) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4fd010) Tj
+0.5 0 0.1 rg
+(SgInitializedName::preinitialization_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_preinitialization) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isCoArray) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName::asm_register_name_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_register_name_code) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName::excess_specifier_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_excess_specifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_register_name_string) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_requiresGlobalNameQualificationOnType) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_shapeDeferred) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_initializationDeferred) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgBitVector) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_modifierVector) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F\135) Tj
+0.5 0 0.1 rg
+(unsigned\040long\040int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_initialization_priority) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_named_weak_reference) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_named_alias) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_cleanup_function) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_section_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_alignment) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(SgDeclarationModifier::gnu_declaration_visability_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_visability) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_protected_declaration) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hasArrayTypeWithEmptyBracketSyntax) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_C11_Alignas_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_constant_or_type_argument_for_Alignas_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_auto_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_device_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_is_braced_initialized) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+28 0 obj
+5550
+endobj
+29 0 obj
+[ 26 0 R /Fit ]
+endobj
+30 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 31 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 117 0 R 118 0 R 119 0 R 120 0 R ]
+>>
+endobj
+31 0 obj
+<<
+/Length 32 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d8a4d50) '
+(SgInitializedName) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0401:41) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dd17860) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6070) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b60c8) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgName) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(j) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_microsoft_uuid_string) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_typeptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98e870010) Tj
+0.5 0 0.1 rg
+(SgInitializer*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_initptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_prev_decl_item) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_is_initializer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_declptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dbc79e0) Tj
+0.5 0 0.1 rg
+(SgStorageModifier*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_storageModifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x20fa5c0) Tj
+0.5 0 0.1 rg
+(SgScopeStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_scope) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4fd010) Tj
+0.5 0 0.1 rg
+(SgInitializedName::preinitialization_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_preinitialization) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isCoArray) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName::asm_register_name_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_register_name_code) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName::excess_specifier_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_excess_specifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_register_name_string) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_requiresGlobalNameQualificationOnType) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_shapeDeferred) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_initializationDeferred) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgBitVector) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_modifierVector) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F\135) Tj
+0.5 0 0.1 rg
+(unsigned\040long\040int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_initialization_priority) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_named_weak_reference) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_named_alias) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_cleanup_function) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_section_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_alignment) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(SgDeclarationModifier::gnu_declaration_visability_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_visability) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_protected_declaration) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hasArrayTypeWithEmptyBracketSyntax) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_C11_Alignas_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_constant_or_type_argument_for_Alignas_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_auto_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_device_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_is_braced_initialized) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+32 0 obj
+5550
+endobj
+33 0 obj
+[ 30 0 R /Fit ]
+endobj
+34 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 35 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 122 0 R 123 0 R 124 0 R 125 0 R ]
+>>
+endobj
+35 0 obj
+<<
+/Length 36 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d8a4e98) '
+(SgInitializedName) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0401:49) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dd17860) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6120) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6178) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgName) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(k) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_microsoft_uuid_string) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(SgType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_typeptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98e870010) Tj
+0.5 0 0.1 rg
+(SgInitializer*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_initptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_prev_decl_item) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_is_initializer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(SgDeclarationStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_declptr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dbc79e0) Tj
+0.5 0 0.1 rg
+(SgStorageModifier*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_storageModifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x20fa5e8) Tj
+0.5 0 0.1 rg
+(SgScopeStatement*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_scope) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4fd010) Tj
+0.5 0 0.1 rg
+(SgInitializedName::preinitialization_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_preinitialization) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isCoArray) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName::asm_register_name_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_register_name_code) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgInitializedName::excess_specifier_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_excess_specifier) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_register_name_string) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_requiresGlobalNameQualificationOnType) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_shapeDeferred) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_initializationDeferred) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgBitVector) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_modifierVector) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F,\040F\135) Tj
+0.5 0 0.1 rg
+(unsigned\040long\040int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_initialization_priority) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_named_weak_reference) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_named_alias) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_cleanup_function) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_section_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_alignment) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(SgDeclarationModifier::gnu_declaration_visability_enum) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_gnu_attribute_visability) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_protected_declaration) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required_for_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hasArrayTypeWithEmptyBracketSyntax) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_C11_Alignas_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_constant_or_type_argument_for_Alignas_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_auto_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_using_device_keyword) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_is_braced_initialized) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+36 0 obj
+5550
+endobj
+37 0 obj
+[ 34 0 R /Fit ]
+endobj
+38 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 39 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 127 0 R 128 0 R 129 0 R ]
+>>
+endobj
+39 0 obj
+<<
+/Length 40 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d4fd010) '
+(SgFunctionDefinition) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0402:1) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98dbc79e0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b61d0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6228) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgLabelRefExp*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_numeric_label) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_source_sequence_value) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(SgSymbolTable*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_symbol_table) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98ecd94d0) Tj
+0.5 0 0.1 rg
+(SgTypeTable*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_table) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x14b4e10) Tj
+0.5 0 0.1 rg
+(std::set\074SgSymbol*\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(std::set\074SgSymbol*\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hidden_type_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(std::set\074SgSymbol*\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hidden_declaration_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(SgBasicBlock*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_body) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d592010) Tj
+0.5 0 0.1 rg
+(std::map\074SgNode*,int\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_scope_number_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+ET
+
+endstream
+endobj
+40 0 obj
+2489
+endobj
+41 0 obj
+[ 38 0 R /Fit ]
+endobj
+42 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 43 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 131 0 R 132 0 R ]
+>>
+endobj
+43 0 obj
+<<
+/Length 44 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d592010) '
+(SgBasicBlock) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0402:1) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4fd010) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b5e60) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b5eb8) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgLabelRefExp*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_numeric_label) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_source_sequence_value) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(SgSymbolTable*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_symbol_table) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98ecd93a0) Tj
+0.5 0 0.1 rg
+(SgTypeTable*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_table) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x14b4de8) Tj
+0.5 0 0.1 rg
+(std::set\074SgSymbol*\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(std::set\074SgSymbol*\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hidden_type_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(std::set\074SgSymbol*\076) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_hidden_declaration_list) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\133\135) Tj
+0.5 0 0.1 rg
+(SgStatementPtrList) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_statements) Tj
+(\040:\040) Tj
+0 0 0 rg
+(\1330x7fc98d42d010\135) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_asm_function_body) Tj
+(\040:\040) Tj
+0 0 0 rg
+ET
+
+endstream
+endobj
+44 0 obj
+2470
+endobj
+45 0 obj
+[ 42 0 R /Fit ]
+endobj
+46 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 47 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 134 0 R 135 0 R 136 0 R ]
+>>
+endobj
+47 0 obj
+<<
+/Length 48 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d42d010) '
+(SgExprStatement) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:4) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d592010) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6d28) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6d80) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgLabelRefExp*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_numeric_label) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_source_sequence_value) Tj
+(\040:\040) Tj
+0 0 0 rg
+(-1) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_expression) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d45c010) Tj
+ET
+
+endstream
+endobj
+48 0 obj
+1734
+endobj
+49 0 obj
+[ 46 0 R /Fit ]
+endobj
+50 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 51 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 138 0 R 139 0 R 140 0 R 141 0 R ]
+>>
+endobj
+51 0 obj
+<<
+/Length 52 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d45c010) '
+(SgAssignOp) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:14) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Expression\040type:\040int) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d42d010) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6c78) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6cd0) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_need_paren) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lvalue) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualified_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_operatorPosition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6b70) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lhs_operand_i) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4930f0) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_rhs_operand_i) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d726148) Tj
+0.5 0 0.1 rg
+(SgType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_expression_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalExpressionTree) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+52 0 obj
+2299
+endobj
+53 0 obj
+[ 50 0 R /Fit ]
+endobj
+54 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 55 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 143 0 R 144 0 R 145 0 R 146 0 R ]
+>>
+endobj
+55 0 obj
+<<
+/Length 56 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d4930f0) '
+(SgPntrArrRefExp) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:11) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Expression\040type:\040int) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d45c010) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6a68) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6ac0) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_need_paren) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lvalue) Tj
+(\040:\040) Tj
+0 0 0 rg
+(1) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualified_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_operatorPosition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b63e0) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lhs_operand_i) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d493080) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_rhs_operand_i) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4ca148) Tj
+0.5 0 0.1 rg
+(SgType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_expression_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalExpressionTree) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+56 0 obj
+2304
+endobj
+57 0 obj
+[ 54 0 R /Fit ]
+endobj
+58 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 59 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 148 0 R 149 0 R 150 0 R 151 0 R ]
+>>
+endobj
+59 0 obj
+<<
+/Length 60 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d493080) '
+(SgPntrArrRefExp) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:4) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Expression\040type:\040int\040\13310\135) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4930f0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6858) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b68b0) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_need_paren) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lvalue) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualified_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_operatorPosition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b66f8) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lhs_operand_i) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d493010) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_rhs_operand_i) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4ca0e0) Tj
+0.5 0 0.1 rg
+(SgType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_expression_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalExpressionTree) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+60 0 obj
+2317
+endobj
+61 0 obj
+[ 58 0 R /Fit ]
+endobj
+62 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 63 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 153 0 R 154 0 R 155 0 R 156 0 R ]
+>>
+endobj
+63 0 obj
+<<
+/Length 64 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d493010) '
+(SgPntrArrRefExp) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:4) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Expression\040type:\040int\040\13310\135\13310\135) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d493080) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6648) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b66a0) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_need_paren) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lvalue) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualified_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_operatorPosition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b64e8) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lhs_operand_i) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4ca010) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_rhs_operand_i) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4ca078) Tj
+0.5 0 0.1 rg
+(SgType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_expression_type) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalExpressionTree) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+64 0 obj
+2327
+endobj
+65 0 obj
+[ 62 0 R /Fit ]
+endobj
+66 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 67 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 158 0 R 159 0 R ]
+>>
+endobj
+67 0 obj
+<<
+/Length 68 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d4ca010) '
+(SgVarRefExp) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:4) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Expression\040type:\040int\040\13310\135\13310\135\13310\135) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d493010) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6438) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6490) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_need_paren) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lvalue) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualified_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_operatorPosition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6280) Tj
+0.5 0 0.1 rg
+(SgVariableSymbol*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_symbol) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x2174db0) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalExpressionTree) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+68 0 obj
+2434
+endobj
+69 0 obj
+[ 66 0 R /Fit ]
+endobj
+70 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 71 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 161 0 R 162 0 R ]
+>>
+endobj
+71 0 obj
+<<
+/Length 72 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d4ca078) '
+(SgVarRefExp) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:6) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Expression\040type:\040int) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d493010) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6540) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6598) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_need_paren) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lvalue) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualified_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_operatorPosition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b62d8) Tj
+0.5 0 0.1 rg
+(SgVariableSymbol*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_symbol) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x2174de0) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalExpressionTree) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+72 0 obj
+2400
+endobj
+73 0 obj
+[ 70 0 R /Fit ]
+endobj
+74 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 75 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 164 0 R 165 0 R ]
+>>
+endobj
+75 0 obj
+<<
+/Length 76 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d4ca0e0) '
+(SgVarRefExp) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:9) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Expression\040type:\040int) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d493080) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6750) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b67a8) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_need_paren) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lvalue) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualified_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_operatorPosition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b65f0) Tj
+0.5 0 0.1 rg
+(SgVariableSymbol*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_symbol) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x2174e10) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalExpressionTree) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+76 0 obj
+2400
+endobj
+77 0 obj
+[ 74 0 R /Fit ]
+endobj
+78 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 79 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 167 0 R 168 0 R ]
+>>
+endobj
+79 0 obj
+<<
+/Length 80 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d4ca148) '
+(SgVarRefExp) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:12) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Expression\040type:\040int) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d4930f0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6960) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b69b8) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_need_paren) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lvalue) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualified_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_operatorPosition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6800) Tj
+0.5 0 0.1 rg
+(SgVariableSymbol*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_symbol) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x2174e40) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalExpressionTree) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_name_qualification_length) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_type_elaboration_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualification_required) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+80 0 obj
+2401
+endobj
+81 0 obj
+[ 78 0 R /Fit ]
+endobj
+82 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 83 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 5 0 R
+/Annots [ 170 0 R 171 0 R ]
+>>
+endobj
+83 0 obj
+<<
+/Length 84 0 R
+>>
+stream
+/F1 10 Tf
+0 0 1 rg
+0 0 1 RG
+BT
+2 792 Td
+11.56 TL
+1 0 0 rg
+(pointer:0x7fc98d726148) '
+(SgIntVal) '
+(\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp\0403:15) '
+(IsTransformation:0) '
+(IsOutputInCodeGeneration:0) '
+(Expression\040type:\040int) '
+0 1 0 rg
+T*
+(\040\040\040\040\040) '
+(Click\040here\040to\040go\040to\040the\040parent\040node) Tj
+T*
+T*
+0.5 0 0.1 rg
+(SgNode*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_parent) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d45c010) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_isModified) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformation) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+($CLASSNAME*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_freepointer) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0xffffffffffffffff) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_startOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6b18) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_endOfConstruct) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6a10) Tj
+0.5 0 0.1 rg
+(AttachedPreprocessingInfoType*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attachedPreprocessingInfoPtr) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(AstAttributeMechanism*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_attributeMechanism) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_containsTransformationToSurroundingWhitespace) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_need_paren) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_lvalue) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(bool) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_global_qualified_name) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(Sg_File_Info*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_operatorPosition) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0x7fc98d7b6bc8) Tj
+0.5 0 0.1 rg
+(SgExpression*) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_originalExpressionTree) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(int) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_value) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+0.5 0 0.1 rg
+(std::string) '
+(\040) Tj
+0 0.5 0.5 rg
+(p_valueString) Tj
+(\040:\040) Tj
+0 0 0 rg
+(0) Tj
+ET
+
+endstream
+endobj
+84 0 obj
+2147
+endobj
+85 0 obj
+[ 82 0 R /Fit ]
+endobj
+86 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 87 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Parent 5 0 R
+>>
+endobj
+87 0 obj
+<<
+/Length 88 0 R
+>>
+stream
+
+endstream
+endobj
+88 0 obj
+0
+endobj
+89 0 obj
+[ 86 0 R /Fit ]
+endobj
+90 0 obj
+<<
+/Rect [ 124.28999 -851.76971 198.23 -840.20972 ]
+/Type /Annot
+/Subtype /Link
+/Dest 17 0 R
+>>
+endobj
+91 0 obj
+<<
+/Type /Outline
+/First 92 0 R
+/Last 92 0 R
+/Count 20
+>>
+endobj
+92 0 obj
+<<
+/Title (SgSourceFile\040)
+/Type /Outline
+/Parent 91 0 R
+/Dest 9 0 R
+/First 95 0 R
+/Last 95 0 R
+/Count 19
+>>
+endobj
+93 0 obj
+<<
+/Rect [ 6.9 699.83002 178.31999 729.39001 ]
+/Type /Annot
+/Subtype /Link
+/Dest 9 0 R
+>>
+endobj
+94 0 obj
+<<
+/Rect [ 92.61 674.15002 163.77 685.71002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 13 0 R
+>>
+endobj
+95 0 obj
+<<
+/Title (SgGlobal\040\0500,0\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 92 0 R
+/Dest 13 0 R
+/First 102 0 R
+/Last 102 0 R
+/Count 18
+>>
+endobj
+96 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 13 0 R
+>>
+endobj
+97 0 obj
+<<
+/Rect [ 92.61 662.59003 166.55 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 17 0 R
+>>
+endobj
+98 0 obj
+<<
+/Rect [ 222.09999 454.51007 295.47998 466.07007 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+99 0 obj
+<<
+/Rect [ 202.07999 396.71008 276.01999 408.27008 ]
+/Type /Annot
+/Subtype /Link
+/Dest 25 0 R
+>>
+endobj
+100 0 obj
+<<
+/Rect [ 160.41 304.2301 231.57001 315.7901 ]
+/Type /Annot
+/Subtype /Link
+/Dest 45 0 R
+>>
+endobj
+101 0 obj
+<<
+/Rect [ 140.97 281.11011 214.91 292.67011 ]
+/Type /Annot
+/Subtype /Link
+/Dest 17 0 R
+>>
+endobj
+102 0 obj
+<<
+/Title (SgFunctionDeclaration\040\0501,1\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 95 0 R
+/Dest 17 0 R
+/First 106 0 R
+/Last 130 0 R
+/Count 17
+>>
+endobj
+103 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 17 0 R
+>>
+endobj
+104 0 obj
+<<
+/Rect [ 92.61 662.59003 165.99001 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+105 0 obj
+<<
+/Rect [ 256.54999 442.95007 330.48999 454.51007 ]
+/Type /Annot
+/Subtype /Link
+/Dest 25 0 R
+>>
+endobj
+106 0 obj
+<<
+/Title (SgFunctionParameterList\040\0501,1\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 102 0 R
+/Dest 21 0 R
+/First 111 0 R
+/Last 126 0 R
+/Next 130 0 R
+/Count 4
+>>
+endobj
+107 0 obj
+<<
+/Rect [ 6.9 699.83002 178.31999 729.39001 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+108 0 obj
+<<
+/Rect [ 92.61 674.15002 166.55 685.71002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 25 0 R
+>>
+endobj
+109 0 obj
+<<
+/Rect [ 166.51999 500.75006 239.89999 512.31006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+110 0 obj
+<<
+/Rect [ 140.97 477.63007 212.13 489.19006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 45 0 R
+>>
+endobj
+111 0 obj
+<<
+/Title (SgInitializedName\040\0501,15\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 106 0 R
+/Dest 25 0 R
+/Next 116 0 R
+>>
+endobj
+112 0 obj
+<<
+/Rect [ 6.9 699.83002 178.31999 729.39001 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+113 0 obj
+<<
+/Rect [ 92.61 674.15002 166.55 685.71002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 25 0 R
+>>
+endobj
+114 0 obj
+<<
+/Rect [ 166.51999 500.75006 239.89999 512.31006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+115 0 obj
+<<
+/Rect [ 140.97 477.63007 212.13 489.19006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 45 0 R
+>>
+endobj
+116 0 obj
+<<
+/Title (SgInitializedName\040\0501,34\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Prev 111 0 R
+/Parent 106 0 R
+/Dest 29 0 R
+/Next 121 0 R
+>>
+endobj
+117 0 obj
+<<
+/Rect [ 6.9 699.83002 178.31999 729.39001 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+118 0 obj
+<<
+/Rect [ 92.61 674.15002 166.55 685.71002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 25 0 R
+>>
+endobj
+119 0 obj
+<<
+/Rect [ 166.51999 500.75006 239.89999 512.31006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+120 0 obj
+<<
+/Rect [ 140.97 477.63007 212.13 489.19006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 45 0 R
+>>
+endobj
+121 0 obj
+<<
+/Title (SgInitializedName\040\0501,41\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Prev 116 0 R
+/Parent 106 0 R
+/Dest 33 0 R
+/Next 126 0 R
+>>
+endobj
+122 0 obj
+<<
+/Rect [ 6.9 699.83002 178.31999 729.39001 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+123 0 obj
+<<
+/Rect [ 92.61 674.15002 166.55 685.71002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 25 0 R
+>>
+endobj
+124 0 obj
+<<
+/Rect [ 166.51999 500.75006 239.89999 512.31006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+125 0 obj
+<<
+/Rect [ 140.97 477.63007 212.13 489.19006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 45 0 R
+>>
+endobj
+126 0 obj
+<<
+/Title (SgInitializedName\040\0501,49\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Prev 121 0 R
+/Parent 106 0 R
+/Dest 37 0 R
+>>
+endobj
+127 0 obj
+<<
+/Rect [ 6.9 699.83002 178.31999 729.39001 ]
+/Type /Annot
+/Subtype /Link
+/Dest 17 0 R
+>>
+endobj
+128 0 obj
+<<
+/Rect [ 92.61 674.15002 165.99001 685.71002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 21 0 R
+>>
+endobj
+129 0 obj
+<<
+/Rect [ 110.93999 489.19006 184.87999 500.75006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 49 0 R
+>>
+endobj
+130 0 obj
+<<
+/Title (SgFunctionDefinition\040\0502,1\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Prev 106 0 R
+/Parent 102 0 R
+/Dest 41 0 R
+/First 133 0 R
+/Last 133 0 R
+/Count 11
+>>
+endobj
+131 0 obj
+<<
+/Rect [ 6.9 699.83002 178.31999 729.39001 ]
+/Type /Annot
+/Subtype /Link
+/Dest 41 0 R
+>>
+endobj
+132 0 obj
+<<
+/Rect [ 92.61 674.15002 163.77 685.71002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 45 0 R
+>>
+endobj
+133 0 obj
+<<
+/Title (SgBasicBlock\040\0502,1\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 130 0 R
+/Dest 45 0 R
+/First 137 0 R
+/Last 137 0 R
+/Count 10
+>>
+endobj
+134 0 obj
+<<
+/Rect [ 6.9 699.83002 178.31999 729.39001 ]
+/Type /Annot
+/Subtype /Link
+/Dest 45 0 R
+>>
+endobj
+135 0 obj
+<<
+/Rect [ 92.61 674.15002 166.55 685.71002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 49 0 R
+>>
+endobj
+136 0 obj
+<<
+/Rect [ 138.17 546.99005 211.55 558.55005 ]
+/Type /Annot
+/Subtype /Link
+/Dest 57 0 R
+>>
+endobj
+137 0 obj
+<<
+/Title (SgExprStatement\040\0503,4\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 133 0 R
+/Dest 49 0 R
+/First 142 0 R
+/Last 142 0 R
+/Count 9
+>>
+endobj
+138 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 49 0 R
+>>
+endobj
+139 0 obj
+<<
+/Rect [ 92.61 662.59003 166.55 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 53 0 R
+>>
+endobj
+140 0 obj
+<<
+/Rect [ 152.63 512.31006 223.79001 523.87006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 61 0 R
+>>
+endobj
+141 0 obj
+<<
+/Rect [ 153.73999 500.75006 227.67999 512.31006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 89 0 R
+>>
+endobj
+142 0 obj
+<<
+/Title (SgAssignOp\040\0503,14\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 137 0 R
+/Dest 53 0 R
+/First 147 0 R
+/Last 172 0 R
+/Count 8
+>>
+endobj
+143 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 53 0 R
+>>
+endobj
+144 0 obj
+<<
+/Rect [ 92.61 662.59003 165.99001 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 57 0 R
+>>
+endobj
+145 0 obj
+<<
+/Rect [ 152.63 512.31006 226.57001 523.87006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 65 0 R
+>>
+endobj
+146 0 obj
+<<
+/Rect [ 153.73999 500.75006 227.12 512.31006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 85 0 R
+>>
+endobj
+147 0 obj
+<<
+/Title (SgPntrArrRefExp\040\0503,11\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 142 0 R
+/Dest 57 0 R
+/First 152 0 R
+/Last 169 0 R
+/Next 172 0 R
+/Count 6
+>>
+endobj
+148 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 57 0 R
+>>
+endobj
+149 0 obj
+<<
+/Rect [ 92.61 662.59003 163.77 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 61 0 R
+>>
+endobj
+150 0 obj
+<<
+/Rect [ 152.63 512.31006 226.57001 523.87006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 69 0 R
+>>
+endobj
+151 0 obj
+<<
+/Rect [ 153.73999 500.75006 227.12 512.31006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 81 0 R
+>>
+endobj
+152 0 obj
+<<
+/Title (SgPntrArrRefExp\040\0503,4\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 147 0 R
+/Dest 61 0 R
+/First 157 0 R
+/Last 166 0 R
+/Next 169 0 R
+/Count 4
+>>
+endobj
+153 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 61 0 R
+>>
+endobj
+154 0 obj
+<<
+/Rect [ 92.61 662.59003 166.55 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 65 0 R
+>>
+endobj
+155 0 obj
+<<
+/Rect [ 152.63 512.31006 226.01001 523.87006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 73 0 R
+>>
+endobj
+156 0 obj
+<<
+/Rect [ 153.73999 500.75006 227.12 512.31006 ]
+/Type /Annot
+/Subtype /Link
+/Dest 77 0 R
+>>
+endobj
+157 0 obj
+<<
+/Title (SgPntrArrRefExp\040\0503,4\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 152 0 R
+/Dest 65 0 R
+/First 160 0 R
+/Last 163 0 R
+/Next 166 0 R
+/Count 2
+>>
+endobj
+158 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 65 0 R
+>>
+endobj
+159 0 obj
+<<
+/Rect [ 92.61 662.59003 166.55 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 69 0 R
+>>
+endobj
+160 0 obj
+<<
+/Title (SgVarRefExp\040\0503,4\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Parent 157 0 R
+/Dest 69 0 R
+/Next 163 0 R
+>>
+endobj
+161 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 65 0 R
+>>
+endobj
+162 0 obj
+<<
+/Rect [ 92.61 662.59003 166.55 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 69 0 R
+>>
+endobj
+163 0 obj
+<<
+/Title (SgVarRefExp\040\0503,6\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Prev 160 0 R
+/Parent 157 0 R
+/Dest 73 0 R
+>>
+endobj
+164 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 61 0 R
+>>
+endobj
+165 0 obj
+<<
+/Rect [ 92.61 662.59003 166.55 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 65 0 R
+>>
+endobj
+166 0 obj
+<<
+/Title (SgVarRefExp\040\0503,9\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Prev 157 0 R
+/Parent 152 0 R
+/Dest 77 0 R
+>>
+endobj
+167 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 57 0 R
+>>
+endobj
+168 0 obj
+<<
+/Rect [ 92.61 662.59003 163.77 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 61 0 R
+>>
+endobj
+169 0 obj
+<<
+/Title (SgVarRefExp\040\0503,12\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Prev 152 0 R
+/Parent 147 0 R
+/Dest 81 0 R
+>>
+endobj
+170 0 obj
+<<
+/Rect [ 6.9 688.27002 178.31999 717.83002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 53 0 R
+>>
+endobj
+171 0 obj
+<<
+/Rect [ 92.61 662.59003 165.99001 674.15002 ]
+/Type /Annot
+/Subtype /Link
+/Dest 57 0 R
+>>
+endobj
+172 0 obj
+<<
+/Title (SgIntVal\040\0503,15\051\040in\040"\057home\057liao6\057workspace\057github\057rose-ast.git\057arrayRefs.cpp")
+/Type /Outline
+/Prev 147 0 R
+/Parent 142 0 R
+/Dest 85 0 R
+>>
+endobj
+xref
+0 173
+0000000000 65535 f
+0000000015 00000 n
+0000000104 00000 n
+0000000164 00000 n
+0000000419 00000 n
+0000000517 00000 n
+0000000731 00000 n
+0000000926 00000 n
+0000016405 00000 n
+0000016426 00000 n
+0000016456 00000 n
+0000016660 00000 n
+0000019203 00000 n
+0000019224 00000 n
+0000019256 00000 n
+0000019490 00000 n
+0000026559 00000 n
+0000026580 00000 n
+0000026612 00000 n
+0000026826 00000 n
+0000030073 00000 n
+0000030094 00000 n
+0000030126 00000 n
+0000030348 00000 n
+0000035954 00000 n
+0000035975 00000 n
+0000036007 00000 n
+0000036229 00000 n
+0000041835 00000 n
+0000041856 00000 n
+0000041888 00000 n
+0000042110 00000 n
+0000047716 00000 n
+0000047737 00000 n
+0000047769 00000 n
+0000047991 00000 n
+0000053597 00000 n
+0000053618 00000 n
+0000053650 00000 n
+0000053864 00000 n
+0000056409 00000 n
+0000056430 00000 n
+0000056462 00000 n
+0000056668 00000 n
+0000059194 00000 n
+0000059215 00000 n
+0000059247 00000 n
+0000059461 00000 n
+0000061251 00000 n
+0000061272 00000 n
+0000061304 00000 n
+0000061526 00000 n
+0000063881 00000 n
+0000063902 00000 n
+0000063934 00000 n
+0000064156 00000 n
+0000066516 00000 n
+0000066537 00000 n
+0000066569 00000 n
+0000066791 00000 n
+0000069164 00000 n
+0000069185 00000 n
+0000069217 00000 n
+0000069439 00000 n
+0000071822 00000 n
+0000071843 00000 n
+0000071875 00000 n
+0000072081 00000 n
+0000074571 00000 n
+0000074592 00000 n
+0000074624 00000 n
+0000074830 00000 n
+0000077286 00000 n
+0000077307 00000 n
+0000077339 00000 n
+0000077545 00000 n
+0000080001 00000 n
+0000080022 00000 n
+0000080054 00000 n
+0000080260 00000 n
+0000082717 00000 n
+0000082738 00000 n
+0000082770 00000 n
+0000082976 00000 n
+0000085179 00000 n
+0000085200 00000 n
+0000085232 00000 n
+0000085388 00000 n
+0000085444 00000 n
+0000085462 00000 n
+0000085494 00000 n
+0000085606 00000 n
+0000085680 00000 n
+0000085807 00000 n
+0000085913 00000 n
+0000086019 00000 n
+0000086241 00000 n
+0000086348 00000 n
+0000086454 00000 n
+0000086567 00000 n
+0000086680 00000 n
+0000086789 00000 n
+0000086897 00000 n
+0000087133 00000 n
+0000087241 00000 n
+0000087351 00000 n
+0000087465 00000 n
+0000087717 00000 n
+0000087825 00000 n
+0000087932 00000 n
+0000088046 00000 n
+0000088154 00000 n
+0000088363 00000 n
+0000088471 00000 n
+0000088578 00000 n
+0000088692 00000 n
+0000088800 00000 n
+0000089023 00000 n
+0000089131 00000 n
+0000089238 00000 n
+0000089352 00000 n
+0000089460 00000 n
+0000089683 00000 n
+0000089791 00000 n
+0000089898 00000 n
+0000090012 00000 n
+0000090120 00000 n
+0000090329 00000 n
+0000090437 00000 n
+0000090547 00000 n
+0000090661 00000 n
+0000090911 00000 n
+0000091019 00000 n
+0000091126 00000 n
+0000091354 00000 n
+0000091462 00000 n
+0000091569 00000 n
+0000091677 00000 n
+0000091907 00000 n
+0000092015 00000 n
+0000092122 00000 n
+0000092233 00000 n
+0000092347 00000 n
+0000092573 00000 n
+0000092681 00000 n
+0000092791 00000 n
+0000092902 00000 n
+0000093013 00000 n
+0000093258 00000 n
+0000093366 00000 n
+0000093473 00000 n
+0000093584 00000 n
+0000093695 00000 n
+0000093939 00000 n
+0000094047 00000 n
+0000094154 00000 n
+0000094265 00000 n
+0000094376 00000 n
+0000094620 00000 n
+0000094728 00000 n
+0000094835 00000 n
+0000095037 00000 n
+0000095145 00000 n
+0000095252 00000 n
+0000095454 00000 n
+0000095562 00000 n
+0000095669 00000 n
+0000095871 00000 n
+0000095979 00000 n
+0000096086 00000 n
+0000096289 00000 n
+0000096397 00000 n
+0000096507 00000 n
+trailer
+<<
+/Root 1 0 R
+/Info 3 0 R
+/Size 173
+>>
+startxref
+96707
+%%EOF

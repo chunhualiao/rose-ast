@@ -6,7 +6,8 @@ C_FILES = \
   constType.c \
   typedefType.c \
   pointerArray.c \
-  forLoop.c
+  forLoop.c \
+  variableDeclaration.c
 
 C_FILES_PDF = $(C_FILES:.c=.c.pdf) 
 C_FILES_DOT = $(C_FILES:.c=.c_WholeAST.dot) 
@@ -22,7 +23,9 @@ $(C_FILES_DOT): %.c_WholeAST.dot:%.c
 CPP_FILES = \
    autoKernel.cpp \
    arrayRefs.cpp \
-   constructor.cpp
+   constructor.cpp \
+   class.cpp \
+   namespace.cpp
 
 CPP_FILES_PDF = $(CPP_FILES:.cpp=.cpp.pdf) 
 
@@ -103,6 +106,7 @@ all: $(OMP_C_FILES_PDF) $(OMP_C_FILES_DOT) \
      $(C_FILES_PDF) $(C_FILES_DOT) \
      $(F77_FILES_PDF) $(F77_FILES_DOT) \
      $(CXX_FILES_PDF) $(CXX_FILES_DOT) \
+     $(CPP_FILES_PDF) \
      $(ALL_FILES_DOT_PDF) $(ALL_FILES_DOT_PNG)
 
 clean:
