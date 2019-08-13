@@ -1,3 +1,5 @@
+# Must set this to use source command
+SHELL := /bin/bash
 # regular C files
 # -----------------------------------------------
 C_FILES = \
