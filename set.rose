@@ -1,4 +1,4 @@
-ROSE_INS=/home/liao6/workspace/masterDevClean/install
+ROSE_INS=/opt/install/rose_install
 export ROSE_INS 
 
 PATH=$ROSE_INS/bin:$PATH
