@@ -1,0 +1,13 @@
+└──@0x7f3f4c603010 SgProject 
+    └──@0x1244270 SgFileList 
+        └──@0x7f3f4c4ab010 SgSourceFile 
+            ├──@0x7f3f57ee1128 SgGlobal selected_component.ads 0:0
+            │   └──@0x7f3f4bf07010 SgAdaPackageSpecDecl Selected_Component.ads 1:1
+            │       └──@0x7f3f4c41e130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7f3f4bc0c010 SgVariableDeclaration transformation 0:0
+            │               ├── NULL 
+            │               └──@0x7f3f4bdc2010 SgInitializedName transformation 0:0 "::X"
+            │                   └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

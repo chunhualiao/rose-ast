@@ -1,0 +1,11 @@
+#ROSE_INS=/home/liao6/workspace/masterDevClean/install
+#ROSE_INS=/home/liao6/workspace/autoPar/install
+#ROSE_INS=/home/liao6/workspace/paraDyn-2018-04/install
+ROSE_INS=/home/liao6/workspace/ada-to-cpp/installDebug
+export ROSE_INS 
+
+PATH=$ROSE_INS/bin:$PATH
+export PATH
+
+LD_LIBRARY_PATH=$ROSE_INS/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH

@@ -1,0 +1,10 @@
+└──@0x7f40745d7010 SgProject 
+    └──@0x24bb270 SgFileList 
+        └──@0x7f407447f010 SgSourceFile 
+            ├──@0x7f407feb5128 SgGlobal nested_package.ads 0:0
+            │   ├──@0x7f40739a9010 SgImportStatement Nested_Package.ads 1:6
+            │   └──@0x7f407380e010 SgAdaPackageSpecDecl Nested_Package.ads 3:1
+            │       └──@0x7f40743f2130 SgAdaPackageSpec transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

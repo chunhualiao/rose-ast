@@ -1,0 +1,26 @@
+└──@0x7f5b126a8010 SgProject 
+    └──@0x2019280 SgFileList 
+        └──@0x7f5b12550010 SgSourceFile 
+            ├──@0x7f5b1df86128 SgGlobal variable_declaration.ads 0:0
+            │   └──@0x7f5b11fac010 SgAdaPackageSpecDecl Variable_Declaration.ads 1:1
+            │       └──@0x7f5b124c3130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7f5b11cb1010 SgVariableDeclaration transformation 0:0
+            │               ├── NULL 
+            │               └──@0x7f5b11e67010 SgInitializedName transformation 0:0 "::The_Variable"
+            │                   └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 
+└──@0x7f733f7a8010 SgProject 
+    └──@0x1e4b280 SgFileList 
+        └──@0x7f733f650010 SgSourceFile 
+            ├──@0x7f734b086128 SgGlobal variable_declaration.ads 0:0
+            │   └──@0x7f733f0ac010 SgAdaPackageSpecDecl Variable_Declaration.ads 1:1
+            │       └──@0x7f733f5c3130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7f733edb1010 SgVariableDeclaration transformation 0:0
+            │               ├── NULL 
+            │               └──@0x7f733ef67010 SgInitializedName transformation 0:0 "::The_Variable"
+            │                   └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

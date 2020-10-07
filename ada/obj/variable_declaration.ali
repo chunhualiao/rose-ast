@@ -1,0 +1,22 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -gnatc
+A -gnatt
+A -gnatws
+A -gnatyN
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U variable_declaration%s  variable_declaration.ads  735dc265 NE OO PK
+
+D system.ads		20190518041255 4635ec04 system%s
+D variable_declaration.ads  20201007011047 735dc265 variable_declaration%s
+G a Z
+X 2 variable_declaration.ads
+1K9*Variable_Declaration 3l5 3e25
+2i1*The_Variable{integer}
+

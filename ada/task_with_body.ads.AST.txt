@@ -1,0 +1,11 @@
+└──@0x7fb51fe83010 SgProject 
+    └──@0x214f270 SgFileList 
+        └──@0x7fb51fd2b010 SgSourceFile 
+            ├──@0x7fb52b761128 SgGlobal task_with_body.ads 0:0
+            │   └──@0x7fb51f787010 SgAdaPackageSpecDecl Task_With_Body.ads 1:1
+            │       └──@0x7fb51fc9e130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7fb51f518010 SgAdaTaskTypeDecl transformation 0:0
+            │               └──@0x7fb51f6af010 SgAdaTaskSpec transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

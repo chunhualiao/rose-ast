@@ -1,0 +1,12 @@
+└──@0x7ff1ec447010 SgProject 
+    └──@0x82d250 SgFileList 
+        └──@0x7ff1ec2ef010 SgSourceFile 
+            ├──@0x7ff1f7d25128 SgGlobal unit_2.ads 0:0
+            │   ├──@0x7ff1eb819010 SgImportStatement Unit_2.ads 1:6
+            │   └──@0x7ff1eb67e010 SgAdaPackageSpecDecl Unit_2.ads 3:1
+            │       └──@0x7ff1ec262130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7ff1ebe84390 SgTypedefDeclaration transformation 0:0
+            │               └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

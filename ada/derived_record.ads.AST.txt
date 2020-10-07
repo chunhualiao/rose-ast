@@ -1,0 +1,23 @@
+└──@0x7f3d060d6010 SgProject 
+    └──@0xff9270 SgFileList 
+        └──@0x7f3d05f7e010 SgSourceFile 
+            ├──@0x7f3d119b4128 SgGlobal derived_record.ads 0:0
+            │   └──@0x7f3d059da010 SgAdaPackageSpecDecl Derived_Record.ads 1:1
+            │       └──@0x7f3d05ef1130 SgAdaPackageSpec transformation 0:0
+            │           ├──@0x7f3d05494388 SgClassDeclaration transformation 0:0
+            │           │   ├──@0x7f3d058fa010 SgClassDefinition transformation 0:0
+            │           │   │   └──@0x7f3d05646010 SgVariableDeclaration transformation 0:0
+            │           │   │       ├── NULL 
+            │           │   │       └──@0x7f3d057fc010 SgInitializedName transformation 0:0 "::Tagged_Record::Component_1"
+            │           │   │           └── NULL 
+            │           │   └── NULL 
+            │           └──@0x7f3d05494a78 SgClassDeclaration transformation 0:0
+            │               ├──@0x7f3d058fa148 SgClassDefinition transformation 0:0
+            │               │   └──@0x7f3d05646390 SgVariableDeclaration transformation 0:0
+            │               │       ├── NULL 
+            │               │       └──@0x7f3d057fc218 SgInitializedName transformation 0:0 "::Derived_Record::Component_2"
+            │               │           └── NULL 
+            │               └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

@@ -11,9 +11,12 @@ C_FILES = \
   forLoop.c \
   variableDeclaration.c
 
+C_FILES_TXT = $(C_FILES:.c=.c.AST.txt) 
 C_FILES_PDF = $(C_FILES:.c=.c.pdf) 
 C_FILES_DOT = $(C_FILES:.c=.c_WholeAST.dot) 
 
+$(C_FILES_TXT): %.c.AST.txt:%.c
+	source ./set.rose ; textASTGenerator -c $<
 $(C_FILES_PDF): %.c.pdf:%.c
 	source ./set.rose ; pdfGenerator -c $<
 
@@ -29,10 +32,12 @@ CPP_FILES = \
    class.cpp \
    namespace.cpp
 
+CPP_FILES_TXT = $(CPP_FILES:.cpp=.cpp.AST.txt) 
 CPP_FILES_PDF = $(CPP_FILES:.cpp=.cpp.pdf) 
-
 CPP_FILES_DOT = $(CPP_FILES:.cpp=.cpp_WholeAST.dot) 
 
+$(CPP_FILES_TXT): %.cpp.AST.txt:%.cpp
+	source ./set.rose ; textASTGenerator -c $<
 $(CPP_FILES_PDF): %.cpp.pdf:%.cpp
 	source ./set.rose ; pdfGenerator -std=c++11 -c $<
 
@@ -48,6 +53,7 @@ CXX_FILES = \
   lambda.cxx \
   indirectLambdaCall.cxx
 
+CXX_FILES_TXT = $(CXX_FILES:.cxx=.cxx.AST.txt) 
 CXX_FILES_PDF = $(CXX_FILES:.cxx=.cxx.pdf) 
 # cannot generate C++ dot files now.
 # builtin function declarations are needed to compile them.
@@ -58,6 +64,8 @@ CXX_FILES_PDF = $(CXX_FILES:.cxx=.cxx.pdf)
 #
 #CXX_FILES_DOT = $(CXX_FILES:.cxx=.cxx_WholeAST.dot) 
 
+$(CXX_FILES_TXT): %.cxx.AST.txt:%.cxx
+	source ./set.rose ; textASTGenerator -c $<
 $(CXX_FILES_PDF): %.cxx.pdf:%.cxx
 	source ./set.rose ; pdfGenerator -std=c++11 -c $<
 
@@ -70,9 +78,12 @@ $(CXX_FILES_DOT): %.cxx_WholeAST.dot:%.cxx
 OMP_C_FILES = \
   parallelfor.c
 
+OMP_C_FILES_TXT = $(OMP_C_FILES:.c=.c.AST.txt) 
 OMP_C_FILES_PDF = $(OMP_C_FILES:.c=.c.pdf) 
 OMP_C_FILES_DOT = $(OMP_C_FILES:.c=.c_WholeAST.dot) 
 
+$(OMP_C_FILES_TXT): %.c.AST.txt:%.c
+	source ./set.rose ; textASTGenerator -rose:OpenMP:ast_only -c $<
 $(OMP_C_FILES_PDF): %.c.pdf:%.c
 	source ./set.rose ; pdfGenerator -rose:OpenMP:ast_only -c $<
 
@@ -83,9 +94,12 @@ $(OMP_C_FILES_DOT): %.c_WholeAST.dot:%.c
 F77_FILES = \
   subroutine1.f
 
+F77_FILES_TXT = $(F77_FILES:.f=.f.AST.txt) 
 F77_FILES_PDF = $(F77_FILES:.f=.f.pdf) 
 F77_FILES_DOT = $(F77_FILES:.f=.f_WholeAST.dot) 
 
+$(F77_FILES_TXT): %.f.AST.txt:%.f
+	source ./set.rose ; textASTGenerator -c $<
 $(F77_FILES_PDF): %.f.pdf:%.f
 	source ./set.rose ; pdfGenerator -c $<
 
@@ -94,7 +108,9 @@ $(F77_FILES_DOT): %.f_WholeAST.dot:%.f
  
 #--------further convert dot file to pdf and pgn file------
 ALL_FILES_DOT = $(C_FILES_DOT) $(OMP_C_FILES_DOT) $(CXX_FILES_DOT) $(F77_FILES_DOT) $(CPP_FILES_DOT)
+ALL_FILES_TXT = $(C_FILES_TXT) $(OMP_C_FILES_TXT) $(CXX_FILES_TXT) $(F77_FILES_TXT) $(CPP_FILES_TXT)
 
+all_txt:$(ALL_FILES_TXT)  
 ALL_FILES_DOT_PDF = $(ALL_FILES_DOT:.dot=.dot.pdf)
 ALL_FILES_DOT_PNG = $(ALL_FILES_DOT:.dot=.dot.png)
 
@@ -109,7 +125,7 @@ all: $(OMP_C_FILES_PDF) $(OMP_C_FILES_DOT) \
      $(F77_FILES_PDF) $(F77_FILES_DOT) \
      $(CXX_FILES_PDF) $(CXX_FILES_DOT) \
      $(CPP_FILES_PDF) \
-     $(ALL_FILES_DOT_PDF) $(ALL_FILES_DOT_PNG)
+     $(ALL_FILES_DOT_PDF) $(ALL_FILES_DOT_PNG) $(ALL_FILES_TXT)
 
 clean:
 	rm -rf *.o *.out

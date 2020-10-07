@@ -1,0 +1,16 @@
+└──@0x7f2ccbe11010 SgProject 
+    └──@0x1437270 SgFileList 
+        └──@0x7f2ccbcb9010 SgSourceFile 
+            ├──@0x7f2cd76ef128 SgGlobal tagged_definition.ads 0:0
+            │   └──@0x7f2ccb715010 SgAdaPackageSpecDecl Tagged_Definition.ads 1:1
+            │       └──@0x7f2ccbc2c130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7f2ccb1cf388 SgClassDeclaration transformation 0:0
+            │               ├──@0x7f2ccb635010 SgClassDefinition transformation 0:0
+            │               │   └──@0x7f2ccb381010 SgVariableDeclaration transformation 0:0
+            │               │       ├── NULL 
+            │               │       └──@0x7f2ccb537010 SgInitializedName transformation 0:0 "::Tagged_Record::Component_1"
+            │               │           └── NULL 
+            │               └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

@@ -1,0 +1,36 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -gnatc
+A -gnatt
+A -gnatws
+A -gnatyN
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U test_unit%s		test.ads		6111e423 NE OO PK
+
+D system.ads		20190518041255 4635ec04 system%s
+D test.ads		20201007005003 6111e423 test_unit%s
+G a Z
+X 2 test.ads
+3K9*Test_Unit 19l5 19e14
+4I9*Range_Type<integer> 5r31
+5U14*Do_It 5>21
+5i21 This{4I9}
+6X4*Dont_Like_5
+7K12*Parent_Class 12l8 12e20 14r26
+8H12*Object 10e17 11p17 11r41 14r39
+9i10*Component_1{integer}
+11U17*Method_1 11=27
+11r27 This{8R12}
+13K12*Child_Class 18l8 18e19
+14R12*Object<8R12> 16e17 17P28 17r52
+15i10*Component_2{integer}
+17U28*Method_1<11p17> 17=38
+17r38 This{14R12}
+

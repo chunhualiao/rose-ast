@@ -1,0 +1,13 @@
+└──@0x7f949a33c010 SgProject 
+    └──@0x1658280 SgFileList 
+        └──@0x7f949a1e4010 SgSourceFile 
+            ├──@0x7f94a5c1a128 SgGlobal exception_declaration.ads 0:0
+            │   └──@0x7f9499c40010 SgAdaPackageSpecDecl Exception_Declaration.ads 1:1
+            │       └──@0x7f949a157130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7f9499945010 SgVariableDeclaration transformation 0:0
+            │               ├── NULL 
+            │               └──@0x7f9499afb010 SgInitializedName transformation 0:0 "::The_Exception"
+            │                   └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

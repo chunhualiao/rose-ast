@@ -1,0 +1,23 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -gnatc
+A -gnatt
+A -gnatws
+A -gnatyN
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_TASKING
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U task_with_body%s	task_with_body.ads	164d205d NE OO PK
+
+D system.ads		20190518041255 4635ec04 system%s
+D task_with_body.ads	20201007005003 164d205d task_with_body%s
+G a Z
+X 2 task_with_body.ads
+1K9*Task_With_Body 5l5 5e19
+3T14*The_Task_Type
+

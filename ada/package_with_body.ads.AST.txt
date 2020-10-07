@@ -1,0 +1,9 @@
+└──@0x7f501c3ae010 SgProject 
+    └──@0x1a1b270 SgFileList 
+        └──@0x7f501c256010 SgSourceFile 
+            ├──@0x7f5027c8c128 SgGlobal package_with_body.ads 0:0
+            │   └──@0x7f501bcb2010 SgAdaPackageSpecDecl Package_With_Body.ads 1:1
+            │       └──@0x7f501c1c9130 SgAdaPackageSpec transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

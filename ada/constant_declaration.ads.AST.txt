@@ -1,0 +1,28 @@
+└──@0x7f362f355010 SgProject 
+    └──@0x1415280 SgFileList 
+        └──@0x7f362f1fd010 SgSourceFile 
+            ├──@0x7f363ac33128 SgGlobal constant_declaration.ads 0:0
+            │   └──@0x7f362ec59010 SgAdaPackageSpecDecl Constant_Declaration.ads 1:1
+            │       └──@0x7f362f170130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7f362e82c010 SgVariableDeclaration transformation 0:0
+            │               ├── NULL 
+            │               └──@0x7f362e9e2010 SgInitializedName transformation 0:0 "::The_Constant"
+            │                   └──@0x7f362eae0010 SgAssignInitializer transformation 0:0
+            │                       └──@0x7f362eb13090 SgIntVal transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 
+└──@0x7f881e621010 SgProject 
+    └──@0x1494280 SgFileList 
+        └──@0x7f881e4c9010 SgSourceFile 
+            ├──@0x7f8829eff128 SgGlobal constant_declaration.ads 0:0
+            │   └──@0x7f881df25010 SgAdaPackageSpecDecl Constant_Declaration.ads 1:1
+            │       └──@0x7f881e43c130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7f881daf8010 SgVariableDeclaration transformation 0:0
+            │               ├── NULL 
+            │               └──@0x7f881dcae010 SgInitializedName transformation 0:0 "::The_Constant"
+            │                   └──@0x7f881ddac010 SgAssignInitializer transformation 0:0
+            │                       └──@0x7f881dddf090 SgIntVal transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

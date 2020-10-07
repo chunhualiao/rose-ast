@@ -1,0 +1,11 @@
+└──@0x7ff31e25f010 SgProject 
+    └──@0xf92270 SgFileList 
+        └──@0x7ff31e107010 SgSourceFile 
+            ├──@0x7ff329b3d128 SgGlobal entry_declaration.ads 0:0
+            │   └──@0x7ff31db63010 SgAdaPackageSpecDecl Entry_Declaration.ads 1:1
+            │       └──@0x7ff31e07a130 SgAdaPackageSpec transformation 0:0
+            │           └──@0x7ff31d8f4010 SgAdaTaskTypeDecl transformation 0:0
+            │               └──@0x7ff31da8b010 SgAdaTaskSpec transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 
