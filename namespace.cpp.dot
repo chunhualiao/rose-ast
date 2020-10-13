@@ -1,0 +1,23 @@
+digraph "G./namespace.cpp.dot" {
+"0x7f7ad94d6480"[label="5:6\nSgInitializedName\ni\nisModified = false\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f7ad94d6480\nnamespace.cpp:2:2 (physical line=2) (raw line:col=2:2)\nnamespace.cpp:2:6 (physical line=2) (raw line:col=2:6)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f7ad94d6480" -> "0x7f7ad94d6480__initptr__null"[label="initptr" dir=none ];
+"0x7f7ad94d6480__initptr__null"[label="" shape=diamond ];
+"0x7f7ad8f1f010"[label="4:7\nSgVariableDeclaration\n isAssociatedWithDeclarationList = false \n variableDeclarationContainsBaseTypeDefiningDeclaration = false \n isFriend = false \n isExtern = false \n!isForward\nisModified = false\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f7ad8f1f010\nnamespace.cpp:2:2 (physical line=2) (raw line:col=2:2)\nnamespace.cpp:2:6 (physical line=2) (raw line:col=2:6)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f7ad8f1f010" -> "0x7f7ad8f1f010__baseTypeDefiningDeclaration__null"[label="baseTypeDefiningDeclaration" dir=none ];
+"0x7f7ad8f1f010__baseTypeDefiningDeclaration__null"[label="" shape=diamond ];
+"0x7f7ad8f1f010" -> "0x7f7ad94d6480"[label="*[1]" dir=both ];
+"0x7f7ad92af010"[label="3:8\nSgNamespaceDefinitionStatement\nisModified = false\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f7ad92af010\nnamespace.cpp:1:14 (physical line=1) (raw line:col=1:14)\nnamespace.cpp:3:1 (physical line=3) (raw line:col=3:1)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f7ad92af010" -> "0x7f7ad8f1f010"[label="*[0]" dir=both ];
+"0x7f7ad9114010"[label="2:9\nSgNamespaceDeclarationStatement\nn1\n isFriend = false \n isExtern = false \nisForward\nisModified = false\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f7ad9114010\nnamespace.cpp:1:1 (physical line=1) (raw line:col=1:1)\nnamespace.cpp:3:1 (physical line=3) (raw line:col=3:1)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f7ad9114010" -> "0x7f7ad92af010"[label="definition" dir=both ];
+"0x7f7ae7236128"[label="1:10\nSgGlobal\nisModified = false\ncontainsTransformation = false\nisTransformation = false\nchild_count:3564\n0x7f7ae7236128\nnamespace.cpp:0:0 (physical line=0) (raw line:col=0:0)\nnamespace.cpp:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f7ae7236128" -> "0x7f7ad9114010"[label="*[3563]" dir=both ];
+"0x7f7adb7ff010"[label="0:11\nSgSourceFile\nchild_count:4\n0x7f7adb7ff010\nnamespace.cpp:1:1 (physical line=1) (raw line:col=1:1)\n" ];
+"0x7f7adb7ff010" -> "0x7f7ae7236128"[label="globalScope" dir=both ];
+"0x7f7adb7ff010" -> "0x7f7adb7ff010__package__null"[label="package" dir=none ];
+"0x7f7adb7ff010__package__null"[label="" shape=diamond ];
+"0x7f7adb7ff010" -> "0x7f7adb7ff010__import_list__null"[label="import_list" dir=none ];
+"0x7f7adb7ff010__import_list__null"[label="" shape=diamond ];
+"0x7f7adb7ff010" -> "0x7f7adb7ff010__class_list__null"[label="class_list" dir=none ];
+"0x7f7adb7ff010__class_list__null"[label="" shape=diamond ];
+}
