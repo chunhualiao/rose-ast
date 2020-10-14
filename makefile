@@ -21,7 +21,7 @@ $(C_FILES_PDF): %.c.pdf:%.c
 	source ./set.rose ; pdfGenerator -c $<
 
 $(C_FILES_DOT): %.c.dot:%.c
-	source ./set.rose ; dotGeneratorWholeASTGraph -c $< 
+	source ./set.rose ; dotGeneratorWholeASTGraph -DSKIP_ROSE_BUILTIN_DECLARATIONS -c $< 
 
 
 # C++ files with .cpp suffix, small enough for dot graph generation
@@ -44,7 +44,7 @@ $(CPP_FILES_PDF): %.cpp.pdf:%.cpp
 
 # AST may be too large to generate dot file sometimes.
 $(CPP_FILES_DOT): %.cpp.dot:%.cpp
-	source ./set.rose ; dotGeneratorWholeASTGraph -std=c++11 -c $< 
+	source ./set.rose ; dotGeneratorWholeASTGraph -DSKIP_ROSE_BUILTIN_DECLARATIONS -std=c++11 -c $< 
 
 
 # C++ files, with C++11 features, too large for dot graph generation
@@ -72,7 +72,7 @@ $(CXX_FILES_PDF): %.cxx.pdf:%.cxx
 
 # AST may be too large to generate dot file sometimes.
 $(CXX_FILES_DOT): %.cxx.dot:%.cxx
-	source ./set.rose ; dotGeneratorWholeASTGraph -std=c++11 -c $< 
+	source ./set.rose ; dotGeneratorWholeASTGraph -DSKIP_ROSE_BUILTIN_DECLARATIONS -std=c++11 -c $< 
 
 # OpenMP C files
 # -----------------------------------------------
@@ -89,7 +89,7 @@ $(OMP_C_FILES_PDF): %.c.pdf:%.c
 	source ./set.rose ; pdfGenerator -rose:OpenMP:ast_only -c $< -o $@
 
 $(OMP_C_FILES_DOT): %.c.dot:%.c
-	source ./set.rose ; dotGeneratorWholeASTGraph -rose:OpenMP:ast_only -c $< 
+	source ./set.rose ; dotGeneratorWholeASTGraph -DSKIP_ROSE_BUILTIN_DECLARATIONS -rose:OpenMP:ast_only -c $< 
 # .f Files 
 # -----------------------------------------------
 F77_FILES = \
@@ -105,7 +105,7 @@ $(F77_FILES_PDF): %.f.pdf:%.f
 	source ./set.rose ; pdfGenerator -c $<
 
 $(F77_FILES_DOT): %.f.dot:%.f
-	source ./set.rose ; dotGeneratorWholeASTGraph -c $< 
+	source ./set.rose ; dotGeneratorWholeASTGraph -DSKIP_ROSE_BUILTIN_DECLARATIONS -c $< 
  
 #--------further convert dot file to pdf and pgn file------
 ALL_FILES_DOT = $(C_FILES_DOT) $(OMP_C_FILES_DOT) $(CXX_FILES_DOT) $(F77_FILES_DOT) $(CPP_FILES_DOT)
