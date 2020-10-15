@@ -1,6 +1,6 @@
 #ROSE_INS=/opt/install/rose_install
-#ROSE_INS=/home/liao6/workspace/ada-to-cpp-FY21/rose/2020-10-04_22-41-09_-0700/installDebug
-ROSE_INS=/home/liao6/workspace/rose/v0.11.0.21/installDebug
+ROSE_INS=/home/liao6/workspace/ada-to-cpp-FY21/rose/2020-10-04_22-41-09_-0700/installDebug
+#ROSE_INS=/home/liao6/workspace/rose/v0.11.0.21/installDebug
 export ROSE_INS 
 
 PATH=$ROSE_INS/bin:$PATH
