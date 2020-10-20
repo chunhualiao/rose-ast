@@ -32,6 +32,7 @@ CPP_FILES = \
    class.cpp \
    namespace.cpp \
    namespace2.cpp \
+   namespace3.cpp \
    func2.cpp
 
 CPP_FILES_TXT = $(CPP_FILES:.cpp=.cpp.AST.txt) 
