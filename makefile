@@ -31,7 +31,8 @@ CPP_FILES = \
    constructor.cpp \
    class.cpp \
    namespace.cpp \
-   namespace2.cpp
+   namespace2.cpp \
+   func2.cpp
 
 CPP_FILES_TXT = $(CPP_FILES:.cpp=.cpp.AST.txt) 
 CPP_FILES_PDF = $(CPP_FILES:.cpp=.cpp.pdf) 
