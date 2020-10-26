@@ -1,0 +1,23 @@
+digraph "G./package_with_body_rose.dot" {
+"0x7f6145887130"[label="2:3\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7f6145887130\nPackage_With_Body.ads:1:1 (physical line=1) (raw line:col=1:1)\nPackage_With_Body.ads:5:22 (physical line=5) (raw line:col=5:22)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6145335010"[label="1:4\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f6145335010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f6145335010\nPackage_With_Body.ads:1:1 (physical line=1) (raw line:col=1:1)\nPackage_With_Body.ads:5:22 (physical line=5) (raw line:col=5:22)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6145335010" -> "0x7f6145887130"[label="definition" dir=both ];
+"0x7f6144f10320"[label="8:9\nSgFunctionParameterList\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f6144f10320\n definingDeclaration = (nil)\n!isForward\nisModified = false\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7f6144f10320\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6150282010"[label="12:13\nSgNullStatement\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7f6150282010\nPackage_With_Body.adb:5:7 (physical line=5) (raw line:col=5:7)\nPackage_With_Body.adb:5:11 (physical line=5) (raw line:col=5:11)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6144a47010"[label="11:14\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f6144a47010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6144a47010" -> "0x7f6150282010"[label="*[0]" dir=both ];
+"0x7f6144aef010"[label="10:15\nSgFunctionDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f6144aef010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6144aef010" -> "0x7f6144a47010"[label="body" dir=both ];
+"0x7f6144c11540"[label="7:16\nSgFunctionDeclaration\nProcedure_To_Require_Body\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f6144c11010\n definingDeclaration = 0x7f6144c11540\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:3\n0x7f6144c11540\nPackage_With_Body.adb:3:4 (physical line=3) (raw line:col=3:4)\nPackage_With_Body.adb:6:33 (physical line=6) (raw line:col=6:33)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6144c11540" -> "0x7f6144f10320"[label="parameterList" dir=both ];
+"0x7f6144c11540" -> "0x7f6144c11540__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7f6144c11540__decoratorList__null"[label="" shape=diamond ];
+"0x7f6144c11540" -> "0x7f6144aef010"[label="definition" dir=both ];
+"0x7f6145261010"[label="6:17\nSgAdaPackageBody\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f6145261010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6145261010" -> "0x7f6144c11540"[label="*[0]" dir=both ];
+"0x7f61450c6010"[label="5:18\nSgAdaPackageBodyDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f61450c6010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f61450c6010" -> "0x7f6145261010"[label="definition" dir=both ];
+"0x7f6150303128"[label="0:19\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f6150303128\npackage_with_body.adb:0:0 (physical line=0) (raw line:col=0:0)\npackage_with_body.adb:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6150303128" -> "0x7f6145335010"[label="*[0]" dir=both ];
+"0x7f6150303128" -> "0x7f61450c6010"[label="*[1]" dir=both ];
+}

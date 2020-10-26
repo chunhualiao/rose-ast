@@ -1,0 +1,15 @@
+digraph "G./exception_declaration_rose.dot" {
+"0x7f0600f42010"[label="4:5\nSgInitializedName\nThe_Exception\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f0600f42010\nException_Declaration.ads:3:4 (physical line=3) (raw line:col=3:4)\nException_Declaration.ads:3:16 (physical line=3) (raw line:col=3:16)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f0600f42010" -> "0x7f0600f42010__initptr__null"[label="initptr" dir=none ];
+"0x7f0600f42010__initptr__null"[label="" shape=diamond ];
+"0x7f0600d8c010"[label="3:6\nSgVariableDeclaration\n isAssociatedWithDeclarationList = false \n variableDeclarationContainsBaseTypeDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f0600d8c010\nException_Declaration.ads:3:4 (physical line=3) (raw line:col=3:4)\nException_Declaration.ads:3:29 (physical line=3) (raw line:col=3:29)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f0600d8c010" -> "0x7f0600d8c010__baseTypeDefiningDeclaration__null"[label="baseTypeDefiningDeclaration" dir=none ];
+"0x7f0600d8c010__baseTypeDefiningDeclaration__null"[label="" shape=diamond ];
+"0x7f0600d8c010" -> "0x7f0600f42010"[label="*[1]" dir=both ];
+"0x7f06015d9130"[label="2:7\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f06015d9130\nException_Declaration.ads:1:1 (physical line=1) (raw line:col=1:1)\nException_Declaration.ads:5:26 (physical line=5) (raw line:col=5:26)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f06015d9130" -> "0x7f0600d8c010"[label="*[0]" dir=both ];
+"0x7f0601087010"[label="1:8\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f0601087010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f0601087010\nException_Declaration.ads:1:1 (physical line=1) (raw line:col=1:1)\nException_Declaration.ads:5:26 (physical line=5) (raw line:col=5:26)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f0601087010" -> "0x7f06015d9130"[label="definition" dir=both ];
+"0x7f060c055128"[label="0:9\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f060c055128\nexception_declaration.ads:0:0 (physical line=0) (raw line:col=0:0)\nexception_declaration.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f060c055128" -> "0x7f0601087010"[label="*[0]" dir=both ];
+}

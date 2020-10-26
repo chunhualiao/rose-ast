@@ -1,77 +1,156 @@
-digraph "/home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/obj/exception_declaration.adt" {
-  Unit_3 -> Element_2313112
-      [ label=Unit_Declaration ];
-  Unit_3
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Unit_3</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Kind   </TD><TD> = </TD><TD ALIGN="LEFT">A_PACKAGE</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Class   </TD><TD> = </TD><TD ALIGN="LEFT">A_PUBLIC_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Origin   </TD><TD> = </TD><TD ALIGN="LEFT">AN_APPLICATION_UNIT</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Full_Name    </TD><TD> = </TD><TD ALIGN="LEFT">Exception_Declaration</TD></TR>
-          <TR><TD ALIGN="LEFT">Unique_Name   </TD><TD> = </TD><TD ALIGN="LEFT">ASIS Context 1: Exception_Declaration (spec)</TD></TR>
-          <TR><TD ALIGN="LEFT">Exists  </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Can_Be_Main_Program     </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Is_Body_Required     </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Text_Name   </TD><TD> = </TD><TD ALIGN="LEFT">/home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/exception_declaration.ads</TD></TR>
-          <TR><TD ALIGN="LEFT">Text_Form   </TD><TD> = </TD><TD ALIGN="LEFT"></TD></TR>
-          <TR><TD ALIGN="LEFT">Object_Name   </TD><TD> = </TD><TD ALIGN="LEFT"></TD></TR>
-          <TR><TD ALIGN="LEFT">Object_Form   </TD><TD> = </TD><TD ALIGN="LEFT"></TD></TR>
-          <TR><TD ALIGN="LEFT">Compilation_Command_Line_Options         </TD><TD> = </TD><TD ALIGN="LEFT">-gnatA -gnatc -gnatt -gnatws -gnatyN -mtune=generic -march=x86-64</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Declaration     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2313112</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Parent_Declaration         </TD><TD> = </TD><TD ALIGN="LEFT">Unit_1</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Body     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          </TABLE>> ];
-  Element_2313112 -> Element_2295057
-      [ label="Names ( 1)" ];
-  Element_2313112 -> Element_2311132
-      [ label="Visible_Part_Declarative_Items ( 1)" ];
-  Element_2313112
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2313112</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT">-2137259500</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Exception_Declaration.ads - 1:1 .. 5:26</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_PACKAGE_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Origin     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPLICIT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Names ( 1)   </TD><TD> = </TD><TD ALIGN="LEFT">Element_2295057</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_End_Name      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2314237</TD></TR>
-          <TR><TD ALIGN="LEFT">Is_Name_Repeated     </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Declaration       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2313112</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Body     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Visible_Part_Declarative_Items ( 1)         </TD><TD> = </TD><TD ALIGN="LEFT">Element_2311132</TD></TR>
-          </TABLE>> ];
-  Element_2295057
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2295057</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_NAME</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT">-2138156524</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2313112</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Exception_Declaration.ads - 1:9 .. 1:29</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Image     </TD><TD> = </TD><TD ALIGN="LEFT">"Exception_Declaration"</TD></TR>
-          </TABLE>> ];
-  Element_2311132 -> Element_2304057
-      [ label="Names ( 1)" ];
-  Element_2311132
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2311132</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 543703557</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2313112</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Exception_Declaration.ads - 3:4 .. 3:29</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXCEPTION_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Origin     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPLICIT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Names ( 1)   </TD><TD> = </TD><TD ALIGN="LEFT">Element_2304057</TD></TR>
-          </TABLE>> ];
-  Element_2304057
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2304057</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_NAME</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 543396357</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2311132</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Exception_Declaration.ads - 3:4 .. 3:16</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Image     </TD><TD> = </TD><TD ALIGN="LEFT">"The_Exception"</TD></TR>
-          </TABLE>> ]
+digraph "Gexception_declaration.ads.dot" {
+"0x7f8e957b4010"[label="\n13SgSymbolTable\n  \n  0x7f8e957b4010  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b4010" -> "0x7f8e8a7f5010"[label="Exception_Declaration" dir=forward ];
+"0x7f8e957b4010" -> "0x7f8e9580a010"[label="parent" color="blue" dir=forward ];
+"0x7f8e957b40c0"[label="\n13SgSymbolTable\n  \n  0x7f8e957b40c0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b40c0" -> "0x14e8a20"[label="parent" color="blue" dir=forward ];
+"0x7f8e957b4170"[label="\n13SgSymbolTable\n  \n  0x7f8e957b4170  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b4170" -> "0x15bdfd0"[label="Exception_Declaration" dir=forward ];
+"0x7f8e957b4170" -> "0x7f8e9580a128"[label="parent" color="blue" dir=forward ];
+"0x7f8e957b4220"[label="\n13SgSymbolTable\n  \n  0x7f8e957b4220  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b4220" -> "0x14e8a48"[label="parent" color="blue" dir=forward ];
+"0x7f8e957b42d0"[label="\n13SgSymbolTable\n  \n  0x7f8e957b42d0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b42d0" -> "0x15a68c0"[label="Exception" dir=forward ];
+"0x7f8e957b42d0" -> "0x7f8e8ad8e010"[label="parent" color="blue" dir=forward ];
+"0x7f8e957b4380"[label="\n13SgSymbolTable\n  \n  0x7f8e957b4380  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b4380" -> "0x14e8a70"[label="parent" color="blue" dir=forward ];
+"0x7f8e957b4430"[label="\n13SgSymbolTable\n  Unnamed Symbol Table\n  0x7f8e957b4430  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b4430" -> "0x7f8e8ad1c1d0"[label="__strb____expression_0x7f8e958fc010__stre__" dir=forward ];
+"0x7f8e957b4430" -> "0x7f8e8ad1c160"[label="b" dir=forward ];
+"0x7f8e957b4430" -> "0x7f8e8ad1c0f0"[label="f" dir=forward ];
+"0x7f8e957b4430" -> "0x7f8e8ad1c080"[label="c" dir=forward ];
+"0x7f8e957b4430" -> "0x7f8e8ad1c010"[label="i" dir=forward ];
+"0x7f8e957b4430" -> "0x14e8a98"[label="parent" color="blue" dir=forward ];
+"0x7f8e957b44e0"[label="\n13SgSymbolTable\n  \n  0x7f8e957b44e0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b44e0" -> "0x15e8f70"[label="The_Exception" dir=forward ];
+"0x7f8e957b44e0" -> "0x7f8e8ad8e130"[label="parent" color="blue" dir=forward ];
+"0x7f8e957b4590"[label="\n13SgSymbolTable\n  \n  0x7f8e957b4590  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b4590" -> "0x14e8ac0"[label="parent" color="blue" dir=forward ];
+"0x7f8e957b4640"[label="\n13SgSymbolTable\n  \n  0x7f8e957b4640  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e957b4640" -> "0x7f8e8a512010"[label="parent" color="blue" dir=forward ];
+"0x15d56e0"[label="\n17SgStorageModifier" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x15d56e0" -> "0x7f8e8a6f7010"[label="parent" color="blue" dir=forward ];
+"0x7f8e8ae1b010"[label="\n12SgSourceFile\n  getFileName = /home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/exception_declaration.ads  \n  sourceFileNameWithPath = /home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/exception_declaration.ads  \n  0x7f8e8ae1b010  " shape=ellipse,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=2,color="blue",fillcolor=pink,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ae1b010" -> "0x7f8e9580a128"[label="globalScope" dir=forward ];
+"0x7f8e8ae1b010" -> "0x14adfc0"[label="parent" color="blue" dir=forward ];
+"0x14adfc0"[label="\n10SgFileList" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x14adfc0" -> "0x7f8e8ae1b010"[label="listOfFiles" dir=forward ];
+"0x14adfc0" -> "0x7f8e8af7f010"[label="parent" color="blue" dir=forward ];
+"0x14cd3d0"[label="\n15SgDirectoryList" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x14cd3d0" -> "0x7f8e8af7f010"[label="parent" color="blue" dir=forward ];
+"0x7f8e8af7f010"[label="\n9SgProject\n  a.out  \n  0x7f8e8af7f010  " shape=ellipse,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=3,color="blue",fillcolor=pink,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8af7f010" -> "0x14adfc0"[label="fileList_ptr" dir=forward ];
+"0x7f8e8af7f010" -> "0x14cd3d0"[label="directoryList" dir=forward ];
+"0x7f8e8af7f010" -> "0x7f8e9580a010"[label="globalScopeAcrossFiles" dir=forward ];
+"0x7f8e8af7f010" -> "0x7f8e8af7f010__parent__null"[label="parent" dir=none ];
+"0x7f8e8af7f010__parent__null"[label="" shape=diamond ];
+"0x158b330"[label="\n12SgTypedefSeq\n  0x158b330  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x158b330" -> "0x7f8e8a9d7010"[label="typedefs" color="gold1" dir=forward ];
+"0x158b330" -> "0x7f8e8ad53010"[label="parent" color="blue" dir=forward ];
+"0x14e8a20"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x14e8a20" -> "0x7f8e957b40c0"[label="type_table" dir=forward ];
+"0x14e8a20" -> "0x7f8e9580a010"[label="parent" color="blue" dir=forward ];
+"0x14e8a48"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x14e8a48" -> "0x7f8e957b4220"[label="type_table" dir=forward ];
+"0x14e8a48" -> "0x7f8e9580a128"[label="parent" color="blue" dir=forward ];
+"0x14e8a70"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x14e8a70" -> "0x7f8e957b4380"[label="type_table" dir=forward ];
+"0x14e8a70" -> "0x7f8e8ad8e010"[label="parent" color="blue" dir=forward ];
+"0x14e8a98"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x14e8a98" -> "0x7f8e957b4430"[label="type_table" dir=forward ];
+"0x14e8a98" -> "0x7f8e8af7f010"[label="parent" color="blue" dir=forward ];
+"0x14e8ac0"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x14e8ac0" -> "0x7f8e957b4590"[label="type_table" dir=forward ];
+"0x14e8ac0" -> "0x7f8e8ad8e130"[label="parent" color="blue" dir=forward ];
+"0x7f8e8ace5010"[label="\n10SgTypeChar\n  0x7f8e8ace5010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ace5010" -> "0x7f8e8ad1c080"[label="parent" dir=forward ];
+"0x7f8e8ad53010"[label="\n9SgTypeInt\n  0x7f8e8ad53010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ad53010" -> "0x158b330"[label="typedefs" dir=forward ];
+"0x7f8e8ad53010" -> "0x7f8e8ad1c010"[label="parent" dir=forward ];
+"0x7f8e8acae010"[label="\n11SgTypeFloat\n  0x7f8e8acae010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8acae010" -> "0x7f8e8ad1c0f0"[label="parent" dir=forward ];
+"0x7f8e8abd0010"[label="\n12SgTypeString\n  0x7f8e8abd0010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8abd0010" -> "0x7f8e958fc010"[label="lengthExpression" dir=forward ];
+"0x7f8e8abd0010" -> "0x7f8e8ad1c1d0"[label="parent" dir=forward ];
+"0x7f8e8ac0b010"[label="\n10SgTypeBool\n  0x7f8e8ac0b010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ac0b010" -> "0x7f8e8ad1c160"[label="parent" dir=forward ];
+"0x7f8e8a9d7010"[label="\n13SgTypedefType\nException\n  0x7f8e8a9d7010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8a9d7010" -> "0x7f8e8aa1a010"[label="declaration" dir=forward ];
+"0x7f8e8a9d7010" -> "0x7f8e8a9d7010__parent__null"[label="parent" dir=none ];
+"0x7f8e8a9d7010__parent__null"[label="" shape=diamond ];
+"0x7f8e8a9d7098"[label="\n13SgTypedefType\nException\n  0x7f8e8a9d7098  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8a9d7098" -> "0x7f8e8aa1a010"[label="declaration" dir=forward ];
+"0x7f8e8a9d7098" -> "0x7f8e8a9d7098__parent__null"[label="parent" dir=none ];
+"0x7f8e8a9d7098__parent__null"[label="" shape=diamond ];
+"0x7f8e9580a010"[label="\n8SgGlobal\n  0x7f8e9580a010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e9580a010" -> "0x7f8e957b4010"[label="symbol_table" dir=forward ];
+"0x7f8e9580a010" -> "0x14e8a20"[label="type_table" dir=forward ];
+"0x7f8e9580a010" -> "0x7f8e8af7f010"[label="parent" color="blue" dir=forward ];
+"0x7f8e9580a128"[label="\n8SgGlobal\n  0x7f8e9580a128  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e9580a128" -> "0x7f8e8a83c010"[label="declarations" dir=forward ];
+"0x7f8e9580a128" -> "0x7f8e957b4170"[label="symbol_table" dir=forward ];
+"0x7f8e9580a128" -> "0x14e8a48"[label="type_table" dir=forward ];
+"0x7f8e9580a128" -> "0x7f8e8ae1b010"[label="parent" color="blue" dir=forward ];
+"0x7f8e8a512010"[label="\n19SgFunctionTypeTable\n  0x7f8e8a512010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8a512010" -> "0x7f8e957b4640"[label="function_type_table" dir=forward ];
+"0x7f8e8a512010" -> "0x7f8e8af7f010"[label="parent" color="blue" dir=forward ];
+"0x7f8e8aa1a010"[label="\n20SgTypedefDeclaration\n  Exception\n  !typedefBaseTypeContainsDefiningDeclaration\n  0x7f8e8aa1a010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8aa1a010" -> "0x7f8e8ad53010"[label="base_type" color="gold1" dir=forward ];
+"0x7f8e8aa1a010" -> "0x7f8e8a9d7010"[label="type" color="gold1" dir=forward ];
+"0x7f8e8aa1a010" -> "0x7f8e8ad8e010"[label="scope" color="green" dir=forward ];
+"0x7f8e8aa1a010" -> "0x7f8e8aa1a010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f8e8aa1a010" -> "0x7f8e8ad8e010"[label="parent" color="blue" dir=forward ];
+"0x7f8e8a541010"[label="\n21SgVariableDeclaration\n  !variableDeclarationContainsBaseTypeDefiningDeclaration\n  0x7f8e8a541010  \n isPrivate   = false  \n isProtected = false  \n isPublic    = false  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8a541010" -> "0x7f8e8a6f7010"[label="variables" dir=forward ];
+"0x7f8e8a541010" -> "0x7f8e8a541010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f8e8a541010" -> "0x7f8e8ad8e130"[label="parent" color="blue" dir=forward ];
+"0x7f8e8ad8e010"[label="\n16SgAdaPackageSpec\n  0x7f8e8ad8e010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ad8e010" -> "0x7f8e8aa1a010"[label="declarations" dir=forward ];
+"0x7f8e8ad8e010" -> "0x7f8e957b42d0"[label="symbol_table" dir=forward ];
+"0x7f8e8ad8e010" -> "0x14e8a70"[label="type_table" dir=forward ];
+"0x7f8e8ad8e010" -> "0x7f8e9580a128"[label="parent" color="blue" dir=forward ];
+"0x7f8e8ad8e130"[label="\n16SgAdaPackageSpec\n  0x7f8e8ad8e130  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ad8e130" -> "0x7f8e8a541010"[label="declarations" dir=forward ];
+"0x7f8e8ad8e130" -> "0x7f8e957b44e0"[label="symbol_table" dir=forward ];
+"0x7f8e8ad8e130" -> "0x14e8ac0"[label="type_table" dir=forward ];
+"0x7f8e8ad8e130" -> "0x7f8e8a83c010"[label="parent" color="blue" dir=forward ];
+"0x7f8e8a83c010"[label="\n20SgAdaPackageSpecDecl\n  0x7f8e8a83c010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8a83c010" -> "0x7f8e8ad8e130"[label="definition" dir=forward ];
+"0x7f8e8a83c010" -> "0x7f8e9580a128"[label="scope" dir=forward ];
+"0x7f8e8a83c010" -> "0x7f8e8a83c010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f8e8a83c010" -> "0x7f8e9580a128"[label="parent" color="blue" dir=forward ];
+"0x7f8e958fc010"[label="\n16SgNullExpression\n  0x7f8e958fc010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=6,peripheries=1,color="blue",fillcolor=green,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e958fc010" -> "0x7f8e8abd0010"[label="parent" color="blue" dir=forward ];
+"0x15e8f70"[label="\n16SgVariableSymbol\n name: The_Exception\n  0x15e8f70  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x15e8f70" -> "0x7f8e8a6f7010"[label="declaration" dir=forward ];
+"0x15e8f70" -> "0x7f8e957b44e0"[label="parent" color="blue" dir=forward ];
+"0x7f8e8ad1c010"[label="\n20SgFunctionTypeSymbol\n name: i\n  0x7f8e8ad1c010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ad1c010" -> "0x7f8e8ad53010"[label="type" color="gold1" dir=forward ];
+"0x7f8e8ad1c010" -> "0x7f8e957b4430"[label="parent" color="blue" dir=forward ];
+"0x7f8e8ad1c080"[label="\n20SgFunctionTypeSymbol\n name: c\n  0x7f8e8ad1c080  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ad1c080" -> "0x7f8e8ace5010"[label="type" color="gold1" dir=forward ];
+"0x7f8e8ad1c080" -> "0x7f8e957b4430"[label="parent" color="blue" dir=forward ];
+"0x7f8e8ad1c0f0"[label="\n20SgFunctionTypeSymbol\n name: f\n  0x7f8e8ad1c0f0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ad1c0f0" -> "0x7f8e8acae010"[label="type" color="gold1" dir=forward ];
+"0x7f8e8ad1c0f0" -> "0x7f8e957b4430"[label="parent" color="blue" dir=forward ];
+"0x7f8e8ad1c160"[label="\n20SgFunctionTypeSymbol\n name: b\n  0x7f8e8ad1c160  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ad1c160" -> "0x7f8e8ac0b010"[label="type" color="gold1" dir=forward ];
+"0x7f8e8ad1c160" -> "0x7f8e957b4430"[label="parent" color="blue" dir=forward ];
+"0x7f8e8ad1c1d0"[label="\n20SgFunctionTypeSymbol\n name: __strb____expression_0x7f8e958fc010__stre__\n  0x7f8e8ad1c1d0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8ad1c1d0" -> "0x7f8e8abd0010"[label="type" color="gold1" dir=forward ];
+"0x7f8e8ad1c1d0" -> "0x7f8e957b4430"[label="parent" color="blue" dir=forward ];
+"0x15a68c0"[label="\n15SgTypedefSymbol\n name: Exception\n  0x15a68c0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x15a68c0" -> "0x7f8e8aa1a010"[label="declaration" dir=forward ];
+"0x15a68c0" -> "0x7f8e957b42d0"[label="parent" color="blue" dir=forward ];
+"0x7f8e8a7f5010"[label="\n13SgAliasSymbol\n alias to: SgAdaPackageSymbol\n name: Exception_Declaration\n  0x7f8e8a7f5010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8a7f5010" -> "0x15bdfd0"[label="alias" dir=forward ];
+"0x7f8e8a7f5010" -> "0x7f8e957b4010"[label="parent" color="blue" dir=forward ];
+"0x15bdfd0"[label="\n18SgAdaPackageSymbol\n name: Exception_Declaration\n  0x15bdfd0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x15bdfd0" -> "0x7f8e8a83c010"[label="declaration" dir=forward ];
+"0x15bdfd0" -> "0x7f8e957b4170"[label="parent" color="blue" dir=forward ];
+"0x7f8e8a6f7010"[label="\n17SgInitializedName\n  The_Exception\n  0x7f8e8a6f7010  \n  using_device_keyword = false  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=darkturquoise,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f8e8a6f7010" -> "0x7f8e8a9d7098"[label="typeptr" color="gold1" dir=forward ];
+"0x7f8e8a6f7010" -> "0x15d56e0"[label="storageModifier" dir=forward ];
+"0x7f8e8a6f7010" -> "0x7f8e8ad8e130"[label="scope" color="green" dir=forward ];
+"0x7f8e8a6f7010" -> "0x7f8e8a541010"[label="parent" color="blue" dir=forward ];
 }

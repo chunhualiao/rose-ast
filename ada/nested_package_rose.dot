@@ -1,0 +1,9 @@
+digraph "G./nested_package_rose.dot" {
+"0x7f4472428010"[label="1:2\nSgImportStatement\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7f4472428010\nNested_Package.ads:1:6 (physical line=1) (raw line:col=1:6)\nNested_Package.ads:1:26 (physical line=1) (raw line:col=1:26)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f4472eac130"[label="4:5\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7f4472eac130\nNested_Package.ads:3:1 (physical line=3) (raw line:col=3:1)\nNested_Package.ads:10:19 (physical line=10) (raw line:col=10:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f447228d010"[label="3:6\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f447228d010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f447228d010\nNested_Package.ads:3:1 (physical line=3) (raw line:col=3:1)\nNested_Package.ads:10:19 (physical line=10) (raw line:col=10:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f447228d010" -> "0x7f4472eac130"[label="definition" dir=both ];
+"0x7f447d928128"[label="0:7\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f447d928128\nnested_package.ads:0:0 (physical line=0) (raw line:col=0:0)\nnested_package.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f447d928128" -> "0x7f4472428010"[label="*[0]" dir=both ];
+"0x7f447d928128" -> "0x7f447228d010"[label="*[1]" dir=both ];
+}

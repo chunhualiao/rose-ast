@@ -1,0 +1,11 @@
+digraph "G./comm_rose.dot" {
+"0x7f9c70cb1390"[label="3:4\nSgTypedefDeclaration\nerrorcode_Type\n typedefBaseTypeContainsDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f9c70cb1390\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f9c70cb1390\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f9c70cb1390" -> "0x7f9c70cb1390__declaration__null"[label="declaration" dir=none ];
+"0x7f9c70cb1390__declaration__null"[label="" shape=diamond ];
+"0x7f9c71025130"[label="2:5\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f9c71025130\nComm.ads:1:1 (physical line=1) (raw line:col=1:1)\nComm.ads:5:9 (physical line=5) (raw line:col=5:9)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f9c71025130" -> "0x7f9c70cb1390"[label="*[0]" dir=both ];
+"0x7f9c70ad3010"[label="1:6\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f9c70ad3010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f9c70ad3010\nComm.ads:1:1 (physical line=1) (raw line:col=1:1)\nComm.ads:5:9 (physical line=5) (raw line:col=5:9)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f9c70ad3010" -> "0x7f9c71025130"[label="definition" dir=both ];
+"0x7f9c7baa1128"[label="0:7\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f9c7baa1128\ncomm.ads:0:0 (physical line=0) (raw line:col=0:0)\ncomm.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f9c7baa1128" -> "0x7f9c70ad3010"[label="*[0]" dir=both ];
+}

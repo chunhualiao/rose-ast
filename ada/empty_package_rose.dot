@@ -1,0 +1,7 @@
+digraph "G./empty_package_rose.dot" {
+"0x7f808a0c6130"[label="2:3\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7f808a0c6130\nEmpty_Package.ads:1:1 (physical line=1) (raw line:col=1:1)\nEmpty_Package.ads:2:18 (physical line=2) (raw line:col=2:18)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8089b74010"[label="1:4\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f8089b74010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f8089b74010\nEmpty_Package.ads:1:1 (physical line=1) (raw line:col=1:1)\nEmpty_Package.ads:2:18 (physical line=2) (raw line:col=2:18)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8089b74010" -> "0x7f808a0c6130"[label="definition" dir=both ];
+"0x7f8094b42128"[label="0:5\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f8094b42128\nempty_package.ads:0:0 (physical line=0) (raw line:col=0:0)\nempty_package.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8094b42128" -> "0x7f8089b74010"[label="*[0]" dir=both ];
+}

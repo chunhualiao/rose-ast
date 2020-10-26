@@ -1,0 +1,11 @@
+digraph "G./subtypes_rose.dot" {
+"0x7f528a4e4390"[label="3:4\nSgTypedefDeclaration\nsmall\n typedefBaseTypeContainsDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f528a4e4390\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f528a4e4390\nSubtypes.ads:3:3 (physical line=3) (raw line:col=3:3)\nSubtypes.ads:3:43 (physical line=3) (raw line:col=3:43)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f528a4e4390" -> "0x7f528a4e4390__declaration__null"[label="declaration" dir=none ];
+"0x7f528a4e4390__declaration__null"[label="" shape=diamond ];
+"0x7f528a858130"[label="2:5\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f528a858130\nSubtypes.ads:1:1 (physical line=1) (raw line:col=1:1)\nSubtypes.ads:5:13 (physical line=5) (raw line:col=5:13)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f528a858130" -> "0x7f528a4e4390"[label="*[0]" dir=both ];
+"0x7f528a306010"[label="1:6\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f528a306010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f528a306010\nSubtypes.ads:1:1 (physical line=1) (raw line:col=1:1)\nSubtypes.ads:5:13 (physical line=5) (raw line:col=5:13)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f528a306010" -> "0x7f528a858130"[label="definition" dir=both ];
+"0x7f52952d4128"[label="0:7\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f52952d4128\nsubtypes.ads:0:0 (physical line=0) (raw line:col=0:0)\nsubtypes.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f52952d4128" -> "0x7f528a306010"[label="*[0]" dir=both ];
+}

@@ -1,0 +1,14 @@
+└──@0x7f584d175010 SgProject 
+    └──@0x24ecf40 SgFileList 
+        └──@0x7f584d011010 SgSourceFile 
+            ├──@0x7f5857a00128 SgGlobal exception_rename.ads 0:0
+            │   └──@0x7f584ca32010 SgAdaPackageSpecDecl Exception_Rename.ads 1:1
+            │       └──@0x7f584cf84130 SgAdaPackageSpec Exception_Rename.ads 1:1
+            │           ├──@0x7f584c737010 SgVariableDeclaration Exception_Rename.ads 2:3
+            │           │   ├── NULL 
+            │           │   └──@0x7f584c8ed010 SgInitializedName Exception_Rename.ads 2:3 "::MyException"
+            │           │       └── NULL 
+            │           └──@0x7f584c59c010 SgAdaRenamingDecl Exception_Rename.ads 3:3
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

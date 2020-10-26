@@ -1,88 +1,160 @@
-digraph "/home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/obj/task_with_body.adt" {
-  Unit_3 -> Element_2314112
-      [ label=Unit_Declaration ];
-  Unit_3
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Unit_3</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Kind   </TD><TD> = </TD><TD ALIGN="LEFT">A_PACKAGE</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Class   </TD><TD> = </TD><TD ALIGN="LEFT">A_PUBLIC_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Origin   </TD><TD> = </TD><TD ALIGN="LEFT">AN_APPLICATION_UNIT</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Full_Name    </TD><TD> = </TD><TD ALIGN="LEFT">Task_With_Body</TD></TR>
-          <TR><TD ALIGN="LEFT">Unique_Name   </TD><TD> = </TD><TD ALIGN="LEFT">ASIS Context 1: Task_With_Body (spec)</TD></TR>
-          <TR><TD ALIGN="LEFT">Exists  </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Can_Be_Main_Program     </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Is_Body_Required     </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Text_Name   </TD><TD> = </TD><TD ALIGN="LEFT">/home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/task_with_body.ads</TD></TR>
-          <TR><TD ALIGN="LEFT">Text_Form   </TD><TD> = </TD><TD ALIGN="LEFT"></TD></TR>
-          <TR><TD ALIGN="LEFT">Object_Name   </TD><TD> = </TD><TD ALIGN="LEFT"></TD></TR>
-          <TR><TD ALIGN="LEFT">Object_Form   </TD><TD> = </TD><TD ALIGN="LEFT"></TD></TR>
-          <TR><TD ALIGN="LEFT">Compilation_Command_Line_Options         </TD><TD> = </TD><TD ALIGN="LEFT">-gnatA -gnatc -gnatt -gnatws -gnatyN -mtune=generic -march=x86-64</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Declaration     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2314112</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Parent_Declaration         </TD><TD> = </TD><TD ALIGN="LEFT">Unit_1</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Body     </TD><TD> = </TD><TD ALIGN="LEFT">Unit_5</TD></TR>
-          </TABLE>> ];
-  Element_2314112 -> Element_2295057
-      [ label="Names ( 1)" ];
-  Element_2314112 -> Element_2305083
-      [ label="Visible_Part_Declarative_Items ( 1)" ];
-  Element_2314112
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2314112</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 10224137</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Task_With_Body.ads - 1:1 .. 5:19</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_PACKAGE_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Origin     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPLICIT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Names ( 1)   </TD><TD> = </TD><TD ALIGN="LEFT">Element_2295057</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_End_Name      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2315237</TD></TR>
-          <TR><TD ALIGN="LEFT">Is_Name_Repeated     </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Declaration       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2314112</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Body     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Visible_Part_Declarative_Items ( 1)         </TD><TD> = </TD><TD ALIGN="LEFT">Element_2305083</TD></TR>
-          </TABLE>> ];
-  Element_2295057
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2295057</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_NAME</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 9327113</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2314112</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Task_With_Body.ads - 1:9 .. 1:22</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Image     </TD><TD> = </TD><TD ALIGN="LEFT">"Task_With_Body"</TD></TR>
-          </TABLE>> ];
-  Element_2305083 -> Element_2306057
-      [ label="Names ( 1)" ];
-  Element_2305083
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2305083</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 1080373762</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2314112</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Task_With_Body.ads - 3:4 .. 3:27</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_TASK_TYPE_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Origin     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPLICIT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Names ( 1)   </TD><TD> = </TD><TD ALIGN="LEFT">Element_2306057</TD></TR>
-          <TR><TD ALIGN="LEFT">Has_Task   </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_End_Name      </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Discriminant_Part     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Type_Declaration_View      </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Type_Declaration        </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Type_Partial_View        </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_First_Subtype       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2305083</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Last_Constraint        </TD><TD> = </TD><TD ALIGN="LEFT">Element_2305083</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Last_Subtype       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2305083</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Declaration       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2305083</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Body     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          </TABLE>> ];
-  Element_2306057
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2306057</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_NAME</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 1080268546</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2305083</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Task_With_Body.ads - 3:14 .. 3:26</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Image     </TD><TD> = </TD><TD ALIGN="LEFT">"The_Task_Type"</TD></TR>
-          </TABLE>> ]
+digraph "Gtask_with_body.ads.dot" {
+"0x7fd4cf6c6010"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c6010  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c6010" -> "0x7fd4c4707010"[label="Task_With_Body" dir=forward ];
+"0x7fd4cf6c6010" -> "0x7fd4cf71c010"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c60c0"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c60c0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c60c0" -> "0x23a0a00"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c6170"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c6170  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c6170" -> "0x2475ee0"[label="Task_With_Body" dir=forward ];
+"0x7fd4cf6c6170" -> "0x7fd4cf71c128"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c6220"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c6220  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c6220" -> "0x23a0a28"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c62d0"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c62d0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c62d0" -> "0x245e7d0"[label="Exception" dir=forward ];
+"0x7fd4cf6c62d0" -> "0x7fd4c4ca0010"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c6380"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c6380  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c6380" -> "0x23a0a50"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c6430"[label="\n13SgSymbolTable\n  Unnamed Symbol Table\n  0x7fd4cf6c6430  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c6430" -> "0x7fd4c4c2e1d0"[label="__strb____expression_0x7fd4cf80e010__stre__" dir=forward ];
+"0x7fd4cf6c6430" -> "0x7fd4c4c2e160"[label="b" dir=forward ];
+"0x7fd4cf6c6430" -> "0x7fd4c4c2e0f0"[label="f" dir=forward ];
+"0x7fd4cf6c6430" -> "0x7fd4c4c2e080"[label="c" dir=forward ];
+"0x7fd4cf6c6430" -> "0x7fd4c4c2e010"[label="i" dir=forward ];
+"0x7fd4cf6c6430" -> "0x23a0a78"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c64e0"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c64e0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c64e0" -> "0x248d5f0"[label="The_Task_Type" dir=forward ];
+"0x7fd4cf6c64e0" -> "0x7fd4c4ca0130"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c6590"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c6590  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c6590" -> "0x23a0aa0"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c6640"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c6640  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c6640" -> "0x7fd4c4676010"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c66f0"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c66f0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c66f0" -> "0x23a0ac8"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf6c67a0"[label="\n13SgSymbolTable\n  \n  0x7fd4cf6c67a0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf6c67a0" -> "0x7fd4c44b0010"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4d2d010"[label="\n12SgSourceFile\n  getFileName = /home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/task_with_body.ads  \n  sourceFileNameWithPath = /home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/task_with_body.ads  \n  0x7fd4c4d2d010  " shape=ellipse,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=2,color="blue",fillcolor=pink,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4d2d010" -> "0x7fd4cf71c128"[label="globalScope" dir=forward ];
+"0x7fd4c4d2d010" -> "0x2365f80"[label="parent" color="blue" dir=forward ];
+"0x2365f80"[label="\n10SgFileList" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x2365f80" -> "0x7fd4c4d2d010"[label="listOfFiles" dir=forward ];
+"0x2365f80" -> "0x7fd4c4e91010"[label="parent" color="blue" dir=forward ];
+"0x2385390"[label="\n15SgDirectoryList" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x2385390" -> "0x7fd4c4e91010"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4e91010"[label="\n9SgProject\n  a.out  \n  0x7fd4c4e91010  " shape=ellipse,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=3,color="blue",fillcolor=pink,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4e91010" -> "0x2365f80"[label="fileList_ptr" dir=forward ];
+"0x7fd4c4e91010" -> "0x2385390"[label="directoryList" dir=forward ];
+"0x7fd4c4e91010" -> "0x7fd4cf71c010"[label="globalScopeAcrossFiles" dir=forward ];
+"0x7fd4c4e91010" -> "0x7fd4c4e91010__parent__null"[label="parent" dir=none ];
+"0x7fd4c4e91010__parent__null"[label="" shape=diamond ];
+"0x2443240"[label="\n12SgTypedefSeq\n  0x2443240  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x2443240" -> "0x7fd4c48e9010"[label="typedefs" color="gold1" dir=forward ];
+"0x2443240" -> "0x7fd4c4c65010"[label="parent" color="blue" dir=forward ];
+"0x23a0a00"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x23a0a00" -> "0x7fd4cf6c60c0"[label="type_table" dir=forward ];
+"0x23a0a00" -> "0x7fd4cf71c010"[label="parent" color="blue" dir=forward ];
+"0x23a0a28"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x23a0a28" -> "0x7fd4cf6c6220"[label="type_table" dir=forward ];
+"0x23a0a28" -> "0x7fd4cf71c128"[label="parent" color="blue" dir=forward ];
+"0x23a0a50"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x23a0a50" -> "0x7fd4cf6c6380"[label="type_table" dir=forward ];
+"0x23a0a50" -> "0x7fd4c4ca0010"[label="parent" color="blue" dir=forward ];
+"0x23a0a78"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x23a0a78" -> "0x7fd4cf6c6430"[label="type_table" dir=forward ];
+"0x23a0a78" -> "0x7fd4c4e91010"[label="parent" color="blue" dir=forward ];
+"0x23a0aa0"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x23a0aa0" -> "0x7fd4cf6c6590"[label="type_table" dir=forward ];
+"0x23a0aa0" -> "0x7fd4c4ca0130"[label="parent" color="blue" dir=forward ];
+"0x23a0ac8"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x23a0ac8" -> "0x7fd4cf6c66f0"[label="type_table" dir=forward ];
+"0x23a0ac8" -> "0x7fd4c4676010"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4bf7010"[label="\n10SgTypeChar\n  0x7fd4c4bf7010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4bf7010" -> "0x7fd4c4c2e080"[label="parent" dir=forward ];
+"0x7fd4c4c65010"[label="\n9SgTypeInt\n  0x7fd4c4c65010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4c65010" -> "0x2443240"[label="typedefs" dir=forward ];
+"0x7fd4c4c65010" -> "0x7fd4c4c2e010"[label="parent" dir=forward ];
+"0x7fd4c4bc0010"[label="\n11SgTypeFloat\n  0x7fd4c4bc0010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4bc0010" -> "0x7fd4c4c2e0f0"[label="parent" dir=forward ];
+"0x7fd4c4ae2010"[label="\n12SgTypeString\n  0x7fd4c4ae2010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4ae2010" -> "0x7fd4cf80e010"[label="lengthExpression" dir=forward ];
+"0x7fd4c4ae2010" -> "0x7fd4c4c2e1d0"[label="parent" dir=forward ];
+"0x7fd4c4b1d010"[label="\n10SgTypeBool\n  0x7fd4c4b1d010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4b1d010" -> "0x7fd4c4c2e160"[label="parent" dir=forward ];
+"0x7fd4c48e9010"[label="\n13SgTypedefType\nException\n  0x7fd4c48e9010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c48e9010" -> "0x7fd4c492c010"[label="declaration" dir=forward ];
+"0x7fd4c48e9010" -> "0x7fd4c48e9010__parent__null"[label="parent" dir=none ];
+"0x7fd4c48e9010__parent__null"[label="" shape=diamond ];
+"0x7fd4c48e9098"[label="\n13SgTypedefType\nException\n  0x7fd4c48e9098  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c48e9098" -> "0x7fd4c492c010"[label="declaration" dir=forward ];
+"0x7fd4c48e9098" -> "0x7fd4c48e9098__parent__null"[label="parent" dir=none ];
+"0x7fd4c48e9098__parent__null"[label="" shape=diamond ];
+"0x7fd4cf71c010"[label="\n8SgGlobal\n  0x7fd4cf71c010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf71c010" -> "0x7fd4cf6c6010"[label="symbol_table" dir=forward ];
+"0x7fd4cf71c010" -> "0x23a0a00"[label="type_table" dir=forward ];
+"0x7fd4cf71c010" -> "0x7fd4c4e91010"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf71c128"[label="\n8SgGlobal\n  0x7fd4cf71c128  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf71c128" -> "0x7fd4c474e010"[label="declarations" dir=forward ];
+"0x7fd4cf71c128" -> "0x7fd4cf6c6170"[label="symbol_table" dir=forward ];
+"0x7fd4cf71c128" -> "0x23a0a28"[label="type_table" dir=forward ];
+"0x7fd4cf71c128" -> "0x7fd4c4d2d010"[label="parent" color="blue" dir=forward ];
+"0x7fd4c44b0010"[label="\n19SgFunctionTypeTable\n  0x7fd4c44b0010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c44b0010" -> "0x7fd4cf6c67a0"[label="function_type_table" dir=forward ];
+"0x7fd4c44b0010" -> "0x7fd4c4e91010"[label="parent" color="blue" dir=forward ];
+"0x7fd4c492c010"[label="\n20SgTypedefDeclaration\n  Exception\n  !typedefBaseTypeContainsDefiningDeclaration\n  0x7fd4c492c010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c492c010" -> "0x7fd4c4c65010"[label="base_type" color="gold1" dir=forward ];
+"0x7fd4c492c010" -> "0x7fd4c48e9010"[label="type" color="gold1" dir=forward ];
+"0x7fd4c492c010" -> "0x7fd4c4ca0010"[label="scope" color="green" dir=forward ];
+"0x7fd4c492c010" -> "0x7fd4c492c010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7fd4c492c010" -> "0x7fd4c4ca0010"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4ca0010"[label="\n16SgAdaPackageSpec\n  0x7fd4c4ca0010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4ca0010" -> "0x7fd4c492c010"[label="declarations" dir=forward ];
+"0x7fd4c4ca0010" -> "0x7fd4cf6c62d0"[label="symbol_table" dir=forward ];
+"0x7fd4c4ca0010" -> "0x23a0a50"[label="type_table" dir=forward ];
+"0x7fd4c4ca0010" -> "0x7fd4cf71c128"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4ca0130"[label="\n16SgAdaPackageSpec\n  0x7fd4c4ca0130  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4ca0130" -> "0x7fd4c44df010"[label="declarations" dir=forward ];
+"0x7fd4c4ca0130" -> "0x7fd4cf6c64e0"[label="symbol_table" dir=forward ];
+"0x7fd4c4ca0130" -> "0x23a0aa0"[label="type_table" dir=forward ];
+"0x7fd4c4ca0130" -> "0x7fd4c474e010"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4676010"[label="\n13SgAdaTaskSpec\n  0x7fd4c4676010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4676010" -> "0x7fd4cf6c6640"[label="symbol_table" dir=forward ];
+"0x7fd4c4676010" -> "0x23a0ac8"[label="type_table" dir=forward ];
+"0x7fd4c4676010" -> "0x7fd4c44df010"[label="parent" color="blue" dir=forward ];
+"0x7fd4c474e010"[label="\n20SgAdaPackageSpecDecl\n  0x7fd4c474e010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c474e010" -> "0x7fd4c4ca0130"[label="definition" dir=forward ];
+"0x7fd4c474e010" -> "0x7fd4cf71c128"[label="scope" dir=forward ];
+"0x7fd4c474e010" -> "0x7fd4c474e010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7fd4c474e010" -> "0x7fd4cf71c128"[label="parent" color="blue" dir=forward ];
+"0x7fd4c44df010"[label="\n17SgAdaTaskTypeDecl\n  0x7fd4c44df010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c44df010" -> "0x7fd4c4676010"[label="definition" dir=forward ];
+"0x7fd4c44df010" -> "0x7fd4c44df010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7fd4c44df010" -> "0x7fd4c4ca0130"[label="parent" color="blue" dir=forward ];
+"0x7fd4cf80e010"[label="\n16SgNullExpression\n  0x7fd4cf80e010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=6,peripheries=1,color="blue",fillcolor=green,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4cf80e010" -> "0x7fd4c4ae2010"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4c2e010"[label="\n20SgFunctionTypeSymbol\n name: i\n  0x7fd4c4c2e010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4c2e010" -> "0x7fd4c4c65010"[label="type" color="gold1" dir=forward ];
+"0x7fd4c4c2e010" -> "0x7fd4cf6c6430"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4c2e080"[label="\n20SgFunctionTypeSymbol\n name: c\n  0x7fd4c4c2e080  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4c2e080" -> "0x7fd4c4bf7010"[label="type" color="gold1" dir=forward ];
+"0x7fd4c4c2e080" -> "0x7fd4cf6c6430"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4c2e0f0"[label="\n20SgFunctionTypeSymbol\n name: f\n  0x7fd4c4c2e0f0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4c2e0f0" -> "0x7fd4c4bc0010"[label="type" color="gold1" dir=forward ];
+"0x7fd4c4c2e0f0" -> "0x7fd4cf6c6430"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4c2e160"[label="\n20SgFunctionTypeSymbol\n name: b\n  0x7fd4c4c2e160  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4c2e160" -> "0x7fd4c4b1d010"[label="type" color="gold1" dir=forward ];
+"0x7fd4c4c2e160" -> "0x7fd4cf6c6430"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4c2e1d0"[label="\n20SgFunctionTypeSymbol\n name: __strb____expression_0x7fd4cf80e010__stre__\n  0x7fd4c4c2e1d0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4c2e1d0" -> "0x7fd4c4ae2010"[label="type" color="gold1" dir=forward ];
+"0x7fd4c4c2e1d0" -> "0x7fd4cf6c6430"[label="parent" color="blue" dir=forward ];
+"0x245e7d0"[label="\n15SgTypedefSymbol\n name: Exception\n  0x245e7d0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x245e7d0" -> "0x7fd4c492c010"[label="declaration" dir=forward ];
+"0x245e7d0" -> "0x7fd4cf6c62d0"[label="parent" color="blue" dir=forward ];
+"0x7fd4c4707010"[label="\n13SgAliasSymbol\n alias to: SgAdaPackageSymbol\n name: Task_With_Body\n  0x7fd4c4707010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7fd4c4707010" -> "0x2475ee0"[label="alias" dir=forward ];
+"0x7fd4c4707010" -> "0x7fd4cf6c6010"[label="parent" color="blue" dir=forward ];
+"0x2475ee0"[label="\n18SgAdaPackageSymbol\n name: Task_With_Body\n  0x2475ee0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x2475ee0" -> "0x7fd4c474e010"[label="declaration" dir=forward ];
+"0x2475ee0" -> "0x7fd4cf6c6170"[label="parent" color="blue" dir=forward ];
+"0x248d5f0"[label="\n15SgAdaTaskSymbol\n name: The_Task_Type\n  0x248d5f0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x248d5f0" -> "0x7fd4c44df010"[label="declaration" dir=forward ];
+"0x248d5f0" -> "0x7fd4cf6c64e0"[label="parent" color="blue" dir=forward ];
 }

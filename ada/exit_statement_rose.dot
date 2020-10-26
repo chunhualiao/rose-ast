@@ -1,0 +1,31 @@
+digraph "G./exit_statement_rose.dot" {
+"0x7f211652c320"[label="2:3\nSgFunctionParameterList\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f211652c320\n definingDeclaration = (nil)\n!isForward\nisModified = false\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7f211652c320\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2121607060"[label="10:11\nSgNullExpression\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n lvalue = false\nchild_count:0\n0x7f2121607060\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2115f50010"[label="9:12\nSgAdaExitStmt\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f2115f50010\nExit_Statement.adb:4:7 (physical line=4) (raw line:col=4:7)\nExit_Statement.adb:4:11 (physical line=4) (raw line:col=4:11)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2115f50010" -> "0x7f2121607060"[label="condition" dir=both ];
+"0x7f2115f21010"[label="14:15\nSgBoolValExp\nisModified = true\ncontainsTransformation = false\nisTransformation = false\n lvalue = false\nchild_count:0\n0x7f2115f21010\nExit_Statement.adb:5:17 (physical line=5) (raw line:col=5:17)\nExit_Statement.adb:5:20 (physical line=5) (raw line:col=5:20)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2115f50080"[label="13:16\nSgAdaExitStmt\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f2115f50080\nExit_Statement.adb:5:7 (physical line=5) (raw line:col=5:7)\nExit_Statement.adb:5:21 (physical line=5) (raw line:col=5:21)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2115f50080" -> "0x7f2115f21010"[label="condition" dir=both ];
+"0x7f21216070b0"[label="18:19\nSgNullExpression\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n lvalue = false\nchild_count:0\n0x7f21216070b0\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2115f500f0"[label="17:20\nSgAdaExitStmt\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f2115f500f0\nExit_Statement.adb:6:7 (physical line=6) (raw line:col=6:7)\nExit_Statement.adb:6:18 (physical line=6) (raw line:col=6:18)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2115f500f0" -> "0x7f21216070b0"[label="condition" dir=both ];
+"0x7f211601c168"[label="8:21\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:3\n0x7f211601c168\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f211601c168" -> "0x7f2115f50010"[label="*[0]" dir=both ];
+"0x7f211601c168" -> "0x7f2115f50080"[label="*[1]" dir=both ];
+"0x7f211601c168" -> "0x7f2115f500f0"[label="*[2]" dir=both ];
+"0x7f2115fdd010"[label="7:22\nSgAdaLoopStmt\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f2115fdd010\nExit_Statement.adb:3:4 (physical line=3) (raw line:col=3:4)\nExit_Statement.adb:7:19 (physical line=7) (raw line:col=7:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2115fdd010" -> "0x7f211601c168"[label="body" dir=both ];
+"0x7f2115f87010"[label="6:23\nSgLabelStatement\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f2115f87010\nExit_Statement.adb:3:4 (physical line=3) (raw line:col=3:4)\nExit_Statement.adb:3:9 (physical line=3) (raw line:col=3:9)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2115f87010" -> "0x7f2115fdd010"[label="statement" dir=both ];
+"0x7f211601c010"[label="5:24\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f211601c010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f211601c010" -> "0x7f2115f87010"[label="*[0]" dir=both ];
+"0x7f21160c4010"[label="4:25\nSgFunctionDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f21160c4010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f21160c4010" -> "0x7f211601c010"[label="body" dir=both ];
+"0x7f211622d540"[label="1:26\nSgFunctionDeclaration\nExit_Statement\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f211622d010\n definingDeclaration = 0x7f211622d540\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:3\n0x7f211622d540\nExit_Statement.adb:1:1 (physical line=1) (raw line:col=1:1)\nExit_Statement.adb:8:19 (physical line=8) (raw line:col=8:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f211622d540" -> "0x7f211652c320"[label="parameterList" dir=both ];
+"0x7f211622d540" -> "0x7f211622d540__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7f211622d540__decoratorList__null"[label="" shape=diamond ];
+"0x7f211622d540" -> "0x7f21160c4010"[label="definition" dir=both ];
+"0x7f2121515128"[label="0:27\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f2121515128\nexit_statement.adb:0:0 (physical line=0) (raw line:col=0:0)\nexit_statement.adb:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2121515128" -> "0x7f211622d540"[label="*[0]" dir=both ];
+}

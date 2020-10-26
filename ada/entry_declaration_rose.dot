@@ -1,0 +1,11 @@
+digraph "G./entry_declaration_rose.dot" {
+"0x7fe0d9c65010"[label="4:5\nSgAdaTaskSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7fe0d9c65010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe0d9ace010"[label="3:6\nSgAdaTaskTypeDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fe0d9ace010\nEntry_Declaration.ads:3:4 (physical line=3) (raw line:col=3:4)\nEntry_Declaration.ads:5:23 (physical line=5) (raw line:col=5:23)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe0d9ace010" -> "0x7fe0d9c65010"[label="definition" dir=both ];
+"0x7fe0da28f130"[label="2:7\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fe0da28f130\nEntry_Declaration.ads:1:1 (physical line=1) (raw line:col=1:1)\nEntry_Declaration.ads:7:22 (physical line=7) (raw line:col=7:22)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe0da28f130" -> "0x7fe0d9ace010"[label="*[0]" dir=both ];
+"0x7fe0d9d3d010"[label="1:8\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fe0d9d3d010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fe0d9d3d010\nEntry_Declaration.ads:1:1 (physical line=1) (raw line:col=1:1)\nEntry_Declaration.ads:7:22 (physical line=7) (raw line:col=7:22)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe0d9d3d010" -> "0x7fe0da28f130"[label="definition" dir=both ];
+"0x7fe0e4d0b128"[label="0:9\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fe0e4d0b128\nentry_declaration.ads:0:0 (physical line=0) (raw line:col=0:0)\nentry_declaration.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe0e4d0b128" -> "0x7fe0d9d3d010"[label="*[0]" dir=both ];
+}

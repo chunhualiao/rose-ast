@@ -1,337 +1,251 @@
-digraph "/home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/obj/derived_record.adt" {
-  Unit_3 -> Element_2350112
-      [ label=Unit_Declaration ];
-  Unit_3
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Unit_3</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Kind   </TD><TD> = </TD><TD ALIGN="LEFT">A_PACKAGE</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Class   </TD><TD> = </TD><TD ALIGN="LEFT">A_PUBLIC_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Origin   </TD><TD> = </TD><TD ALIGN="LEFT">AN_APPLICATION_UNIT</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Full_Name    </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record</TD></TR>
-          <TR><TD ALIGN="LEFT">Unique_Name   </TD><TD> = </TD><TD ALIGN="LEFT">ASIS Context 1: Derived_Record (spec)</TD></TR>
-          <TR><TD ALIGN="LEFT">Exists  </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Can_Be_Main_Program     </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Is_Body_Required     </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Text_Name   </TD><TD> = </TD><TD ALIGN="LEFT">/home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/derived_record.ads</TD></TR>
-          <TR><TD ALIGN="LEFT">Text_Form   </TD><TD> = </TD><TD ALIGN="LEFT"></TD></TR>
-          <TR><TD ALIGN="LEFT">Object_Name   </TD><TD> = </TD><TD ALIGN="LEFT"></TD></TR>
-          <TR><TD ALIGN="LEFT">Object_Form   </TD><TD> = </TD><TD ALIGN="LEFT"></TD></TR>
-          <TR><TD ALIGN="LEFT">Compilation_Command_Line_Options         </TD><TD> = </TD><TD ALIGN="LEFT">-gnatA -gnatc -gnatt -gnatws -gnatyN -mtune=generic -march=x86-64</TD></TR>
-          <TR><TD ALIGN="LEFT">Unit_Declaration     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2350112</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Parent_Declaration         </TD><TD> = </TD><TD ALIGN="LEFT">Unit_1</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Body     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          </TABLE>> ];
-  Element_2350112 -> Element_2295057
-      [ label="Names ( 1)" ];
-  Element_2350112 -> Element_2324082
-      [ label="Visible_Part_Declarative_Items ( 1)" ];
-  Element_2350112 -> Element_2348082
-      [ label="Visible_Part_Declarative_Items ( 2)" ];
-  Element_2350112
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2350112</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 10224288</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 1:1 .. 11:19</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_PACKAGE_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Origin     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPLICIT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Names ( 1)   </TD><TD> = </TD><TD ALIGN="LEFT">Element_2295057</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_End_Name      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2351237</TD></TR>
-          <TR><TD ALIGN="LEFT">Is_Name_Repeated     </TD><TD> = </TD><TD ALIGN="LEFT">TRUE</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Declaration       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2350112</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Body     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Visible_Part_Declarative_Items ( 1)         </TD><TD> = </TD><TD ALIGN="LEFT">Element_2324082</TD></TR>
-          <TR><TD ALIGN="LEFT">Visible_Part_Declarative_Items ( 2)         </TD><TD> = </TD><TD ALIGN="LEFT">Element_2348082</TD></TR>
-          </TABLE>> ];
-  Element_2295057
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2295057</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_NAME</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 9327264</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2350112</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 1:9 .. 1:22</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Image     </TD><TD> = </TD><TD ALIGN="LEFT">"Derived_Record"</TD></TR>
-          </TABLE>> ];
-  Element_2324082 -> Element_2303057
-      [ label="Names ( 1)" ];
-  Element_2324082 -> Element_2310163
-      [ label=Type_Declaration_View ];
-  Element_2324082
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2324082</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 6627880</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2350112</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 3:4 .. 5:14</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">AN_ORDINARY_TYPE_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Origin     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPLICIT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Names ( 1)   </TD><TD> = </TD><TD ALIGN="LEFT">Element_2303057</TD></TR>
-          <TR><TD ALIGN="LEFT">Discriminant_Part     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Type_Declaration_View      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2310163</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Type_Declaration        </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Type_Partial_View        </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_First_Subtype       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2324082</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Last_Constraint        </TD><TD> = </TD><TD ALIGN="LEFT">Element_2324082</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Last_Subtype       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2324082</TD></TR>
-          </TABLE>> ];
-  Element_2303057
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2303057</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_NAME</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 6526120</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2324082</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 3:9 .. 3:21</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Image     </TD><TD> = </TD><TD ALIGN="LEFT">"Tagged_Record"</TD></TR>
-          </TABLE>> ];
-  Element_2310163 -> Element_2310192
-      [ label=Record_Definition ];
-  Element_2310163
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2310163</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 6959272</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2324082</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 3:26 .. 5:13</TD></TR>
-          <TR><TD ALIGN="LEFT">Definition_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_TYPE_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Type_Kind   </TD><TD> = </TD><TD ALIGN="LEFT">A_TAGGED_RECORD_TYPE_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Record_Definition     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2310192</TD></TR>
-          </TABLE>> ];
-  Element_2310192 -> Element_2321099
-      [ label="Record_Components ( 1)" ];
-  Element_2310192
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2310192</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 7078056</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2310163</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 3:33 .. 5:13</TD></TR>
-          <TR><TD ALIGN="LEFT">Definition_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_RECORD_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Record_Components ( 1)      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2321099</TD></TR>
-          </TABLE>> ];
-  Element_2321099 -> Element_2313057
-      [ label="Names ( 1)" ];
-  Element_2321099 -> Element_2322183
-      [ label=Object_Declaration_View ];
-  Element_2321099
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2321099</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 4397524</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2310192</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 4:7 .. 4:28</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_COMPONENT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Origin     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPLICIT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Names ( 1)   </TD><TD> = </TD><TD ALIGN="LEFT">Element_2313057</TD></TR>
-          <TR><TD ALIGN="LEFT">Object_Declaration_View      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2322183</TD></TR>
-          <TR><TD ALIGN="LEFT">Initialization_Expression       </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          </TABLE>> ];
-  Element_2313057
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2313057</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_NAME</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 4311508</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2321099</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 4:7 .. 4:17</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Image     </TD><TD> = </TD><TD ALIGN="LEFT">"Component_1"</TD></TR>
-          </TABLE>> ];
-  Element_2322183 -> Element_2320176
-      [ label=Component_Definition_View ];
-  Element_2322183
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2322183</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 4569428</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2321099</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 4:21 .. 4:27</TD></TR>
-          <TR><TD ALIGN="LEFT">Definition_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_COMPONENT_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Component_Definition_View       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2320176</TD></TR>
-          </TABLE>> ];
-  Element_2320176 -> Element_2320237
-      [ label=Subtype_Mark ];
-  Element_2320176
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2320176</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 4555092</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2322183</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 4:21 .. 4:27</TD></TR>
-          <TR><TD ALIGN="LEFT">Definition_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_SUBTYPE_INDICATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Subtype_Mark    </TD><TD> = </TD><TD ALIGN="LEFT">Element_2320237</TD></TR>
-          <TR><TD ALIGN="LEFT">Subtype_Constraint     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          </TABLE>> ];
-  Element_2320237
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2320237</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPRESSION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 4680020</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2320176</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 4:21 .. 4:27</TD></TR>
-          <TR><TD ALIGN="LEFT">Expression_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">AN_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Expression_Type        </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Name_Image   </TD><TD> = </TD><TD ALIGN="LEFT">"Integer"</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Name_Definition        </TD><TD> = </TD><TD ALIGN="LEFT">Element_37057</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Name_Definition_List ( 1)          </TD><TD> = </TD><TD ALIGN="LEFT">Element_37057</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Name_Declaration        </TD><TD> = </TD><TD ALIGN="LEFT">Element_917082</TD></TR>
-          </TABLE>> ];
-  Element_2348082 -> Element_2325057
-      [ label="Names ( 1)" ];
-  Element_2348082 -> Element_2332148
-      [ label=Type_Declaration_View ];
-  Element_2348082
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2348082</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT">-2146545118</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2350112</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 7:4 .. 9:14</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">AN_ORDINARY_TYPE_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Origin     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPLICIT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Names ( 1)   </TD><TD> = </TD><TD ALIGN="LEFT">Element_2325057</TD></TR>
-          <TR><TD ALIGN="LEFT">Discriminant_Part     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Type_Declaration_View      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2332148</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Type_Declaration        </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Type_Partial_View        </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_First_Subtype       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2348082</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Last_Constraint        </TD><TD> = </TD><TD ALIGN="LEFT">Element_2348082</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Last_Subtype       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2348082</TD></TR>
-          </TABLE>> ];
-  Element_2325057
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2325057</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_NAME</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT">-2146551478</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2348082</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 7:9 .. 7:22</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Image     </TD><TD> = </TD><TD ALIGN="LEFT">"Derived_Record"</TD></TR>
-          </TABLE>> ];
-  Element_2332148 -> Element_2333176
-      [ label=Parent_Subtype_Indication ];
-  Element_2332148 -> Element_2334192
-      [ label=Record_Definition ];
-  Element_2332148
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2332148</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT">-2146528166</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2348082</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 7:27 .. 9:13</TD></TR>
-          <TR><TD ALIGN="LEFT">Definition_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_TYPE_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Type_Kind   </TD><TD> = </TD><TD ALIGN="LEFT">A_DERIVED_RECORD_EXTENSION_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Parent_Subtype_Indication       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2333176</TD></TR>
-          <TR><TD ALIGN="LEFT">Record_Definition     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2334192</TD></TR>
-          <TR><TD ALIGN="LEFT">Implicit_Inherited_Declarations ( 1)          </TD><TD> = </TD><TD ALIGN="LEFT">Element_2321099</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Parent_Subtype        </TD><TD> = </TD><TD ALIGN="LEFT">Element_2324082</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Root_Type      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2324082</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Type_Structure        </TD><TD> = </TD><TD ALIGN="LEFT">Element_2348082</TD></TR>
-          </TABLE>> ];
-  Element_2333176 -> Element_2333237
-      [ label=Subtype_Mark ];
-  Element_2333176
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2333176</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT">-2146520966</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2332148</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 7:31 .. 7:43</TD></TR>
-          <TR><TD ALIGN="LEFT">Definition_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_SUBTYPE_INDICATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Subtype_Mark    </TD><TD> = </TD><TD ALIGN="LEFT">Element_2333237</TD></TR>
-          <TR><TD ALIGN="LEFT">Subtype_Constraint     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          </TABLE>> ];
-  Element_2333237
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2333237</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPRESSION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT">-2146505350</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2333176</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 7:31 .. 7:43</TD></TR>
-          <TR><TD ALIGN="LEFT">Expression_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">AN_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Expression_Type        </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Name_Image   </TD><TD> = </TD><TD ALIGN="LEFT">"Tagged_Record"</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Name_Definition        </TD><TD> = </TD><TD ALIGN="LEFT">Element_2303057</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Name_Definition_List ( 1)          </TD><TD> = </TD><TD ALIGN="LEFT">Element_2303057</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Name_Declaration        </TD><TD> = </TD><TD ALIGN="LEFT">Element_2324082</TD></TR>
-          </TABLE>> ];
-  Element_2334192 -> Element_2345099
-      [ label="Record_Components ( 1)" ];
-  Element_2334192
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2334192</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT">-2146516974</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2332148</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 7:50 .. 9:13</TD></TR>
-          <TR><TD ALIGN="LEFT">Definition_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_RECORD_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Record_Components ( 1)      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2345099</TD></TR>
-          </TABLE>> ];
-  Element_2345099 -> Element_2337057
-      [ label="Names ( 1)" ];
-  Element_2345099 -> Element_2346183
-      [ label=Object_Declaration_View ];
-  Element_2345099
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2345099</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 1074278813</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2334192</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 8:7 .. 8:28</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_COMPONENT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Declaration_Origin     </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPLICIT_DECLARATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Names ( 1)   </TD><TD> = </TD><TD ALIGN="LEFT">Element_2337057</TD></TR>
-          <TR><TD ALIGN="LEFT">Object_Declaration_View      </TD><TD> = </TD><TD ALIGN="LEFT">Element_2346183</TD></TR>
-          <TR><TD ALIGN="LEFT">Initialization_Expression       </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          </TABLE>> ];
-  Element_2337057
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2337057</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_NAME</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 1074273437</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2345099</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 8:7 .. 8:17</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Kind     </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINING_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Defining_Name_Image     </TD><TD> = </TD><TD ALIGN="LEFT">"Component_2"</TD></TR>
-          </TABLE>> ];
-  Element_2346183 -> Element_2344176
-      [ label=Component_Definition_View ];
-  Element_2346183
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2346183</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 1074289557</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2345099</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 8:21 .. 8:27</TD></TR>
-          <TR><TD ALIGN="LEFT">Definition_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_COMPONENT_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Component_Definition_View       </TD><TD> = </TD><TD ALIGN="LEFT">Element_2344176</TD></TR>
-          </TABLE>> ];
-  Element_2344176 -> Element_2344237
-      [ label=Subtype_Mark ];
-  Element_2344176
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2344176</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_DEFINITION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 1074288661</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2346183</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 8:21 .. 8:27</TD></TR>
-          <TR><TD ALIGN="LEFT">Definition_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">A_SUBTYPE_INDICATION</TD></TR>
-          <TR><TD ALIGN="LEFT">Subtype_Mark    </TD><TD> = </TD><TD ALIGN="LEFT">Element_2344237</TD></TR>
-          <TR><TD ALIGN="LEFT">Subtype_Constraint     </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          </TABLE>> ];
-  Element_2344237
-      [ label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"> 
-          <TR><TD COLSPAN="3">Element_2344237</TD></TR>
-          <TR><TD ALIGN="LEFT">Element_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">AN_EXPRESSION</TD></TR>
-          <TR><TD ALIGN="LEFT">Hash  </TD><TD> = </TD><TD ALIGN="LEFT"> 1074296469</TD></TR>
-          <TR><TD ALIGN="LEFT">Enclosing_Element     </TD><TD> = </TD><TD ALIGN="LEFT">Element_2344176</TD></TR>
-          <TR><TD ALIGN="LEFT">Source  </TD><TD> = </TD><TD ALIGN="LEFT">Derived_Record.ads - 8:21 .. 8:27</TD></TR>
-          <TR><TD ALIGN="LEFT">Expression_Kind    </TD><TD> = </TD><TD ALIGN="LEFT">AN_IDENTIFIER</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Expression_Type        </TD><TD> = </TD><TD ALIGN="LEFT">(none)</TD></TR>
-          <TR><TD ALIGN="LEFT">Name_Image   </TD><TD> = </TD><TD ALIGN="LEFT">"Integer"</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Name_Definition        </TD><TD> = </TD><TD ALIGN="LEFT">Element_37057</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Name_Definition_List ( 1)          </TD><TD> = </TD><TD ALIGN="LEFT">Element_37057</TD></TR>
-          <TR><TD ALIGN="LEFT">Corresponding_Name_Declaration        </TD><TD> = </TD><TD ALIGN="LEFT">Element_917082</TD></TR>
-          </TABLE>> ]
+digraph "Gderived_record.ads.dot" {
+"0x7f3222853010"[label="\n13SgSymbolTable\n  \n  0x7f3222853010  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3222853010" -> "0x7f3217894010"[label="Derived_Record" dir=forward ];
+"0x7f3222853010" -> "0x7f32228a9010"[label="parent" color="blue" dir=forward ];
+"0x7f32228530c0"[label="\n13SgSymbolTable\n  \n  0x7f32228530c0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32228530c0" -> "0x8a4a00"[label="parent" color="blue" dir=forward ];
+"0x7f3222853170"[label="\n13SgSymbolTable\n  \n  0x7f3222853170  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3222853170" -> "0x979ee0"[label="Derived_Record" dir=forward ];
+"0x7f3222853170" -> "0x7f32228a9128"[label="parent" color="blue" dir=forward ];
+"0x7f3222853220"[label="\n13SgSymbolTable\n  \n  0x7f3222853220  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3222853220" -> "0x8a4a28"[label="parent" color="blue" dir=forward ];
+"0x7f32228532d0"[label="\n13SgSymbolTable\n  \n  0x7f32228532d0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32228532d0" -> "0x9627d0"[label="Exception" dir=forward ];
+"0x7f32228532d0" -> "0x7f3217e2d010"[label="parent" color="blue" dir=forward ];
+"0x7f3222853380"[label="\n13SgSymbolTable\n  \n  0x7f3222853380  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3222853380" -> "0x8a4a50"[label="parent" color="blue" dir=forward ];
+"0x7f3222853430"[label="\n13SgSymbolTable\n  Unnamed Symbol Table\n  0x7f3222853430  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3222853430" -> "0x7f3217dbb1d0"[label="__strb____expression_0x7f322299b010__stre__" dir=forward ];
+"0x7f3222853430" -> "0x7f3217dbb160"[label="b" dir=forward ];
+"0x7f3222853430" -> "0x7f3217dbb0f0"[label="f" dir=forward ];
+"0x7f3222853430" -> "0x7f3217dbb080"[label="c" dir=forward ];
+"0x7f3222853430" -> "0x7f3217dbb010"[label="i" dir=forward ];
+"0x7f3222853430" -> "0x8a4a78"[label="parent" color="blue" dir=forward ];
+"0x7f32228534e0"[label="\n13SgSymbolTable\n  Unnamed Symbol Table\n  0x7f32228534e0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32228534e0" -> "0x9bc5c0"[label="Derived_Record" dir=forward ];
+"0x7f32228534e0" -> "0x9bc590"[label="Tagged_Record" dir=forward ];
+"0x7f32228534e0" -> "0x7f3217e2d130"[label="parent" color="blue" dir=forward ];
+"0x7f3222853590"[label="\n13SgSymbolTable\n  \n  0x7f3222853590  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3222853590" -> "0x8a4aa0"[label="parent" color="blue" dir=forward ];
+"0x7f3222853640"[label="\n13SgSymbolTable\n  Unnamed Symbol Table\n  0x7f3222853640  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3222853640" -> "0x9a4e80"[label="Component_1" dir=forward ];
+"0x7f3222853640" -> "0x7f32177fb010"[label="parent" color="blue" dir=forward ];
+"0x7f32228536f0"[label="\n13SgSymbolTable\n  \n  0x7f32228536f0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32228536f0" -> "0x8a4ac8"[label="parent" color="blue" dir=forward ];
+"0x7f32228537a0"[label="\n13SgSymbolTable\n  \n  0x7f32228537a0  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32228537a0" -> "0x7f32178940a0"[label="Component_1" dir=forward ];
+"0x7f32228537a0" -> "0x9a4eb0"[label="Component_2" dir=forward ];
+"0x7f32228537a0" -> "0x7f32177fb148"[label="parent" color="blue" dir=forward ];
+"0x7f3222853850"[label="\n13SgSymbolTable\n  \n  0x7f3222853850  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3222853850" -> "0x8a4af0"[label="parent" color="blue" dir=forward ];
+"0x7f3222853900"[label="\n13SgSymbolTable\n  \n  0x7f3222853900  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=orange,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3222853900" -> "0x7f3217327010"[label="parent" color="blue" dir=forward ];
+"0x9915f0"[label="\n17SgStorageModifier" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x9915f0" -> "0x7f32176fd010"[label="parent" color="blue" dir=forward ];
+"0x991618"[label="\n17SgStorageModifier" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x991618" -> "0x7f32176fd218"[label="parent" color="blue" dir=forward ];
+"0x7f322282b010"[label="\n19SgBaseClassModifier" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f322282b010" -> "0x7f322282b010__parent__null"[label="parent" dir=none ];
+"0x7f322282b010__parent__null"[label="" shape=diamond ];
+"0x7f3217eba010"[label="\n12SgSourceFile\n  getFileName = /home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/derived_record.ads  \n  sourceFileNameWithPath = /home/liao6/workspace/ada-to-cpp-FY21/rose-ast/ada/derived_record.ads  \n  0x7f3217eba010  " shape=ellipse,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=2,color="blue",fillcolor=pink,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217eba010" -> "0x7f32228a9128"[label="globalScope" dir=forward ];
+"0x7f3217eba010" -> "0x869f80"[label="parent" color="blue" dir=forward ];
+"0x869f80"[label="\n10SgFileList" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x869f80" -> "0x7f3217eba010"[label="listOfFiles" dir=forward ];
+"0x869f80" -> "0x7f321801e010"[label="parent" color="blue" dir=forward ];
+"0x889390"[label="\n15SgDirectoryList" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x889390" -> "0x7f321801e010"[label="parent" color="blue" dir=forward ];
+"0x7f321801e010"[label="\n9SgProject\n  a.out  \n  0x7f321801e010  " shape=ellipse,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=3,color="blue",fillcolor=pink,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f321801e010" -> "0x869f80"[label="fileList_ptr" dir=forward ];
+"0x7f321801e010" -> "0x889390"[label="directoryList" dir=forward ];
+"0x7f321801e010" -> "0x7f32228a9010"[label="globalScopeAcrossFiles" dir=forward ];
+"0x7f321801e010" -> "0x7f321801e010__parent__null"[label="parent" dir=none ];
+"0x7f321801e010__parent__null"[label="" shape=diamond ];
+"0x947240"[label="\n12SgTypedefSeq\n  0x947240  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x947240" -> "0x7f3217a76010"[label="typedefs" color="gold1" dir=forward ];
+"0x947240" -> "0x7f3217df2010"[label="parent" color="blue" dir=forward ];
+"0x9d3ca0"[label="\n11SgBaseClass\n  0x9d3ca0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=greenyellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x9d3ca0" -> "0x7f3217395388"[label="base_class" dir=forward ];
+"0x9d3ca0" -> "0x7f322282b010"[label="baseClassModifier" dir=forward ];
+"0x9d3ca0" -> "0x7f32177fb148"[label="parent" color="blue" dir=forward ];
+"0x8a4a00"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x8a4a00" -> "0x7f32228530c0"[label="type_table" dir=forward ];
+"0x8a4a00" -> "0x7f32228a9010"[label="parent" color="blue" dir=forward ];
+"0x8a4a28"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x8a4a28" -> "0x7f3222853220"[label="type_table" dir=forward ];
+"0x8a4a28" -> "0x7f32228a9128"[label="parent" color="blue" dir=forward ];
+"0x8a4a50"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x8a4a50" -> "0x7f3222853380"[label="type_table" dir=forward ];
+"0x8a4a50" -> "0x7f3217e2d010"[label="parent" color="blue" dir=forward ];
+"0x8a4a78"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x8a4a78" -> "0x7f3222853430"[label="type_table" dir=forward ];
+"0x8a4a78" -> "0x7f321801e010"[label="parent" color="blue" dir=forward ];
+"0x8a4aa0"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x8a4aa0" -> "0x7f3222853590"[label="type_table" dir=forward ];
+"0x8a4aa0" -> "0x7f3217e2d130"[label="parent" color="blue" dir=forward ];
+"0x8a4ac8"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x8a4ac8" -> "0x7f32228536f0"[label="type_table" dir=forward ];
+"0x8a4ac8" -> "0x7f32177fb010"[label="parent" color="blue" dir=forward ];
+"0x8a4af0"[label="\n11SgTypeTable" shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=4,peripheries=1,color="blue",fillcolor=red,fontname="7x13bold",fontcolor=black,style=filled];
+"0x8a4af0" -> "0x7f3222853850"[label="type_table" dir=forward ];
+"0x8a4af0" -> "0x7f32177fb148"[label="parent" color="blue" dir=forward ];
+"0x7f3217d84010"[label="\n10SgTypeChar\n  0x7f3217d84010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217d84010" -> "0x7f3217dbb080"[label="parent" dir=forward ];
+"0x7f3217df2010"[label="\n9SgTypeInt\n  0x7f3217df2010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217df2010" -> "0x947240"[label="typedefs" dir=forward ];
+"0x7f3217df2010" -> "0x7f3217dbb010"[label="parent" dir=forward ];
+"0x7f3217d4d010"[label="\n11SgTypeFloat\n  0x7f3217d4d010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217d4d010" -> "0x7f3217dbb0f0"[label="parent" dir=forward ];
+"0x7f3217c6f010"[label="\n12SgTypeString\n  0x7f3217c6f010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217c6f010" -> "0x7f322299b010"[label="lengthExpression" dir=forward ];
+"0x7f3217c6f010" -> "0x7f3217dbb1d0"[label="parent" dir=forward ];
+"0x7f3217caa010"[label="\n10SgTypeBool\n  0x7f3217caa010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217caa010" -> "0x7f3217dbb160"[label="parent" dir=forward ];
+"0x7f3217a76010"[label="\n13SgTypedefType\nException\n  0x7f3217a76010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217a76010" -> "0x7f3217ab9010"[label="declaration" dir=forward ];
+"0x7f3217a76010" -> "0x7f3217a76010__parent__null"[label="parent" dir=none ];
+"0x7f3217a76010__parent__null"[label="" shape=diamond ];
+"0x7f3217a76098"[label="\n13SgTypedefType\nException\n  0x7f3217a76098  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217a76098" -> "0x7f3217ab9010"[label="declaration" dir=forward ];
+"0x7f3217a76098" -> "0x7f3217a76098__parent__null"[label="parent" dir=none ];
+"0x7f3217a76098__parent__null"[label="" shape=diamond ];
+"0x7f3217356010"[label="\n11SgClassType\nTagged_Record\n  0x7f3217356010  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217356010" -> "0x7f3217395010"[label="declaration" dir=forward ];
+"0x7f3217356010" -> "0x7f3217356010__parent__null"[label="parent" dir=none ];
+"0x7f3217356010__parent__null"[label="" shape=diamond ];
+"0x7f3217356090"[label="\n11SgClassType\nDerived_Record\n  0x7f3217356090  \n   \n   " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=3,peripheries=1,color="blue",fillcolor=yellow,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217356090" -> "0x7f3217395700"[label="declaration" dir=forward ];
+"0x7f3217356090" -> "0x7f3217356090__parent__null"[label="parent" dir=none ];
+"0x7f3217356090__parent__null"[label="" shape=diamond ];
+"0x7f32228a9010"[label="\n8SgGlobal\n  0x7f32228a9010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32228a9010" -> "0x7f3222853010"[label="symbol_table" dir=forward ];
+"0x7f32228a9010" -> "0x8a4a00"[label="type_table" dir=forward ];
+"0x7f32228a9010" -> "0x7f321801e010"[label="parent" color="blue" dir=forward ];
+"0x7f32228a9128"[label="\n8SgGlobal\n  0x7f32228a9128  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32228a9128" -> "0x7f32178db010"[label="declarations" dir=forward ];
+"0x7f32228a9128" -> "0x7f3222853170"[label="symbol_table" dir=forward ];
+"0x7f32228a9128" -> "0x8a4a28"[label="type_table" dir=forward ];
+"0x7f32228a9128" -> "0x7f3217eba010"[label="parent" color="blue" dir=forward ];
+"0x7f3217327010"[label="\n19SgFunctionTypeTable\n  0x7f3217327010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217327010" -> "0x7f3222853900"[label="function_type_table" dir=forward ];
+"0x7f3217327010" -> "0x7f321801e010"[label="parent" color="blue" dir=forward ];
+"0x7f3217ab9010"[label="\n20SgTypedefDeclaration\n  Exception\n  !typedefBaseTypeContainsDefiningDeclaration\n  0x7f3217ab9010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217ab9010" -> "0x7f3217df2010"[label="base_type" color="gold1" dir=forward ];
+"0x7f3217ab9010" -> "0x7f3217a76010"[label="type" color="gold1" dir=forward ];
+"0x7f3217ab9010" -> "0x7f3217e2d010"[label="scope" color="green" dir=forward ];
+"0x7f3217ab9010" -> "0x7f3217ab9010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f3217ab9010" -> "0x7f3217e2d010"[label="parent" color="blue" dir=forward ];
+"0x7f3217547010"[label="\n21SgVariableDeclaration\n  !variableDeclarationContainsBaseTypeDefiningDeclaration\n  0x7f3217547010  \n isPrivate   = false  \n isProtected = false  \n isPublic    = false  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217547010" -> "0x7f32176fd010"[label="variables" dir=forward ];
+"0x7f3217547010" -> "0x7f3217547010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f3217547010" -> "0x7f32177fb010"[label="parent" color="blue" dir=forward ];
+"0x7f3217547390"[label="\n21SgVariableDeclaration\n  !variableDeclarationContainsBaseTypeDefiningDeclaration\n  0x7f3217547390  \n isPrivate   = false  \n isProtected = false  \n isPublic    = false  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217547390" -> "0x7f32176fd218"[label="variables" dir=forward ];
+"0x7f3217547390" -> "0x7f3217547390"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f3217547390" -> "0x7f32177fb148"[label="parent" color="blue" dir=forward ];
+"0x7f3217395010"[label="\n18SgClassDeclaration\n  Tagged_Record\n  isForward\n  isAutonomousDeclaration\n  0x7f3217395010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217395010" -> "0x7f3217356010"[label="type" color="gold1" dir=forward ];
+"0x7f3217395010" -> "0x7f3217e2d130"[label="scope" color="green" dir=forward ];
+"0x7f3217395010" -> "0x7f3217395388"[label="definingDeclaration" dir=forward ];
+"0x7f3217395010" -> "0x7f3217395010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f3217395010" -> "0x7f3217e2d130"[label="parent" color="blue" dir=forward ];
+"0x7f3217395388"[label="\n18SgClassDeclaration\n  Tagged_Record\n  !isForward\n  isAutonomousDeclaration\n  0x7f3217395388  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217395388" -> "0x7f3217356010"[label="type" color="gold1" dir=forward ];
+"0x7f3217395388" -> "0x7f32177fb010"[label="definition" dir=forward ];
+"0x7f3217395388" -> "0x7f3217e2d130"[label="scope" color="green" dir=forward ];
+"0x7f3217395388" -> "0x7f3217395388"[label="definingDeclaration" dir=forward ];
+"0x7f3217395388" -> "0x7f3217395010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f3217395388" -> "0x7f3217e2d130"[label="parent" color="blue" dir=forward ];
+"0x7f3217395700"[label="\n18SgClassDeclaration\n  Derived_Record\n  isForward\n  isAutonomousDeclaration\n  0x7f3217395700  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217395700" -> "0x7f3217356090"[label="type" color="gold1" dir=forward ];
+"0x7f3217395700" -> "0x7f3217e2d130"[label="scope" color="green" dir=forward ];
+"0x7f3217395700" -> "0x7f3217395a78"[label="definingDeclaration" dir=forward ];
+"0x7f3217395700" -> "0x7f3217395700"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f3217395700" -> "0x7f3217e2d130"[label="parent" color="blue" dir=forward ];
+"0x7f3217395a78"[label="\n18SgClassDeclaration\n  Derived_Record\n  !isForward\n  isAutonomousDeclaration\n  0x7f3217395a78  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=2,color="blue",fillcolor=peru,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217395a78" -> "0x7f3217356090"[label="type" color="gold1" dir=forward ];
+"0x7f3217395a78" -> "0x7f32177fb148"[label="definition" dir=forward ];
+"0x7f3217395a78" -> "0x7f3217e2d130"[label="scope" color="green" dir=forward ];
+"0x7f3217395a78" -> "0x7f3217395a78"[label="definingDeclaration" dir=forward ];
+"0x7f3217395a78" -> "0x7f3217395700"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f3217395a78" -> "0x7f3217e2d130"[label="parent" color="blue" dir=forward ];
+"0x7f32177fb010"[label="\n17SgClassDefinition\n  0x7f32177fb010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32177fb010" -> "0x7f3217547010"[label="members" dir=forward ];
+"0x7f32177fb010" -> "0x7f3222853640"[label="symbol_table" dir=forward ];
+"0x7f32177fb010" -> "0x8a4ac8"[label="type_table" dir=forward ];
+"0x7f32177fb010" -> "0x7f3217395388"[label="parent" color="blue" dir=forward ];
+"0x7f32177fb148"[label="\n17SgClassDefinition\n  0x7f32177fb148  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32177fb148" -> "0x7f3217547390"[label="members" dir=forward ];
+"0x7f32177fb148" -> "0x9d3ca0"[label="inheritances" dir=forward ];
+"0x7f32177fb148" -> "0x7f32228537a0"[label="symbol_table" dir=forward ];
+"0x7f32177fb148" -> "0x8a4af0"[label="type_table" dir=forward ];
+"0x7f32177fb148" -> "0x7f3217395a78"[label="parent" color="blue" dir=forward ];
+"0x7f3217e2d010"[label="\n16SgAdaPackageSpec\n  0x7f3217e2d010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217e2d010" -> "0x7f3217ab9010"[label="declarations" dir=forward ];
+"0x7f3217e2d010" -> "0x7f32228532d0"[label="symbol_table" dir=forward ];
+"0x7f3217e2d010" -> "0x8a4a50"[label="type_table" dir=forward ];
+"0x7f3217e2d010" -> "0x7f32228a9128"[label="parent" color="blue" dir=forward ];
+"0x7f3217e2d130"[label="\n16SgAdaPackageSpec\n  0x7f3217e2d130  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217e2d130" -> "0x7f3217395388"[label="declarations" dir=forward ];
+"0x7f3217e2d130" -> "0x7f3217395a78"[label="declarations" dir=forward ];
+"0x7f3217e2d130" -> "0x7f32228534e0"[label="symbol_table" dir=forward ];
+"0x7f3217e2d130" -> "0x8a4aa0"[label="type_table" dir=forward ];
+"0x7f3217e2d130" -> "0x7f32178db010"[label="parent" color="blue" dir=forward ];
+"0x7f32178db010"[label="\n20SgAdaPackageSpecDecl\n  0x7f32178db010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=skyblue,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32178db010" -> "0x7f3217e2d130"[label="definition" dir=forward ];
+"0x7f32178db010" -> "0x7f32228a9128"[label="scope" dir=forward ];
+"0x7f32178db010" -> "0x7f32178db010"[label="firstNondefiningDeclaration" dir=forward ];
+"0x7f32178db010" -> "0x7f32228a9128"[label="parent" color="blue" dir=forward ];
+"0x7f322299b010"[label="\n16SgNullExpression\n  0x7f322299b010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=6,peripheries=1,color="blue",fillcolor=green,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f322299b010" -> "0x7f3217c6f010"[label="parent" color="blue" dir=forward ];
+"0x9a4e80"[label="\n16SgVariableSymbol\n name: Component_1\n  0x9a4e80  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x9a4e80" -> "0x7f32176fd010"[label="declaration" dir=forward ];
+"0x9a4e80" -> "0x7f3222853640"[label="parent" color="blue" dir=forward ];
+"0x9a4eb0"[label="\n16SgVariableSymbol\n name: Component_2\n  0x9a4eb0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x9a4eb0" -> "0x7f32176fd218"[label="declaration" dir=forward ];
+"0x9a4eb0" -> "0x7f32228537a0"[label="parent" color="blue" dir=forward ];
+"0x7f3217dbb010"[label="\n20SgFunctionTypeSymbol\n name: i\n  0x7f3217dbb010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217dbb010" -> "0x7f3217df2010"[label="type" color="gold1" dir=forward ];
+"0x7f3217dbb010" -> "0x7f3222853430"[label="parent" color="blue" dir=forward ];
+"0x7f3217dbb080"[label="\n20SgFunctionTypeSymbol\n name: c\n  0x7f3217dbb080  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217dbb080" -> "0x7f3217d84010"[label="type" color="gold1" dir=forward ];
+"0x7f3217dbb080" -> "0x7f3222853430"[label="parent" color="blue" dir=forward ];
+"0x7f3217dbb0f0"[label="\n20SgFunctionTypeSymbol\n name: f\n  0x7f3217dbb0f0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217dbb0f0" -> "0x7f3217d4d010"[label="type" color="gold1" dir=forward ];
+"0x7f3217dbb0f0" -> "0x7f3222853430"[label="parent" color="blue" dir=forward ];
+"0x7f3217dbb160"[label="\n20SgFunctionTypeSymbol\n name: b\n  0x7f3217dbb160  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217dbb160" -> "0x7f3217caa010"[label="type" color="gold1" dir=forward ];
+"0x7f3217dbb160" -> "0x7f3222853430"[label="parent" color="blue" dir=forward ];
+"0x7f3217dbb1d0"[label="\n20SgFunctionTypeSymbol\n name: __strb____expression_0x7f322299b010__stre__\n  0x7f3217dbb1d0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217dbb1d0" -> "0x7f3217c6f010"[label="type" color="gold1" dir=forward ];
+"0x7f3217dbb1d0" -> "0x7f3222853430"[label="parent" color="blue" dir=forward ];
+"0x9bc590"[label="\n13SgClassSymbol\n name: Tagged_Record\n  0x9bc590  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x9bc590" -> "0x7f3217395010"[label="declaration" dir=forward ];
+"0x9bc590" -> "0x7f32228534e0"[label="parent" color="blue" dir=forward ];
+"0x9bc5c0"[label="\n13SgClassSymbol\n name: Derived_Record\n  0x9bc5c0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x9bc5c0" -> "0x7f3217395700"[label="declaration" dir=forward ];
+"0x9bc5c0" -> "0x7f32228534e0"[label="parent" color="blue" dir=forward ];
+"0x9627d0"[label="\n15SgTypedefSymbol\n name: Exception\n  0x9627d0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x9627d0" -> "0x7f3217ab9010"[label="declaration" dir=forward ];
+"0x9627d0" -> "0x7f32228532d0"[label="parent" color="blue" dir=forward ];
+"0x7f3217894010"[label="\n13SgAliasSymbol\n alias to: SgAdaPackageSymbol\n name: Derived_Record\n  0x7f3217894010  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f3217894010" -> "0x979ee0"[label="alias" dir=forward ];
+"0x7f3217894010" -> "0x7f3222853010"[label="parent" color="blue" dir=forward ];
+"0x7f32178940a0"[label="\n13SgAliasSymbol\n alias to: SgVariableSymbol\n name: Component_1\n  0x7f32178940a0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32178940a0" -> "0x9a4e80"[label="alias" dir=forward ];
+"0x7f32178940a0" -> "0x9d3ca0"[label="causal_nodes" dir=forward ];
+"0x7f32178940a0" -> "0x7f32228537a0"[label="parent" color="blue" dir=forward ];
+"0x979ee0"[label="\n18SgAdaPackageSymbol\n name: Derived_Record\n  0x979ee0  " shape=polygon,regular=0,URL="\N",tooltip="more info at \N",sides=8,peripheries=1,color="blue",fillcolor=purple,fontname="7x13bold",fontcolor=black,style=filled];
+"0x979ee0" -> "0x7f32178db010"[label="declaration" dir=forward ];
+"0x979ee0" -> "0x7f3222853170"[label="parent" color="blue" dir=forward ];
+"0x7f32176fd010"[label="\n17SgInitializedName\n  Component_1\n  0x7f32176fd010  \n  using_device_keyword = false  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=darkturquoise,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32176fd010" -> "0x7f3217df2010"[label="typeptr" color="gold1" dir=forward ];
+"0x7f32176fd010" -> "0x9915f0"[label="storageModifier" dir=forward ];
+"0x7f32176fd010" -> "0x7f32177fb010"[label="scope" color="green" dir=forward ];
+"0x7f32176fd010" -> "0x7f3217547010"[label="parent" color="blue" dir=forward ];
+"0x7f32176fd218"[label="\n17SgInitializedName\n  Component_2\n  0x7f32176fd218  \n  using_device_keyword = false  " shape=house,regular=0,URL="\N",tooltip="more info at \N",sides=5,peripheries=1,color="blue",fillcolor=darkturquoise,fontname="7x13bold",fontcolor=black,style=filled];
+"0x7f32176fd218" -> "0x7f3217df2010"[label="typeptr" color="gold1" dir=forward ];
+"0x7f32176fd218" -> "0x991618"[label="storageModifier" dir=forward ];
+"0x7f32176fd218" -> "0x7f32177fb148"[label="scope" color="green" dir=forward ];
+"0x7f32176fd218" -> "0x7f3217547390"[label="parent" color="blue" dir=forward ];
 }

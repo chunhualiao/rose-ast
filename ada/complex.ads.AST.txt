@@ -1,0 +1,27 @@
+└──@0x7f5bc6718010 SgProject 
+    └──@0xc71f20 SgFileList 
+        └──@0x7f5bc65b4010 SgSourceFile 
+            ├──@0x7f5bd0fa3128 SgGlobal complex.ads 0:0
+            │   └──@0x7f5bc5fd5010 SgAdaPackageSpecDecl Complex.ads 1:1
+            │       └──@0x7f5bc6527130 SgAdaPackageSpec Complex.ads 1:1
+            │           ├──@0x7f5bc5a15388 SgClassDeclaration transformation 0:0
+            │           │   ├──@0x7f5bc5ef5010 SgClassDefinition transformation 0:0
+            │           │   │   ├──@0x7f5bc5bc7010 SgVariableDeclaration transformation 0:0
+            │           │   │   │   ├── NULL 
+            │           │   │   │   └──@0x7f5bc5d7d010 SgInitializedName transformation 0:0 "::Complex::Re"
+            │           │   │   │       └──@0x7f5bc5e7b010 SgAssignInitializer transformation 0:0
+            │           │   │   │           └──@0x7f5bc5eae0a0 SgLongDoubleVal transformation 0:0
+            │           │   │   └──@0x7f5bc5bc7390 SgVariableDeclaration transformation 0:0
+            │           │   │       ├── NULL 
+            │           │   │       └──@0x7f5bc5d7d218 SgInitializedName transformation 0:0 "::Complex::Im"
+            │           │   │           └──@0x7f5bc5e7b078 SgAssignInitializer transformation 0:0
+            │           │   │               └──@0x7f5bc5eae130 SgLongDoubleVal transformation 0:0
+            │           │   └── NULL 
+            │           └──@0x7f5bc5bc7710 SgVariableDeclaration Complex.ads 9:1
+            │               ├── NULL 
+            │               └──@0x7f5bc5d7d420 SgInitializedName Complex.ads 9:1 "::I"
+            │                   └──@0x7f5bc5e7b0e0 SgAssignInitializer transformation 0:0
+            │                       └──@0x7f5bc58d7090 SgIntVal transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

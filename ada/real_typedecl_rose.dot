@@ -1,0 +1,21 @@
+digraph "G./real_typedecl_rose.dot" {
+"0x7f929dc98390"[label="3:4\nSgTypedefDeclaration\nFloatT\n typedefBaseTypeContainsDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f929dc98390\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f929dc98390\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f929dc98390" -> "0x7f929dc98390__declaration__null"[label="declaration" dir=none ];
+"0x7f929dc98390__declaration__null"[label="" shape=diamond ];
+"0x7f929d9060a0"[label="8:9\nSgLongDoubleVal\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n lvalue = false\nchild_count:0\n0x7f929d9060a0\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f929d8d3010"[label="7:10\nSgAssignInitializer\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n lvalue = false\nchild_count:1\n0x7f929d8d3010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f929d8d3010" -> "0x7f929d9060a0"[label="operand_i" dir=both ];
+"0x7f929d7d5010"[label="6:11\nSgInitializedName\nIndianaPi\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f929d7d5010\nReal_Typedecl.ads:4:3 (physical line=4) (raw line:col=4:3)\nReal_Typedecl.ads:4:11 (physical line=4) (raw line:col=4:11)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f929d7d5010" -> "0x7f929d8d3010"[label="initptr" dir=both ];
+"0x7f929d61f010"[label="5:12\nSgVariableDeclaration\n isAssociatedWithDeclarationList = false \n variableDeclarationContainsBaseTypeDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f929d61f010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f929d61f010\nReal_Typedecl.ads:4:3 (physical line=4) (raw line:col=4:3)\nReal_Typedecl.ads:4:28 (physical line=4) (raw line:col=4:28)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f929d61f010" -> "0x7f929d61f010__baseTypeDefiningDeclaration__null"[label="baseTypeDefiningDeclaration" dir=none ];
+"0x7f929d61f010__baseTypeDefiningDeclaration__null"[label="" shape=diamond ];
+"0x7f929d61f010" -> "0x7f929d7d5010"[label="*[1]" dir=both ];
+"0x7f929e00c130"[label="2:13\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f929e00c130\nReal_Typedecl.ads:1:1 (physical line=1) (raw line:col=1:1)\nReal_Typedecl.ads:5:18 (physical line=5) (raw line:col=5:18)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f929e00c130" -> "0x7f929dc98390"[label="*[0]" dir=both ];
+"0x7f929e00c130" -> "0x7f929d61f010"[label="*[1]" dir=both ];
+"0x7f929daba010"[label="1:14\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f929daba010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f929daba010\nReal_Typedecl.ads:1:1 (physical line=1) (raw line:col=1:1)\nReal_Typedecl.ads:5:18 (physical line=5) (raw line:col=5:18)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f929daba010" -> "0x7f929e00c130"[label="definition" dir=both ];
+"0x7f92a8a88128"[label="0:15\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f92a8a88128\nreal_typedecl.ads:0:0 (physical line=0) (raw line:col=0:0)\nreal_typedecl.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f92a8a88128" -> "0x7f929daba010"[label="*[0]" dir=both ];
+}

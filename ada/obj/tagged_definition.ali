@@ -14,10 +14,10 @@ RV NO_IMPLEMENTATION_PRAGMAS
 U tagged_definition%s	tagged_definition.ads	e0b52ba0 NE OO PK
 
 D system.ads		20190518041255 4635ec04 system%s
-D tagged_definition.ads	20201007005003 e0b52ba0 tagged_definition%s
+D tagged_definition.ads	20201026231630 e0b52ba0 tagged_definition%s
 G a Z
 X 2 tagged_definition.ads
-1K9*Tagged_Definition 7l5 7e22
-3R9*Tagged_Record 5e14
-4i7*Component_1{integer}
+1K9*Tagged_Definition 5l5 5e22
+2R6*Tagged_Record 4e11
+3i1*Component_1{integer}
 

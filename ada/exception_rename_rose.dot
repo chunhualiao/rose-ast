@@ -1,0 +1,17 @@
+digraph "G./exception_rename_rose.dot" {
+"0x7f584c8ed010"[label="4:5\nSgInitializedName\nMyException\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f584c8ed010\nException_Rename.ads:2:3 (physical line=2) (raw line:col=2:3)\nException_Rename.ads:2:13 (physical line=2) (raw line:col=2:13)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f584c8ed010" -> "0x7f584c8ed010__initptr__null"[label="initptr" dir=none ];
+"0x7f584c8ed010__initptr__null"[label="" shape=diamond ];
+"0x7f584c737010"[label="3:6\nSgVariableDeclaration\n isAssociatedWithDeclarationList = false \n variableDeclarationContainsBaseTypeDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f584c737010\nException_Rename.ads:2:3 (physical line=2) (raw line:col=2:3)\nException_Rename.ads:2:26 (physical line=2) (raw line:col=2:26)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f584c737010" -> "0x7f584c737010__baseTypeDefiningDeclaration__null"[label="baseTypeDefiningDeclaration" dir=none ];
+"0x7f584c737010__baseTypeDefiningDeclaration__null"[label="" shape=diamond ];
+"0x7f584c737010" -> "0x7f584c8ed010"[label="*[1]" dir=both ];
+"0x7f584c59c010"[label="7:8\nSgAdaRenamingDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f584c59c010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7f584c59c010\nException_Rename.ads:3:3 (physical line=3) (raw line:col=3:3)\nException_Rename.ads:3:51 (physical line=3) (raw line:col=3:51)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f584cf84130"[label="2:9\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f584cf84130\nException_Rename.ads:1:1 (physical line=1) (raw line:col=1:1)\nException_Rename.ads:4:21 (physical line=4) (raw line:col=4:21)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f584cf84130" -> "0x7f584c737010"[label="*[0]" dir=both ];
+"0x7f584cf84130" -> "0x7f584c59c010"[label="*[1]" dir=both ];
+"0x7f584ca32010"[label="1:10\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f584ca32010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f584ca32010\nException_Rename.ads:1:1 (physical line=1) (raw line:col=1:1)\nException_Rename.ads:4:21 (physical line=4) (raw line:col=4:21)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f584ca32010" -> "0x7f584cf84130"[label="definition" dir=both ];
+"0x7f5857a00128"[label="0:11\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f5857a00128\nexception_rename.ads:0:0 (physical line=0) (raw line:col=0:0)\nexception_rename.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f5857a00128" -> "0x7f584ca32010"[label="*[0]" dir=both ];
+}

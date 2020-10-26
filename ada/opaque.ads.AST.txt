@@ -1,0 +1,22 @@
+└──@0x7f66985fc010 SgProject 
+    └──@0x1051f20 SgFileList 
+        └──@0x7f6698498010 SgSourceFile 
+            ├──@0x7f66a2e87128 SgGlobal opaque.ads 0:0
+            │   └──@0x7f6697eb9010 SgAdaPackageSpecDecl Opaque.ads 1:1
+            │       └──@0x7f669840b130 SgAdaPackageSpec Opaque.ads 1:1
+            │           ├──@0x7f6698097390 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           ├──@0x7f6697aa8010 SgVariableDeclaration Opaque.ads 6:3
+            │           │   ├── NULL 
+            │           │   └──@0x7f6697c5e010 SgInitializedName Opaque.ads 6:3 "::NIX"
+            │           │       └── NULL 
+            │           ├──@0x7f6698097710 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           └──@0x7f6697aa8390 SgVariableDeclaration Opaque.ads 12:4
+            │               ├── NULL 
+            │               └──@0x7f6697c5e218 SgInitializedName Opaque.ads 12:4 "::NIX"
+            │                   └──@0x7f6697a36010 SgAssignInitializer transformation 0:0
+            │                       └──@0x7f6697a69090 SgIntVal transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

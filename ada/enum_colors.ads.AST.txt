@@ -1,0 +1,11 @@
+└──@0x7f7dedf7c010 SgProject 
+    └──@0x1582f20 SgFileList 
+        └──@0x7f7dede18010 SgSourceFile 
+            ├──@0x7f7df8807128 SgGlobal enum_colors.ads 0:0
+            │   └──@0x7f7ded839010 SgAdaPackageSpecDecl enum_colors.ads 1:1
+            │       └──@0x7f7dedd8b130 SgAdaPackageSpec enum_colors.ads 1:1
+            │           └──@0x7f7deda17390 SgTypedefDeclaration transformation 0:0
+            │               └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

@@ -1,0 +1,15 @@
+digraph "G./minimal_rose.dot" {
+"0x7fe8ba301320"[label="2:3\nSgFunctionParameterList\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fe8ba301320\n definingDeclaration = (nil)\n!isForward\nisModified = false\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7fe8ba301320\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe8c5269010"[label="6:7\nSgNullStatement\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7fe8c5269010\nMinimal.adb:3:4 (physical line=3) (raw line:col=3:4)\nMinimal.adb:3:8 (physical line=3) (raw line:col=3:8)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe8b9df1010"[label="5:8\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fe8b9df1010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe8b9df1010" -> "0x7fe8c5269010"[label="*[0]" dir=both ];
+"0x7fe8b9e99010"[label="4:9\nSgFunctionDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fe8b9e99010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe8b9e99010" -> "0x7fe8b9df1010"[label="body" dir=both ];
+"0x7fe8ba002540"[label="1:10\nSgFunctionDeclaration\nMinimal\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fe8ba002010\n definingDeclaration = 0x7fe8ba002540\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:3\n0x7fe8ba002540\nMinimal.adb:1:1 (physical line=1) (raw line:col=1:1)\nMinimal.adb:4:4 (physical line=4) (raw line:col=4:4)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe8ba002540" -> "0x7fe8ba301320"[label="parameterList" dir=both ];
+"0x7fe8ba002540" -> "0x7fe8ba002540__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7fe8ba002540__decoratorList__null"[label="" shape=diamond ];
+"0x7fe8ba002540" -> "0x7fe8b9e99010"[label="definition" dir=both ];
+"0x7fe8c52ea128"[label="0:11\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fe8c52ea128\nminimal.adb:0:0 (physical line=0) (raw line:col=0:0)\nminimal.adb:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe8c52ea128" -> "0x7fe8ba002540"[label="*[0]" dir=both ];
+}

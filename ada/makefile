@@ -9,38 +9,69 @@ SHELL := /bin/bash
 #  opaque.ads
 #  parent-child.ads
 ADA_FILES = \
-  variable_declaration.ads \
-  constant_declaration.ads \
-  derived_record.ads      \
-  empty_package.ads       \
-  entry_declaration.ads   \
-  exception_declaration.ads \
-  gototest.ads \
-  nested_package.ads \
-  ordinary_type_declaration.ads \
-  package_with_body.ads \
-  selected_component.ads \
-  simple_expression_range.ads \
-  tagged_definition.ads \
-  task_type_declaration.ads \
-  task_with_body.ads \
-  test_unit.ads \
-  test.ads \
-  unit_2.ads
+all_modes.ads \
+case_function.ads \
+comm.ads \
+complex.ads \
+component_declaration.ads \
+constant_declaration.ads \
+constants.ads \
+derived_record.ads \
+empty_package.ads \
+entry_declaration.ads \
+enum_colors.ads \
+exception_declaration.ads \
+exception_rename.ads \
+function_declaration.ads \
+gototest.ads \
+mpi.ads \
+mpiuse.ads \
+named.ads \
+nested_package.ads \
+opaque.ads \
+ordinary_type_declaration.ads \
+package_with_body.ads \
+parameter_declaration.ads \
+parent.ads \
+parent-child.ads \
+pkgrename.ads \
+procedure_declaration.ads \
+real_typedecl.ads \
+selected_component.ads \
+sender.ads \
+simple_expression_range.ads \
+some_modes.ads \
+subtypes.ads \
+tagged_definition.ads \
+task_type_declaration.ads \
+task_with_body.ads \
+test.ads \
+test_unit.ads \
+unit_2.ads \
+unit_3.ads \
+variable_declaration.ads
 
 ADB_FILES = \
 accept_statement.adb \
+block_statement.adb \
 case_function.adb \
+case_statement.adb \
 choice_parameter_specification.adb \
+complex.adb \
+delay_relative.adb \
+delay_until.adb \
 entry_call.adb \
+exit_statement.adb \
 fib.adb \
 for_loop.adb \
 function_call.adb \
 function_declaration.adb \
+goto_loop.adb \
 gototest.adb \
 hello_world.adb \
 if_statement.adb \
 increment.adb \
+iterate_range.adb \
 loop_exit.adb \
 loop_statement.adb \
 minimal.adb \
@@ -95,7 +126,7 @@ $(ALL_FILES_DOT_PDF): %.dot.pdf:%.dot
 
 $(ALL_FILES_DOT_PNG): %.dot.png:%.dot
 	dot -Tpng $< -o $@
-
+all-txt: $(ADA_FILES_TXT)
 all: $(ADA_FILES_DOT) $(ADA_FILES_TXT) \
      $(ALL_FILES_DOT_PDF) $(ALL_FILES_DOT_PNG)
 

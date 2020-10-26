@@ -1,3 +1,3 @@
 package Test_Unit is
-type Range_Type is new Integer range 1 .. 10;
+subtype Range_Type is  Integer range 1 .. 10;
 end Test_Unit;

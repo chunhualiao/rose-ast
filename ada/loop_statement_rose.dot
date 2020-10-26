@@ -1,0 +1,19 @@
+digraph "G./loop_statement_rose.dot" {
+"0x7f4e9edc0320"[label="2:3\nSgFunctionParameterList\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f4e9edc0320\n definingDeclaration = (nil)\n!isForward\nisModified = false\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7f4e9edc0320\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f4ea9d28010"[label="8:9\nSgNullStatement\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7f4ea9d28010\nLoop_Statement.adb:4:7 (physical line=4) (raw line:col=4:7)\nLoop_Statement.adb:4:11 (physical line=4) (raw line:col=4:11)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f4e9e8b0168"[label="7:10\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f4e9e8b0168\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f4e9e8b0168" -> "0x7f4ea9d28010"[label="*[0]" dir=both ];
+"0x7f4e9e871010"[label="6:11\nSgAdaLoopStmt\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f4e9e871010\nLoop_Statement.adb:3:4 (physical line=3) (raw line:col=3:4)\nLoop_Statement.adb:5:12 (physical line=5) (raw line:col=5:12)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f4e9e871010" -> "0x7f4e9e8b0168"[label="body" dir=both ];
+"0x7f4e9e8b0010"[label="5:12\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f4e9e8b0010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f4e9e8b0010" -> "0x7f4e9e871010"[label="*[0]" dir=both ];
+"0x7f4e9e958010"[label="4:13\nSgFunctionDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f4e9e958010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f4e9e958010" -> "0x7f4e9e8b0010"[label="body" dir=both ];
+"0x7f4e9eac1540"[label="1:14\nSgFunctionDeclaration\nLoop_Statement\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f4e9eac1010\n definingDeclaration = 0x7f4e9eac1540\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:3\n0x7f4e9eac1540\nLoop_Statement.adb:1:1 (physical line=1) (raw line:col=1:1)\nLoop_Statement.adb:6:19 (physical line=6) (raw line:col=6:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f4e9eac1540" -> "0x7f4e9edc0320"[label="parameterList" dir=both ];
+"0x7f4e9eac1540" -> "0x7f4e9eac1540__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7f4e9eac1540__decoratorList__null"[label="" shape=diamond ];
+"0x7f4e9eac1540" -> "0x7f4e9e958010"[label="definition" dir=both ];
+"0x7f4ea9da9128"[label="0:15\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f4ea9da9128\nloop_statement.adb:0:0 (physical line=0) (raw line:col=0:0)\nloop_statement.adb:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f4ea9da9128" -> "0x7f4e9eac1540"[label="*[0]" dir=both ];
+}

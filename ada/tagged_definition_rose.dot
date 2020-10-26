@@ -1,0 +1,21 @@
+digraph "G./tagged_definition_rose.dot" {
+"0x7f8f3441b010"[label="6:7\nSgInitializedName\nComponent_1\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f8f3441b010\nTagged_Definition.ads:3:1 (physical line=3) (raw line:col=3:1)\nTagged_Definition.ads:3:11 (physical line=3) (raw line:col=3:11)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8f3441b010" -> "0x7f8f3441b010__initptr__null"[label="initptr" dir=none ];
+"0x7f8f3441b010__initptr__null"[label="" shape=diamond ];
+"0x7f8f34265010"[label="5:8\nSgVariableDeclaration\n isAssociatedWithDeclarationList = false \n variableDeclarationContainsBaseTypeDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f8f34265010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f8f34265010\nTagged_Definition.ads:3:1 (physical line=3) (raw line:col=3:1)\nTagged_Definition.ads:3:22 (physical line=3) (raw line:col=3:22)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8f34265010" -> "0x7f8f34265010__baseTypeDefiningDeclaration__null"[label="baseTypeDefiningDeclaration" dir=none ];
+"0x7f8f34265010__baseTypeDefiningDeclaration__null"[label="" shape=diamond ];
+"0x7f8f34265010" -> "0x7f8f3441b010"[label="*[1]" dir=both ];
+"0x7f8f34519010"[label="4:9\nSgClassDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f8f34519010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8f34519010" -> "0x7f8f34265010"[label="*[0]" dir=both ];
+"0x7f8f340b3388"[label="3:10\nSgClassDeclaration\nTagged_Record\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f8f340b3010\n definingDeclaration = 0x7f8f340b3388\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:2\n0x7f8f340b3388\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8f340b3388" -> "0x7f8f34519010"[label="definition" dir=both ];
+"0x7f8f340b3388" -> "0x7f8f340b3388__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7f8f340b3388__decoratorList__null"[label="" shape=diamond ];
+"0x7f8f34b4b130"[label="2:11\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f8f34b4b130\nTagged_Definition.ads:1:1 (physical line=1) (raw line:col=1:1)\nTagged_Definition.ads:5:22 (physical line=5) (raw line:col=5:22)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8f34b4b130" -> "0x7f8f340b3388"[label="*[0]" dir=both ];
+"0x7f8f345f9010"[label="1:12\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f8f345f9010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f8f345f9010\nTagged_Definition.ads:1:1 (physical line=1) (raw line:col=1:1)\nTagged_Definition.ads:5:22 (physical line=5) (raw line:col=5:22)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8f345f9010" -> "0x7f8f34b4b130"[label="definition" dir=both ];
+"0x7f8f3f5c7128"[label="0:13\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f8f3f5c7128\ntagged_definition.ads:0:0 (physical line=0) (raw line:col=0:0)\ntagged_definition.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f8f3f5c7128" -> "0x7f8f345f9010"[label="*[0]" dir=both ];
+}

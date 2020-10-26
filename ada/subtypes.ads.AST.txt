@@ -1,0 +1,11 @@
+└──@0x7f528aa49010 SgProject 
+    └──@0x1861f20 SgFileList 
+        └──@0x7f528a8e5010 SgSourceFile 
+            ├──@0x7f52952d4128 SgGlobal subtypes.ads 0:0
+            │   └──@0x7f528a306010 SgAdaPackageSpecDecl Subtypes.ads 1:1
+            │       └──@0x7f528a858130 SgAdaPackageSpec Subtypes.ads 1:1
+            │           └──@0x7f528a4e4390 SgTypedefDeclaration Subtypes.ads 3:3
+            │               └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

@@ -1,0 +1,11 @@
+digraph "G./ordinary_type_declaration_rose.dot" {
+"0x7f0ca3990390"[label="3:4\nSgTypedefDeclaration\nOrdinary_Type\n typedefBaseTypeContainsDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f0ca3990390\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f0ca3990390\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f0ca3990390" -> "0x7f0ca3990390__declaration__null"[label="declaration" dir=none ];
+"0x7f0ca3990390__declaration__null"[label="" shape=diamond ];
+"0x7f0ca3d04130"[label="2:5\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f0ca3d04130\nOrdinary_Type_Declaration.ads:1:1 (physical line=1) (raw line:col=1:1)\nOrdinary_Type_Declaration.ads:5:30 (physical line=5) (raw line:col=5:30)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f0ca3d04130" -> "0x7f0ca3990390"[label="*[0]" dir=both ];
+"0x7f0ca37b2010"[label="1:6\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f0ca37b2010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f0ca37b2010\nOrdinary_Type_Declaration.ads:1:1 (physical line=1) (raw line:col=1:1)\nOrdinary_Type_Declaration.ads:5:30 (physical line=5) (raw line:col=5:30)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f0ca37b2010" -> "0x7f0ca3d04130"[label="definition" dir=both ];
+"0x7f0cae780128"[label="0:7\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f0cae780128\nordinary_type_declaration.ads:0:0 (physical line=0) (raw line:col=0:0)\nordinary_type_declaration.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f0cae780128" -> "0x7f0ca37b2010"[label="*[0]" dir=both ];
+}

@@ -1,0 +1,21 @@
+digraph "G./task_with_body_rose.dot" {
+"0x7fc4f1e7e010"[label="4:5\nSgAdaTaskSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7fc4f1e7e010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4f1ce7010"[label="3:6\nSgAdaTaskTypeDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fc4f1ce7010\nTask_With_Body.ads:2:1 (physical line=2) (raw line:col=2:1)\nTask_With_Body.ads:2:24 (physical line=2) (raw line:col=2:24)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4f1ce7010" -> "0x7fc4f1e7e010"[label="definition" dir=both ];
+"0x7fc4f24a8130"[label="2:7\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fc4f24a8130\nTask_With_Body.ads:1:1 (physical line=1) (raw line:col=1:1)\nTask_With_Body.ads:3:19 (physical line=3) (raw line:col=3:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4f24a8130" -> "0x7fc4f1ce7010"[label="*[0]" dir=both ];
+"0x7fc4f1f56010"[label="1:8\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fc4f1f56010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fc4f1f56010\nTask_With_Body.ads:1:1 (physical line=1) (raw line:col=1:1)\nTask_With_Body.ads:3:19 (physical line=3) (raw line:col=3:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4f1f56010" -> "0x7fc4f24a8130"[label="definition" dir=both ];
+"0x7fc4fcea3010"[label="13:14\nSgNullStatement\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7fc4fcea3010\nTask_With_Body.adb:5:7 (physical line=5) (raw line:col=5:7)\nTask_With_Body.adb:5:11 (physical line=5) (raw line:col=5:11)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4f1a32010"[label="12:15\nSgAdaTaskBody\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fc4f1a32010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4f1a32010" -> "0x7fc4fcea3010"[label="*[0]" dir=both ];
+"0x7fc4f189b010"[label="11:16\nSgAdaTaskBodyDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fc4f189b010\nTask_With_Body.adb:3:4 (physical line=3) (raw line:col=3:4)\nTask_With_Body.adb:6:21 (physical line=6) (raw line:col=6:21)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4f189b010" -> "0x7fc4f1a32010"[label="definition" dir=both ];
+"0x7fc4f1c5a010"[label="10:17\nSgAdaPackageBody\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fc4f1c5a010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4f1c5a010" -> "0x7fc4f189b010"[label="*[0]" dir=both ];
+"0x7fc4f1abf010"[label="9:18\nSgAdaPackageBodyDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fc4f1abf010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4f1abf010" -> "0x7fc4f1c5a010"[label="definition" dir=both ];
+"0x7fc4fcf24128"[label="0:19\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7fc4fcf24128\ntask_with_body.adb:0:0 (physical line=0) (raw line:col=0:0)\ntask_with_body.adb:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fc4fcf24128" -> "0x7fc4f1f56010"[label="*[0]" dir=both ];
+"0x7fc4fcf24128" -> "0x7fc4f1abf010"[label="*[1]" dir=both ];
+}

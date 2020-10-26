@@ -1,0 +1,15 @@
+digraph "G./variable_declaration_rose.dot" {
+"0x7f6c8e5d7010"[label="4:5\nSgInitializedName\nThe_Variable\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f6c8e5d7010\nVariable_Declaration.ads:2:4 (physical line=2) (raw line:col=2:4)\nVariable_Declaration.ads:2:15 (physical line=2) (raw line:col=2:15)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6c8e5d7010" -> "0x7f6c8e5d7010__initptr__null"[label="initptr" dir=none ];
+"0x7f6c8e5d7010__initptr__null"[label="" shape=diamond ];
+"0x7f6c8e421010"[label="3:6\nSgVariableDeclaration\n isAssociatedWithDeclarationList = false \n variableDeclarationContainsBaseTypeDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f6c8e421010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f6c8e421010\nVariable_Declaration.ads:2:4 (physical line=2) (raw line:col=2:4)\nVariable_Declaration.ads:2:26 (physical line=2) (raw line:col=2:26)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6c8e421010" -> "0x7f6c8e421010__baseTypeDefiningDeclaration__null"[label="baseTypeDefiningDeclaration" dir=none ];
+"0x7f6c8e421010__baseTypeDefiningDeclaration__null"[label="" shape=diamond ];
+"0x7f6c8e421010" -> "0x7f6c8e5d7010"[label="*[1]" dir=both ];
+"0x7f6c8ec6e130"[label="2:7\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f6c8ec6e130\nVariable_Declaration.ads:1:1 (physical line=1) (raw line:col=1:1)\nVariable_Declaration.ads:3:25 (physical line=3) (raw line:col=3:25)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6c8ec6e130" -> "0x7f6c8e421010"[label="*[0]" dir=both ];
+"0x7f6c8e71c010"[label="1:8\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f6c8e71c010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f6c8e71c010\nVariable_Declaration.ads:1:1 (physical line=1) (raw line:col=1:1)\nVariable_Declaration.ads:3:25 (physical line=3) (raw line:col=3:25)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6c8e71c010" -> "0x7f6c8ec6e130"[label="definition" dir=both ];
+"0x7f6c996ea128"[label="0:9\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f6c996ea128\nvariable_declaration.ads:0:0 (physical line=0) (raw line:col=0:0)\nvariable_declaration.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6c996ea128" -> "0x7f6c8e71c010"[label="*[0]" dir=both ];
+}

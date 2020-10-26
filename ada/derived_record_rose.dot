@@ -1,0 +1,35 @@
+digraph "G./derived_record_rose.dot" {
+"0x7f32176fd010"[label="6:7\nSgInitializedName\nComponent_1\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f32176fd010\nDerived_Record.ads:4:7 (physical line=4) (raw line:col=4:7)\nDerived_Record.ads:4:17 (physical line=4) (raw line:col=4:17)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f32176fd010" -> "0x7f32176fd010__initptr__null"[label="initptr" dir=none ];
+"0x7f32176fd010__initptr__null"[label="" shape=diamond ];
+"0x7f3217547010"[label="5:8\nSgVariableDeclaration\n isAssociatedWithDeclarationList = false \n variableDeclarationContainsBaseTypeDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f3217547010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f3217547010\nDerived_Record.ads:4:7 (physical line=4) (raw line:col=4:7)\nDerived_Record.ads:4:28 (physical line=4) (raw line:col=4:28)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f3217547010" -> "0x7f3217547010__baseTypeDefiningDeclaration__null"[label="baseTypeDefiningDeclaration" dir=none ];
+"0x7f3217547010__baseTypeDefiningDeclaration__null"[label="" shape=diamond ];
+"0x7f3217547010" -> "0x7f32176fd010"[label="*[1]" dir=both ];
+"0x7f32177fb010"[label="4:9\nSgClassDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f32177fb010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f32177fb010" -> "0x7f3217547010"[label="*[0]" dir=both ];
+"0x7f3217395388"[label="3:10\nSgClassDeclaration\nTagged_Record\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f3217395010\n definingDeclaration = 0x7f3217395388\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:2\n0x7f3217395388\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f3217395388" -> "0x7f32177fb010"[label="definition" dir=both ];
+"0x7f3217395388" -> "0x7f3217395388__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7f3217395388__decoratorList__null"[label="" shape=diamond ];
+"0x7f32176fd218"[label="14:15\nSgInitializedName\nComponent_2\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f32176fd218\nDerived_Record.ads:8:7 (physical line=8) (raw line:col=8:7)\nDerived_Record.ads:8:17 (physical line=8) (raw line:col=8:17)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f32176fd218" -> "0x7f32176fd218__initptr__null"[label="initptr" dir=none ];
+"0x7f32176fd218__initptr__null"[label="" shape=diamond ];
+"0x7f3217547390"[label="13:16\nSgVariableDeclaration\n isAssociatedWithDeclarationList = false \n variableDeclarationContainsBaseTypeDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f3217547390\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f3217547390\nDerived_Record.ads:8:7 (physical line=8) (raw line:col=8:7)\nDerived_Record.ads:8:28 (physical line=8) (raw line:col=8:28)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f3217547390" -> "0x7f3217547390__baseTypeDefiningDeclaration__null"[label="baseTypeDefiningDeclaration" dir=none ];
+"0x7f3217547390__baseTypeDefiningDeclaration__null"[label="" shape=diamond ];
+"0x7f3217547390" -> "0x7f32176fd218"[label="*[1]" dir=both ];
+"0x7f32177fb148"[label="12:17\nSgClassDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f32177fb148\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f32177fb148" -> "0x7f3217547390"[label="*[0]" dir=both ];
+"0x7f3217395a78"[label="11:18\nSgClassDeclaration\nDerived_Record\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f3217395700\n definingDeclaration = 0x7f3217395a78\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:2\n0x7f3217395a78\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f3217395a78" -> "0x7f32177fb148"[label="definition" dir=both ];
+"0x7f3217395a78" -> "0x7f3217395a78__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7f3217395a78__decoratorList__null"[label="" shape=diamond ];
+"0x7f3217e2d130"[label="2:19\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f3217e2d130\nDerived_Record.ads:1:1 (physical line=1) (raw line:col=1:1)\nDerived_Record.ads:11:19 (physical line=11) (raw line:col=11:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f3217e2d130" -> "0x7f3217395388"[label="*[0]" dir=both ];
+"0x7f3217e2d130" -> "0x7f3217395a78"[label="*[1]" dir=both ];
+"0x7f32178db010"[label="1:20\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f32178db010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f32178db010\nDerived_Record.ads:1:1 (physical line=1) (raw line:col=1:1)\nDerived_Record.ads:11:19 (physical line=11) (raw line:col=11:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f32178db010" -> "0x7f3217e2d130"[label="definition" dir=both ];
+"0x7f32228a9128"[label="0:21\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f32228a9128\nderived_record.ads:0:0 (physical line=0) (raw line:col=0:0)\nderived_record.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f32228a9128" -> "0x7f32178db010"[label="*[0]" dir=both ];
+}

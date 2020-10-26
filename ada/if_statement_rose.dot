@@ -1,0 +1,27 @@
+digraph "G./if_statement_rose.dot" {
+"0x7fe7c68e6320"[label="2:3\nSgFunctionParameterList\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fe7c68e6320\n definingDeclaration = (nil)\n!isForward\nisModified = false\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7fe7c68e6320\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c63a7010"[label="8:9\nSgBoolValExp\nisModified = true\ncontainsTransformation = false\nisTransformation = false\n lvalue = false\nchild_count:0\n0x7fe7c63a7010\nIf_Statement.adb:3:7 (physical line=3) (raw line:col=3:7)\nIf_Statement.adb:3:10 (physical line=3) (raw line:col=3:10)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c6378010"[label="7:10\nSgExprStatement\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fe7c6378010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c6378010" -> "0x7fe7c63a7010"[label="expression" dir=both ];
+"0x7fe7d184e010"[label="12:13\nSgNullStatement\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7fe7d184e010\nIf_Statement.adb:4:7 (physical line=4) (raw line:col=4:7)\nIf_Statement.adb:4:11 (physical line=4) (raw line:col=4:11)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c63d6168"[label="11:14\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fe7c63d6168\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c63d6168" -> "0x7fe7d184e010"[label="*[0]" dir=both ];
+"0x7fe7d184e068"[label="16:17\nSgNullStatement\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7fe7d184e068\nIf_Statement.adb:6:7 (physical line=6) (raw line:col=6:7)\nIf_Statement.adb:6:11 (physical line=6) (raw line:col=6:11)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c63d62c0"[label="15:18\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fe7c63d62c0\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c63d62c0" -> "0x7fe7d184e068"[label="*[0]" dir=both ];
+"0x7fe7c62d0010"[label="6:19\nSgIfStmt\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:3\n0x7fe7c62d0010\nIf_Statement.adb:3:4 (physical line=3) (raw line:col=3:4)\nIf_Statement.adb:7:10 (physical line=7) (raw line:col=7:10)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c62d0010" -> "0x7fe7c6378010"[label="conditional" dir=both ];
+"0x7fe7c62d0010" -> "0x7fe7c63d6168"[label="true_body" dir=both ];
+"0x7fe7c62d0010" -> "0x7fe7c63d62c0"[label="false_body" dir=both ];
+"0x7fe7c63d6010"[label="5:20\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fe7c63d6010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c63d6010" -> "0x7fe7c62d0010"[label="*[0]" dir=both ];
+"0x7fe7c647e010"[label="4:21\nSgFunctionDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fe7c647e010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c647e010" -> "0x7fe7c63d6010"[label="body" dir=both ];
+"0x7fe7c65e7540"[label="1:22\nSgFunctionDeclaration\nIf_Statement\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fe7c65e7010\n definingDeclaration = 0x7fe7c65e7540\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:3\n0x7fe7c65e7540\nIf_Statement.adb:1:1 (physical line=1) (raw line:col=1:1)\nIf_Statement.adb:8:17 (physical line=8) (raw line:col=8:17)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7c65e7540" -> "0x7fe7c68e6320"[label="parameterList" dir=both ];
+"0x7fe7c65e7540" -> "0x7fe7c65e7540__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7fe7c65e7540__decoratorList__null"[label="" shape=diamond ];
+"0x7fe7c65e7540" -> "0x7fe7c647e010"[label="definition" dir=both ];
+"0x7fe7d18cf128"[label="0:23\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fe7d18cf128\nif_statement.adb:0:0 (physical line=0) (raw line:col=0:0)\nif_statement.adb:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fe7d18cf128" -> "0x7fe7c65e7540"[label="*[0]" dir=both ];
+}

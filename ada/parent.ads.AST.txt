@@ -1,0 +1,13 @@
+└──@0x7ff1802f3010 SgProject 
+    └──@0x123df20 SgFileList 
+        └──@0x7ff18018f010 SgSourceFile 
+            ├──@0x7ff18ab7e128 SgGlobal parent.ads 0:0
+            │   └──@0x7ff17fbb0010 SgAdaPackageSpecDecl Parent.ads 1:1
+            │       └──@0x7ff180102130 SgAdaPackageSpec Parent.ads 1:1
+            │           └──@0x7ff17f8b5010 SgVariableDeclaration Parent.ads 2:3
+            │               ├── NULL 
+            │               └──@0x7ff17fa6b010 SgInitializedName Parent.ads 2:3 "::Usage_Error"
+            │                   └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

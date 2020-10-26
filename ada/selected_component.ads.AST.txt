@@ -1,12 +1,12 @@
-└──@0x7f3f4c603010 SgProject 
-    └──@0x1244270 SgFileList 
-        └──@0x7f3f4c4ab010 SgSourceFile 
-            ├──@0x7f3f57ee1128 SgGlobal selected_component.ads 0:0
-            │   └──@0x7f3f4bf07010 SgAdaPackageSpecDecl Selected_Component.ads 1:1
-            │       └──@0x7f3f4c41e130 SgAdaPackageSpec transformation 0:0
-            │           └──@0x7f3f4bc0c010 SgVariableDeclaration transformation 0:0
+└──@0x7fdbce3d7010 SgProject 
+    └──@0xb60f40 SgFileList 
+        └──@0x7fdbce273010 SgSourceFile 
+            ├──@0x7fdbd8c62128 SgGlobal selected_component.ads 0:0
+            │   └──@0x7fdbcdc94010 SgAdaPackageSpecDecl Selected_Component.ads 1:1
+            │       └──@0x7fdbce1e6130 SgAdaPackageSpec Selected_Component.ads 1:1
+            │           └──@0x7fdbcd999010 SgVariableDeclaration Selected_Component.ads 2:4
             │               ├── NULL 
-            │               └──@0x7f3f4bdc2010 SgInitializedName transformation 0:0 "::X"
+            │               └──@0x7fdbcdb4f010 SgInitializedName Selected_Component.ads 2:4 "::X"
             │                   └── NULL 
             ├── NULL 
             ├── NULL 

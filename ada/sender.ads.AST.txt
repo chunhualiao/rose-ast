@@ -1,0 +1,17 @@
+└──@0x7f7826b2e010 SgProject 
+    └──@0x1ce6f20 SgFileList 
+        └──@0x7f78269ca010 SgSourceFile 
+            ├──@0x7f78313b9128 SgGlobal sender.ads 0:0
+            │   ├──@0x7f7825f5e010 SgImportStatement Sender.ads 1:6
+            │   └──@0x7f7825dc3010 SgAdaPackageSpecDecl Sender.ads 3:1
+            │       └──@0x7f782693d130 SgAdaPackageSpec Sender.ads 3:1
+            │           └──@0x7f78263d0390 SgVariableDeclaration Sender.ads 5:3
+            │               ├── NULL 
+            │               └──@0x7f78262d2218 SgInitializedName Sender.ads 5:3 "::XFATAL"
+            │                   └──@0x7f7825be8010 SgAssignInitializer transformation 0:0
+            │                       └──@0x7f7825c1b090 SgCastExp transformation 0:0
+            │                           └──@0x7f7825c99078 SgMinusOp transformation 0:0
+            │                               └──@0x7f7825c5a090 SgIntVal transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

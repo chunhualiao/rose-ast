@@ -1,0 +1,11 @@
+digraph "G./pkgrename_rose.dot" {
+"0x7fa71ec9d010"[label="1:2\nSgImportStatement\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7fa71ec9d010\npkgrename.ads:1:6 (physical line=1) (raw line:col=1:6)\npkgrename.ads:1:17 (physical line=1) (raw line:col=1:17)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fa71e967010"[label="5:6\nSgAdaRenamingDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fa71e967010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:0\n0x7fa71e967010\npkgrename.ads:5:3 (physical line=5) (raw line:col=5:3)\npkgrename.ads:5:34 (physical line=5) (raw line:col=5:34)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fa71f6b3130"[label="4:7\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fa71f6b3130\npkgrename.ads:3:1 (physical line=3) (raw line:col=3:1)\npkgrename.ads:7:14 (physical line=7) (raw line:col=7:14)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fa71f6b3130" -> "0x7fa71e967010"[label="*[0]" dir=both ];
+"0x7fa71eb02010"[label="3:8\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fa71eb02010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fa71eb02010\npkgrename.ads:3:1 (physical line=3) (raw line:col=3:1)\npkgrename.ads:7:14 (physical line=7) (raw line:col=7:14)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fa71eb02010" -> "0x7fa71f6b3130"[label="definition" dir=both ];
+"0x7fa72a12f128"[label="0:9\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7fa72a12f128\npkgrename.ads:0:0 (physical line=0) (raw line:col=0:0)\npkgrename.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fa72a12f128" -> "0x7fa71ec9d010"[label="*[0]" dir=both ];
+"0x7fa72a12f128" -> "0x7fa71eb02010"[label="*[1]" dir=both ];
+}

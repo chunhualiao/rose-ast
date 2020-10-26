@@ -1,0 +1,16 @@
+└──@0x7f85def6b010 SgProject 
+    └──@0xb88f50 SgFileList 
+        └──@0x7f85dee07010 SgSourceFile 
+            ├──@0x7f85e97f6128 SgGlobal component_declaration.ads 0:0
+            │   └──@0x7f85de828010 SgAdaPackageSpecDecl Component_Declaration.ads 1:1
+            │       └──@0x7f85ded7a130 SgAdaPackageSpec Component_Declaration.ads 1:1
+            │           └──@0x7f85de2e2388 SgClassDeclaration transformation 0:0
+            │               ├──@0x7f85de748010 SgClassDefinition transformation 0:0
+            │               │   └──@0x7f85de494010 SgVariableDeclaration transformation 0:0
+            │               │       ├── NULL 
+            │               │       └──@0x7f85de64a010 SgInitializedName transformation 0:0 "::The_Record::The_Component"
+            │               │           └── NULL 
+            │               └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

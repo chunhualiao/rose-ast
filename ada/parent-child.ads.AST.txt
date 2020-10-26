@@ -1,0 +1,19 @@
+└──@0x7fb391622010 SgProject 
+    └──@0x188af40 SgFileList 
+        └──@0x7fb3914be010 SgSourceFile 
+            ├──@0x7fb39bead128 SgGlobal parent-child.ads 0:0
+            │   ├──@0x7fb390edf010 SgAdaPackageSpecDecl Parent.ads 1:1
+            │   │   └──@0x7fb391431130 SgAdaPackageSpec Parent.ads 1:1
+            │   │       └──@0x7fb390be4010 SgVariableDeclaration Parent.ads 2:3
+            │   │           ├── NULL 
+            │   │           └──@0x7fb390d9a010 SgInitializedName Parent.ads 2:3 "::Usage_Error"
+            │   │               └── NULL 
+            │   └──@0x7fb390edf358 SgAdaPackageSpecDecl Parent.Child.ads 1:1
+            │       └──@0x7fb391431250 SgAdaPackageSpec Parent.Child.ads 1:1
+            │           ├──@0x7fb3910bd390 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           └──@0x7fb3910bd710 SgTypedefDeclaration transformation 0:0
+            │               └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

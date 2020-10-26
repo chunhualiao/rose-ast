@@ -1,0 +1,33 @@
+└──@0x7f2aa8df8010 SgProject 
+    └──@0x1522f20 SgFileList 
+        └──@0x7f2aa8c94010 SgSourceFile 
+            ├──@0x7f2ab3683128 SgGlobal mpi.ads 0:0
+            │   ├──@0x7f2aa8120010 SgImportStatement MPI.ads 3:6
+            │   ├──@0x7f2aa8120320 SgImportStatement MPI.ads 4:6
+            │   ├──@0x7f2aa8120630 SgImportStatement MPI.ads 5:6
+            │   └──@0x7f2aa7f85010 SgAdaPackageSpecDecl MPI.ads 7:1
+            │       └──@0x7f2aa8c07130 SgAdaPackageSpec MPI.ads 7:1
+            │           ├──@0x7f2aa7dea010 SgAdaRenamingDecl MPI.ads 9:4
+            │           ├──@0x7f2aa878b390 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           ├──@0x7f2aa878b710 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           ├──@0x7f2aa8592a90 SgVariableDeclaration MPI.ads 15:4
+            │           │   ├── NULL 
+            │           │   └──@0x7f2aa8494628 SgInitializedName MPI.ads 15:4 "::COMM_WORLD"
+            │           │       └── NULL 
+            │           ├──@0x7f2aa878ba90 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           ├──@0x7f2aa878be10 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           ├──@0x7f2aa878c190 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           ├──@0x7f2aa878c510 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           ├──@0x7f2aa878c890 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           └──@0x7f2aa878cc10 SgTypedefDeclaration MPI.ads 31:4
+            │               └── NULL 
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

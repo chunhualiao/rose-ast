@@ -1,0 +1,25 @@
+digraph "G./increment_rose.dot" {
+"0x7f61899de218"[label="3:4\nSgInitializedName\nI\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f61899de218\nIncrement.adb:2:21 (physical line=2) (raw line:col=2:21)\nIncrement.adb:2:21 (physical line=2) (raw line:col=2:21)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f61899de218" -> "0x7f61899de218__initptr__null"[label="initptr" dir=none ];
+"0x7f61899de218__initptr__null"[label="" shape=diamond ];
+"0x7f6189eab320"[label="2:5\nSgFunctionParameterList\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f6189eab320\n definingDeclaration = (nil)\n!isForward\nisModified = false\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f6189eab320\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6189eab320" -> "0x7f61899de218"[label="*[0]" dir=both ];
+"0x7f618967d010"[label="10:11\nSgVarRefExp\nisModified = true\ncontainsTransformation = false\nisTransformation = false\n name = I\n lvalue = false\nchild_count:0\n0x7f618967d010\nIncrement.adb:4:10 (physical line=4) (raw line:col=4:10)\nIncrement.adb:4:10 (physical line=4) (raw line:col=4:10)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f618963e010"[label="12:13\nSgIntVal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\n value = 1\n lvalue = false\nchild_count:0\n0x7f618963e010\nIncrement.adb:4:14 (physical line=4) (raw line:col=4:14)\nIncrement.adb:4:14 (physical line=4) (raw line:col=4:14)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f61896b0010"[label="9:14\nSgAddOp\nisModified = true\ncontainsTransformation = false\nisTransformation = false\n lvalue = false\nchild_count:2\n0x7f61896b0010\nIncrement.adb:4:10 (physical line=4) (raw line:col=4:10)\nIncrement.adb:4:14 (physical line=4) (raw line:col=4:14)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f61896b0010" -> "0x7f618967d010"[label="lhs_operand_i" dir=both ];
+"0x7f61896b0010" -> "0x7f618963e010"[label="rhs_operand_i" dir=both ];
+"0x7f618960f010"[label="8:15\nSgReturnStmt\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f618960f010\nIncrement.adb:4:3 (physical line=4) (raw line:col=4:3)\nIncrement.adb:4:15 (physical line=4) (raw line:col=4:15)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f618960f010" -> "0x7f61896b0010"[label="expression" dir=both ];
+"0x7f61896e7010"[label="7:16\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f61896e7010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f61896e7010" -> "0x7f618960f010"[label="*[0]" dir=both ];
+"0x7f618978f010"[label="6:17\nSgFunctionDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f618978f010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f618978f010" -> "0x7f61896e7010"[label="body" dir=both ];
+"0x7f6189bac540"[label="1:18\nSgFunctionDeclaration\nIncrement\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f6189bac010\n definingDeclaration = 0x7f6189bac540\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:3\n0x7f6189bac540\nIncrement.adb:2:1 (physical line=2) (raw line:col=2:1)\nIncrement.adb:5:14 (physical line=5) (raw line:col=5:14)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6189bac540" -> "0x7f6189eab320"[label="parameterList" dir=both ];
+"0x7f6189bac540" -> "0x7f6189bac540__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7f6189bac540__decoratorList__null"[label="" shape=diamond ];
+"0x7f6189bac540" -> "0x7f618978f010"[label="definition" dir=both ];
+"0x7f6194e5d128"[label="0:19\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f6194e5d128\nincrement.adb:0:0 (physical line=0) (raw line:col=0:0)\nincrement.adb:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f6194e5d128" -> "0x7f6189bac540"[label="*[0]" dir=both ];
+}

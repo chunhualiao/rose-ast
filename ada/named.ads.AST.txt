@@ -1,0 +1,14 @@
+└──@0x7fbb37763010 SgProject 
+    └──@0x196ef20 SgFileList 
+        └──@0x7fbb375ff010 SgSourceFile 
+            ├──@0x7fbb41fee128 SgGlobal named.ads 0:0
+            │   └──@0x7fbb37020010 SgAdaPackageSpecDecl Named.ads 1:1
+            │       └──@0x7fbb37572130 SgAdaPackageSpec Named.ads 1:1
+            │           └──@0x7fbb36bf3010 SgVariableDeclaration Named.ads 2:3
+            │               ├── NULL 
+            │               └──@0x7fbb36da9010 SgInitializedName Named.ads 2:3 "::XYZ"
+            │                   └──@0x7fbb36ea7010 SgAssignInitializer transformation 0:0
+            │                       └──@0x7fbb36eda090 SgIntVal transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

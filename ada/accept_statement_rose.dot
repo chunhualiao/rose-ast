@@ -1,0 +1,17 @@
+digraph "G./accept_statement_rose.dot" {
+"0x7fdcd9061320"[label="2:3\nSgFunctionParameterList\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fdcd9061320\n definingDeclaration = (nil)\n!isForward\nisModified = false\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7fdcd9061320\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fdcd8ac0010"[label="7:8\nSgAdaTaskSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7fdcd8ac0010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fdcd8929010"[label="6:9\nSgAdaTaskTypeDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = (nil)\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fdcd8929010\nAccept_Statement.adb:3:4 (physical line=3) (raw line:col=3:4)\nAccept_Statement.adb:5:21 (physical line=5) (raw line:col=5:21)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fdcd8929010" -> "0x7fdcd8ac0010"[label="definition" dir=both ];
+"0x7fdcd8b51010"[label="5:10\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fdcd8b51010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fdcd8b51010" -> "0x7fdcd8929010"[label="*[0]" dir=both ];
+"0x7fdcd8bf9010"[label="4:11\nSgFunctionDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7fdcd8bf9010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fdcd8bf9010" -> "0x7fdcd8b51010"[label="body" dir=both ];
+"0x7fdcd8d62540"[label="1:12\nSgFunctionDeclaration\nAccept_Statement\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7fdcd8d62010\n definingDeclaration = 0x7fdcd8d62540\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:3\n0x7fdcd8d62540\nAccept_Statement.adb:1:1 (physical line=1) (raw line:col=1:1)\nAccept_Statement.adb:17:21 (physical line=17) (raw line:col=17:21)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fdcd8d62540" -> "0x7fdcd9061320"[label="parameterList" dir=both ];
+"0x7fdcd8d62540" -> "0x7fdcd8d62540__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7fdcd8d62540__decoratorList__null"[label="" shape=diamond ];
+"0x7fdcd8d62540" -> "0x7fdcd8bf9010"[label="definition" dir=both ];
+"0x7fdce404a128"[label="0:13\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7fdce404a128\naccept_statement.adb:0:0 (physical line=0) (raw line:col=0:0)\naccept_statement.adb:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7fdce404a128" -> "0x7fdcd8d62540"[label="*[0]" dir=both ];
+}

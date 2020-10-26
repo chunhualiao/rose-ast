@@ -13,7 +13,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 
 U exception_declaration%s  exception_declaration.ads  b26a210a NE OO PK
 
-D exception_declaration.ads  20201007005003 b26a210a exception_declaration%s
+D exception_declaration.ads  20201026231221 b26a210a exception_declaration%s
 D system.ads		20190518041255 4635ec04 system%s
 G a Z
 X 1 exception_declaration.ads

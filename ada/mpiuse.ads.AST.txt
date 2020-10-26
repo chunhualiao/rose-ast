@@ -1,0 +1,43 @@
+└──@0x7fd9b053e010 SgProject 
+    └──@0x1222f20 SgFileList 
+        └──@0x7fd9b03da010 SgSourceFile 
+            ├──@0x7fd9badc9128 SgGlobal mpiuse.ads 0:0
+            │   ├──@0x7fd9af866010 SgImportStatement MPI.ads 3:6
+            │   ├──@0x7fd9af866320 SgImportStatement MPI.ads 4:6
+            │   ├──@0x7fd9af866630 SgImportStatement MPI.ads 5:6
+            │   ├──@0x7fd9af6cb010 SgAdaPackageSpecDecl MPI.ads 7:1
+            │   │   └──@0x7fd9b034d130 SgAdaPackageSpec MPI.ads 7:1
+            │   │       ├──@0x7fd9af530010 SgAdaRenamingDecl MPI.ads 9:4
+            │   │       ├──@0x7fd9afed1390 SgTypedefDeclaration transformation 0:0
+            │   │       │   └── NULL 
+            │   │       ├──@0x7fd9afed1710 SgTypedefDeclaration transformation 0:0
+            │   │       │   └── NULL 
+            │   │       ├──@0x7fd9afcd8a90 SgVariableDeclaration MPI.ads 15:4
+            │   │       │   ├── NULL 
+            │   │       │   └──@0x7fd9afbda628 SgInitializedName MPI.ads 15:4 "::COMM_WORLD"
+            │   │       │       └── NULL 
+            │   │       ├──@0x7fd9afed1a90 SgTypedefDeclaration transformation 0:0
+            │   │       │   └── NULL 
+            │   │       ├──@0x7fd9afed1e10 SgTypedefDeclaration transformation 0:0
+            │   │       │   └── NULL 
+            │   │       ├──@0x7fd9afed2190 SgTypedefDeclaration transformation 0:0
+            │   │       │   └── NULL 
+            │   │       ├──@0x7fd9afed2510 SgTypedefDeclaration transformation 0:0
+            │   │       │   └── NULL 
+            │   │       ├──@0x7fd9afed2890 SgTypedefDeclaration transformation 0:0
+            │   │       │   └── NULL 
+            │   │       └──@0x7fd9afed2c10 SgTypedefDeclaration MPI.ads 31:4
+            │   │           └── NULL 
+            │   ├──@0x7fd9af866940 SgImportStatement MPIUse.ads 1:6
+            │   └──@0x7fd9af6cb358 SgAdaPackageSpecDecl MPIUse.ads 3:1
+            │       └──@0x7fd9b034d250 SgAdaPackageSpec MPIUse.ads 3:1
+            │           └──@0x7fd9afcd9190 SgVariableDeclaration MPIUse.ads 5:3
+            │               ├── NULL 
+            │               └──@0x7fd9afbdaa38 SgInitializedName MPIUse.ads 5:3 "::flag"
+            │                   └──@0x7fd9af281010 SgAssignInitializer transformation 0:0
+            │                       └──@0x7fd9af2b4090 SgCastExp transformation 0:0
+            │                           └──@0x7fd9af332078 SgMinusOp transformation 0:0
+            │                               └──@0x7fd9af2f3090 SgIntVal transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

@@ -13,10 +13,10 @@ RV NO_IMPLEMENTATION_PRAGMAS
 
 U constant_declaration%s  constant_declaration.ads  90a60035 NE OO PK
 
-D constant_declaration.ads  20201007011047 90a60035 constant_declaration%s
+D constant_declaration.ads  20201026231221 90a60035 constant_declaration%s
 D system.ads		20190518041255 4635ec04 system%s
 G a Z
 X 1 constant_declaration.ads
 1K9*Constant_Declaration 3l5 3e25
-2i1*The_Constant{integer}
+2i4*The_Constant{integer}
 

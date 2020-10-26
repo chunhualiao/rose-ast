@@ -10,15 +10,21 @@ P NO FX
 
 RN
 RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U gototest%b		gototest.adb		4d217b7b NE OO PK
 
 U gototest%s		gototest.ads		703655f3 NE OO PK
 
-D gototest.ads		20201007005003 703655f3 gototest%s
+D gototest.ads		20201026231221 703655f3 gototest%s
+D gototest.adb		20201026231216 3d172e88 gototest%b
 D system.ads		20190518041255 4635ec04 system%s
 G a Z
 X 1 gototest.ads
-1K9*GotoTest 3l5 3e13
-2U13*P 2>15 2>17
-2i15 x{integer}
-2i17 y{integer}
+1K9*GotoTest 3l5 3e13 2|1b14 10l5 10t13
+2U13*P 2>15 2>17 2|2b13 9l7 9t8
+2i15 x{integer} 2|2b15 4r8
+2i17 y{integer} 2|2b17 4r12
+X 2 gototest.adb
+8L7 TheEnd 5r12
 

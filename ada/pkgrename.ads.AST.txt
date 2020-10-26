@@ -1,0 +1,11 @@
+└──@0x7fa71f8a4010 SgProject 
+    └──@0x1601f20 SgFileList 
+        └──@0x7fa71f740010 SgSourceFile 
+            ├──@0x7fa72a12f128 SgGlobal pkgrename.ads 0:0
+            │   ├──@0x7fa71ec9d010 SgImportStatement pkgrename.ads 1:6
+            │   └──@0x7fa71eb02010 SgAdaPackageSpecDecl pkgrename.ads 3:1
+            │       └──@0x7fa71f6b3130 SgAdaPackageSpec pkgrename.ads 3:1
+            │           └──@0x7fa71e967010 SgAdaRenamingDecl pkgrename.ads 5:3
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

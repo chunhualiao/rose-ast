@@ -1,2 +1,0 @@
-unit_2.ads:2:09: package "Unit_2" does not allow a body
-unit_2.ads:2:09: remove incorrect body in file "unit_2.adb"

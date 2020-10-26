@@ -1,0 +1,17 @@
+digraph "G./delay_relative_rose.dot" {
+"0x7f1ffe8a8320"[label="2:3\nSgFunctionParameterList\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f1ffe8a8320\n definingDeclaration = (nil)\n!isForward\nisModified = false\ncontainsTransformation = false\nisTransformation = true\nchild_count:0\n0x7f1ffe8a8320\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f1ffe351010"[label="7:8\nSgLongDoubleVal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\n lvalue = false\nchild_count:0\n0x7f1ffe351010\nDelay_Relative.adb:3:9 (physical line=3) (raw line:col=3:9)\nDelay_Relative.adb:3:12 (physical line=3) (raw line:col=3:12)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f1ffe31e010"[label="6:9\nSgAdaDelayStmt\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f1ffe31e010\nDelay_Relative.adb:3:3 (physical line=3) (raw line:col=3:3)\nDelay_Relative.adb:3:13 (physical line=3) (raw line:col=3:13)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f1ffe31e010" -> "0x7f1ffe351010"[label="time" dir=both ];
+"0x7f1ffe398010"[label="5:10\nSgBasicBlock\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f1ffe398010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f1ffe398010" -> "0x7f1ffe31e010"[label="*[0]" dir=both ];
+"0x7f1ffe440010"[label="4:11\nSgFunctionDefinition\nisModified = true\ncontainsTransformation = false\nisTransformation = true\nchild_count:1\n0x7f1ffe440010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f1ffe440010" -> "0x7f1ffe398010"[label="body" dir=both ];
+"0x7f1ffe5a9540"[label="1:12\nSgFunctionDeclaration\nDelay_Relative\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f1ffe5a9010\n definingDeclaration = 0x7f1ffe5a9540\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:3\n0x7f1ffe5a9540\nDelay_Relative.adb:1:1 (physical line=1) (raw line:col=1:1)\nDelay_Relative.adb:4:19 (physical line=4) (raw line:col=4:19)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f1ffe5a9540" -> "0x7f1ffe8a8320"[label="parameterList" dir=both ];
+"0x7f1ffe5a9540" -> "0x7f1ffe5a9540__decoratorList__null"[label="decoratorList" dir=none ];
+"0x7f1ffe5a9540__decoratorList__null"[label="" shape=diamond ];
+"0x7f1ffe5a9540" -> "0x7f1ffe440010"[label="definition" dir=both ];
+"0x7f2009891128"[label="0:13\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f2009891128\ndelay_relative.adb:0:0 (physical line=0) (raw line:col=0:0)\ndelay_relative.adb:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f2009891128" -> "0x7f1ffe5a9540"[label="*[0]" dir=both ];
+}

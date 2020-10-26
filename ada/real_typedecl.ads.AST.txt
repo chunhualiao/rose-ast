@@ -1,0 +1,16 @@
+└──@0x7f929e1fd010 SgProject 
+    └──@0x1babf40 SgFileList 
+        └──@0x7f929e099010 SgSourceFile 
+            ├──@0x7f92a8a88128 SgGlobal real_typedecl.ads 0:0
+            │   └──@0x7f929daba010 SgAdaPackageSpecDecl Real_Typedecl.ads 1:1
+            │       └──@0x7f929e00c130 SgAdaPackageSpec Real_Typedecl.ads 1:1
+            │           ├──@0x7f929dc98390 SgTypedefDeclaration transformation 0:0
+            │           │   └── NULL 
+            │           └──@0x7f929d61f010 SgVariableDeclaration Real_Typedecl.ads 4:3
+            │               ├── NULL 
+            │               └──@0x7f929d7d5010 SgInitializedName Real_Typedecl.ads 4:3 "::IndianaPi"
+            │                   └──@0x7f929d8d3010 SgAssignInitializer transformation 0:0
+            │                       └──@0x7f929d9060a0 SgLongDoubleVal transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 

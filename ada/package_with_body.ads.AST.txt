@@ -1,9 +1,17 @@
-└──@0x7f501c3ae010 SgProject 
-    └──@0x1a1b270 SgFileList 
-        └──@0x7f501c256010 SgSourceFile 
-            ├──@0x7f5027c8c128 SgGlobal package_with_body.ads 0:0
-            │   └──@0x7f501bcb2010 SgAdaPackageSpecDecl Package_With_Body.ads 1:1
-            │       └──@0x7f501c1c9130 SgAdaPackageSpec transformation 0:0
+└──@0x7fdd95e0e010 SgProject 
+    └──@0x19f0f40 SgFileList 
+        └──@0x7fdd95caa010 SgSourceFile 
+            ├──@0x7fdda0699128 SgGlobal package_with_body.ads 0:0
+            │   ├──@0x7fdd956cb010 SgAdaPackageSpecDecl Package_With_Body.ads 1:1
+            │   │   └──@0x7fdd95c1d130 SgAdaPackageSpec Package_With_Body.ads 1:1
+            │   └──@0x7fdd9545c010 SgAdaPackageBodyDecl transformation 0:0
+            │       └──@0x7fdd955f7010 SgAdaPackageBody transformation 0:0
+            │           └──@0x7fdd94fa7540 SgFunctionDeclaration transformation 0:0 "::Procedure_To_Require_Body"
+            │               ├──@0x7fdd952a6320 SgFunctionParameterList transformation 0:0
+            │               ├── NULL 
+            │               └──@0x7fdd94e85010 SgFunctionDefinition transformation 0:0
+            │                   └──@0x7fdd94ddd010 SgBasicBlock transformation 0:0
+            │                       └──@0x7fdda0618010 SgNullStatement transformation 0:0
             ├── NULL 
             ├── NULL 
             └── NULL 
