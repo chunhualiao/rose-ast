@@ -1,0 +1,22 @@
+└──@0x7fd366cc0010 SgProject 
+    └──@0x21f0f40 SgFileList 
+        └──@0x7fd366b5c010 SgSourceFile 
+            ├──@0x7fd37154b128 SgGlobal procedure_call.adb 0:0
+            │   └──@0x7fd366263540 SgFunctionDeclaration Procedure_Call.adb 1:1 "::Procedure_Call"
+            │       ├──@0x7fd366562320 SgFunctionParameterList transformation 0:0
+            │       ├── NULL 
+            │       └──@0x7fd3660fa010 SgFunctionDefinition transformation 0:0
+            │           └──@0x7fd366052010 SgBasicBlock transformation 0:0
+            │               ├──@0x7fd366263fa0 SgFunctionDeclaration transformation 0:0 "Do_It"
+            │               │   ├──@0x7fd366562940 SgFunctionParameterList transformation 0:0
+            │               │   ├── NULL 
+            │               │   └──@0x7fd3660fa148 SgFunctionDefinition transformation 0:0
+            │               │       └──@0x7fd366052168 SgBasicBlock transformation 0:0
+            │               │           └──@0x7fd3714ca010 SgNullStatement transformation 0:0
+            │               └──@0x7fd365f82010 SgExprStatement transformation 0:0
+            │                   └──@0x7fd365fb1010 SgFunctionCallExp transformation 0:0
+            │                       ├──@0x7fd36601b010 SgFunctionRefExp transformation 0:0
+            │                       └──@0x7fd365fe8010 SgExprListExp transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 
