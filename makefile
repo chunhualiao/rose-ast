@@ -33,6 +33,7 @@ CPP_FILES = \
    namespace.cpp \
    namespace2.cpp \
    namespace3.cpp \
+   namespace-struct.cpp \
    func2.cpp \
    stringVal.cpp
 
