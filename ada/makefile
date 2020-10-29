@@ -49,7 +49,8 @@ test.ads \
 test_unit.ads \
 unit_2.ads \
 unit_3.ads \
-variable_declaration.ads
+variable_declaration.ads \
+week1.ads
 
 ADB_FILES = \
 accept_statement.adb \
