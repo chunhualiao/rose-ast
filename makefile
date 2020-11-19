@@ -30,11 +30,13 @@ CPP_FILES = \
    arrayRefs.cpp \
    constructor.cpp \
    class.cpp \
+   derived_class.cpp \
    namespace.cpp \
    namespace2.cpp \
    namespace3.cpp \
    namespace-struct.cpp \
    func2.cpp \
+   switch-case.cpp \
    stringVal.cpp
 
 CPP_FILES_TXT = $(CPP_FILES:.cpp=.cpp.AST.txt) 
