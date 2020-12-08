@@ -2,8 +2,8 @@ project default is
 
    for Languages use ("Ada");
    for Object_Dir use "./obj";
-   for Source_Dirs use ("./**");
-   for Excluded_Source_Dirs use (default'Object_Dir);     
+   for Source_Dirs use (".");
+--   for Excluded_Source_Dirs use (default'Object_Dir);
 
 end default;
 

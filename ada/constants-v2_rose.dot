@@ -1,0 +1,25 @@
+digraph "G./constants-v2_rose.dot" {
+"0x7f72997f00a0"[label="7:8\nSgLongDoubleVal\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n lvalue = false\nchild_count:0\n0x7f72997f00a0\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f729977a110"[label="10:11\nSgIntVal\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n value = 10\n lvalue = false\nchild_count:0\n0x7f729977a110\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f729977a190"[label="12:13\nSgIntVal\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n value = 23\n lvalue = false\nchild_count:0\n0x7f729977a190\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f72997b9080"[label="9:14\nSgExponentiationOp\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n lvalue = false\nchild_count:2\n0x7f72997b9080\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f72997b9080" -> "0x7f729977a110"[label="lhs_operand_i" dir=both ];
+"0x7f72997b9080" -> "0x7f729977a190"[label="rhs_operand_i" dir=both ];
+"0x7f7299837080"[label="6:15\nSgMultiplyOp\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n lvalue = false\nchild_count:2\n0x7f7299837080\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f7299837080" -> "0x7f72997f00a0"[label="lhs_operand_i" dir=both ];
+"0x7f7299837080" -> "0x7f72997b9080"[label="rhs_operand_i" dir=both ];
+"0x7f7299747010"[label="5:16\nSgAssignInitializer\nisModified = true\ncontainsTransformation = false\nisTransformation = true\n lvalue = false\nchild_count:1\n0x7f7299747010\nis part of transformation\nIS output in generated code\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f7299747010" -> "0x7f7299837080"[label="operand_i" dir=both ];
+"0x7f7299649010"[label="4:17\nSgInitializedName\nAvogadros_Number\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f7299649010\nconstants-v2.ads:2:3 (physical line=2) (raw line:col=2:3)\nconstants-v2.ads:2:18 (physical line=2) (raw line:col=2:18)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f7299649010" -> "0x7f7299747010"[label="initptr" dir=both ];
+"0x7f729948f010"[label="3:18\nSgVariableDeclaration\n isAssociatedWithDeclarationList = false \n variableDeclarationContainsBaseTypeDefiningDeclaration = false \n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f729948f010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:2\n0x7f729948f010\nconstants-v2.ads:2:3 (physical line=2) (raw line:col=2:3)\nconstants-v2.ads:2:52 (physical line=2) (raw line:col=2:52)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f729948f010" -> "0x7f729948f010__baseTypeDefiningDeclaration__null"[label="baseTypeDefiningDeclaration" dir=none ];
+"0x7f729948f010__baseTypeDefiningDeclaration__null"[label="" shape=diamond ];
+"0x7f729948f010" -> "0x7f7299649010"[label="*[1]" dir=both ];
+"0x7f7299f74130"[label="2:19\nSgAdaPackageSpec\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f7299f74130\nconstants-v2.ads:1:1 (physical line=1) (raw line:col=1:1)\nconstants-v2.ads:4:14 (physical line=4) (raw line:col=4:14)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f7299f74130" -> "0x7f729948f010"[label="*[0]" dir=both ];
+"0x7f72999ac010"[label="1:20\nSgAdaPackageSpecDecl\n isFriend = false \n isExtern = false \n firstNondefiningDeclaration = 0x7f72999ac010\n definingDeclaration = (nil)\n!isForward\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f72999ac010\nconstants-v2.ads:1:1 (physical line=1) (raw line:col=1:1)\nconstants-v2.ads:4:14 (physical line=4) (raw line:col=4:14)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f72999ac010" -> "0x7f7299f74130"[label="definition" dir=both ];
+"0x7f72a4a48128"[label="0:21\nSgGlobal\nisModified = true\ncontainsTransformation = false\nisTransformation = false\nchild_count:1\n0x7f72a4a48128\nconstants-v2.ads:0:0 (physical line=0) (raw line:col=0:0)\nconstants-v2.ads:0:0 (physical line=0) (raw line:col=0:0)\ncontainsTransformationToSurroundingWhitespace == false\n" ];
+"0x7f72a4a48128" -> "0x7f72999ac010"[label="*[0]" dir=both ];
+}

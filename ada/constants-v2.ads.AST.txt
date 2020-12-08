@@ -1,0 +1,18 @@
+└──@0x7f729a165010 SgProject 
+    └──@0x1662f40 SgFileList 
+        └──@0x7f729a001010 SgSourceFile 
+            ├──@0x7f72a4a48128 SgGlobal constants-v2.ads 0:0
+            │   └──@0x7f72999ac010 SgAdaPackageSpecDecl constants-v2.ads 1:1
+            │       └──@0x7f7299f74130 SgAdaPackageSpec constants-v2.ads 1:1
+            │           └──@0x7f729948f010 SgVariableDeclaration constants-v2.ads 2:3
+            │               ├── NULL 
+            │               └──@0x7f7299649010 SgInitializedName constants-v2.ads 2:3 "::Constants::Avogadros_Number"
+            │                   └──@0x7f7299747010 SgAssignInitializer transformation 0:0
+            │                       └──@0x7f7299837080 SgMultiplyOp transformation 0:0
+            │                           ├──@0x7f72997f00a0 SgLongDoubleVal transformation 0:0
+            │                           └──@0x7f72997b9080 SgExponentiationOp transformation 0:0
+            │                               ├──@0x7f729977a110 SgIntVal transformation 0:0
+            │                               └──@0x7f729977a190 SgIntVal transformation 0:0
+            ├── NULL 
+            ├── NULL 
+            └── NULL 
