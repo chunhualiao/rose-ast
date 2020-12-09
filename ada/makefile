@@ -18,6 +18,7 @@ constant_declaration.ads \
 constants.ads \
 constants-v2.ads \
 constants-v3.ads \
+constants-v4.ads \
 derived_record.ads \
 empty_package.ads \
 entry_declaration.ads \
