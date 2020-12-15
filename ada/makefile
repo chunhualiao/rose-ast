@@ -77,6 +77,7 @@ if_statement.adb \
 increment.adb \
 iterate_range.adb \
 loop_exit.adb \
+loop_exit_while.adb \
 loop_statement.adb \
 minimal.adb \
 operator.adb \
