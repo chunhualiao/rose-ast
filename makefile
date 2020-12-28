@@ -37,6 +37,7 @@ CPP_FILES = \
    namespace-struct.cpp \
    func2.cpp \
    switch-case.cpp \
+   test_120_2020.cpp \
    stringVal.cpp
 
 CPP_FILES_TXT = $(CPP_FILES:.cpp=.cpp.AST.txt) 
