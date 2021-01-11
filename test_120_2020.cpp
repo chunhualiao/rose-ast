@@ -17,6 +17,7 @@ class A
   private:
     struct B{};
     typedef list<B>::iterator BListIter;
+    list<B>::iterator test1;
 };
 
 void A::foobar()

@@ -68,6 +68,7 @@ entry_call.adb \
 exit_statement.adb \
 fib.adb \
 for_loop.adb \
+for_loop_statement.adb \
 function_call.adb \
 function_declaration.adb \
 goto_loop.adb \
