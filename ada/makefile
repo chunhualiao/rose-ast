@@ -28,6 +28,7 @@ exception_rename.ads \
 function_declaration.ads \
 gototest.ads \
 mytype.ads \
+mytype_2.ads \
 mpi.ads \
 mpiuse.ads \
 named.ads \
