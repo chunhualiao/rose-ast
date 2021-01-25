@@ -27,6 +27,7 @@ exception_declaration.ads \
 exception_rename.ads \
 function_declaration.ads \
 gototest.ads \
+mytype.ads \
 mpi.ads \
 mpiuse.ads \
 named.ads \
@@ -68,6 +69,7 @@ entry_call.adb \
 exit_statement.adb \
 fib.adb \
 for_loop.adb \
+for_loop_reverse.adb \
 for_loop_statement.adb \
 function_call.adb \
 function_declaration.adb \
