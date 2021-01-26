@@ -30,6 +30,7 @@ gototest.ads \
 mytype.ads \
 mytype_2.ads \
 mytype_array.ads \
+mytype_3_array.ads \
 mpi.ads \
 mpiuse.ads \
 named.ads \
