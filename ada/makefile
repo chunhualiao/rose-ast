@@ -27,6 +27,7 @@ exception_declaration.ads \
 exception_rename.ads \
 function_declaration.ads \
 gototest.ads \
+myarrays.ads \
 mytype.ads \
 mytype_2.ads \
 mytype_array.ads \
