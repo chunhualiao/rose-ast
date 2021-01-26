@@ -29,6 +29,7 @@ function_declaration.ads \
 gototest.ads \
 mytype.ads \
 mytype_2.ads \
+mytype_array.ads \
 mpi.ads \
 mpiuse.ads \
 named.ads \
