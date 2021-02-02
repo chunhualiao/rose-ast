@@ -7,7 +7,8 @@ package body myarrays is
 
     Result : Vector (Left'Range) := Left;
   begin
-    for I in Result'Range loop
+--    for I in Result'Range loop
+    for I in Result'First .. Result'Last loop
       Result (I) := Result (I) + Right (I);
     end loop;
 
