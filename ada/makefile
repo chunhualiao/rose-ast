@@ -88,6 +88,7 @@ loop_exit_while.adb \
 loop_statement.adb \
 minimal.adb \
 myarrays.adb \
+my2darrays.adb \
 operator.adb \
 package_with_body.adb \
 procedure_call.adb \
