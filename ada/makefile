@@ -47,6 +47,7 @@ procedure_declaration.ads \
 real_typedecl.ads \
 selected_component.ads \
 sender.ads \
+simpleada.ads \
 simple_expression_range.ads \
 some_modes.ads \
 subtypes.ads \
