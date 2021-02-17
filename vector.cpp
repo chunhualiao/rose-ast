@@ -1,6 +1,6 @@
 #include <vector>
 void foo()
 {
-  std::vector<float> vf1;
-  vf1.size();
+  std::vector<float> vector_float_var;
+  vector_float_var.size();
 }

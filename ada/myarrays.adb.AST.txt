@@ -1,61 +1,63 @@
-└──@0x7f0deaf5e010 SgProject 
-    └──@0x1d83120 SgFileList 
-        └──@0x7f0deadfa010 SgSourceFile 
-            ├──@0x7f0df5971128 SgGlobal myarrays.adb 0:0
-            │   ├──@0x7f0dea624010 SgAdaPackageSpecDecl myarrays.ads 1:1
-            │   │   └──@0x7f0dead6d130 SgAdaPackageSpec myarrays.ads 1:1
-            │   │       ├──@0x7f0deaa67aa8 SgTypedefDeclaration transformation 0:0
+└──@0x7f4e0df45010 SgProject 
+    └──@0x12da100 SgFileList 
+        └──@0x7f4e0dde1010 SgSourceFile 
+            ├──@0x7f4e18960128 SgGlobal myarrays.adb 0:0
+            │   ├──@0x7f4e0d60b010 SgAdaPackageSpecDecl myarrays.ads 1:1
+            │   │   └──@0x7f4e0dd54130 SgAdaPackageSpec myarrays.ads 1:1
+            │   │       ├──@0x7f4e0da4eaa8 SgTypedefDeclaration myarrays.ads 3:3
             │   │       │   └── NULL 
-            │   │       └──@0x7f0dea0d9010 SgFunctionDeclaration myarrays.ads 6:3 "::myarrays::operator+"
-            │   │           ├──@0x7f0dea3dc010 SgFunctionParameterList transformation 0:0
-            │   │           │   ├──@0x7f0de9f52010 SgInitializedName transformation 0:0 "::myarrays::::Left"
+            │   │       └──@0x7f4e0d0c0010 SgFunctionDeclaration myarrays.ads 6:3 "::myarrays::operator+"
+            │   │           ├──@0x7f4e0d3c3010 SgFunctionParameterList compilerGenerated 0:0
+            │   │           │   ├──@0x7f4e0cf39010 SgInitializedName compilerGenerated 0:0 "::myarrays::::Left" type@0x7f4e0dc9f230
             │   │           │   │   └── NULL 
-            │   │           │   └──@0x7f0de9f52218 SgInitializedName transformation 0:0 "::myarrays::::Right"
+            │   │           │   └──@0x7f4e0cf39218 SgInitializedName compilerGenerated 0:0 "::myarrays::::Right" type@0x7f4e0dc9f230
             │   │           │       └── NULL 
             │   │           ├── NULL 
             │   │           └── NULL 
-            │   └──@0x7f0de9b6c010 SgAdaPackageBodyDecl myarrays.adb 1:1
-            │       └──@0x7f0de9d0b010 SgAdaPackageBody myarrays.adb 1:1
-            │           └──@0x7f0dea0d9a80 SgFunctionDeclaration myarrays.adb 4:3 "::myarrays::operator+"
-            │               ├──@0x7f0dea3dc640 SgFunctionParameterList transformation 0:0
-            │               │   ├──@0x7f0de9f52830 SgInitializedName transformation 0:0 "Left"
+            │   └──@0x7f4e0cb53010 SgAdaPackageBodyDecl myarrays.adb 1:1
+            │       └──@0x7f4e0ccf2010 SgAdaPackageBody myarrays.adb 1:1
+            │           └──@0x7f4e0d0c0a80 SgFunctionDeclaration myarrays.adb 4:3 "::myarrays::operator+"
+            │               ├──@0x7f4e0d3c3640 SgFunctionParameterList compilerGenerated 0:0
+            │               │   ├──@0x7f4e0cf39830 SgInitializedName compilerGenerated 0:0 "Left" type@0x7f4e0dc9f230
             │               │   │   └── NULL 
-            │               │   └──@0x7f0de9f52a38 SgInitializedName transformation 0:0 "Right"
+            │               │   └──@0x7f4e0cf39a38 SgInitializedName compilerGenerated 0:0 "Right" type@0x7f4e0dc9f230
             │               │       └── NULL 
             │               ├── NULL 
-            │               └──@0x7f0de9ad3010 SgFunctionDefinition transformation 0:0
-            │                   └──@0x7f0de9a2b010 SgBasicBlock transformation 0:0
-            │                       ├──@0x7f0de9d99540 SgVariableDeclaration transformation 0:0
+            │               └──@0x7f4e0caba010 SgFunctionDefinition compilerGenerated 0:0
+            │                   └──@0x7f4e0ca12010 SgBasicBlock compilerGenerated 0:0
+            │                       ├──@0x7f4e0cd80540 SgVariableDeclaration myarrays.adb 8:5
             │                       │   ├── NULL 
-            │                       │   └──@0x7f0de9f52c40 SgInitializedName transformation 0:0 "Result"
-            │                       │       └──@0x7f0de9972010 SgAssignInitializer transformation 0:0
-            │                       │           └──@0x7f0de99f80e0 SgVarRefExp transformation 0:0
-            │                       ├──@0x7f0de98d1010 SgForStatement transformation 0:0
-            │                       │   ├──@0x7f0de989a010 SgForInitStatement transformation 0:0
-            │                       │   │   └──@0x7f0de9d998c8 SgVariableDeclaration transformation 0:0
+            │                       │   └──@0x7f4e0cf39c40 SgInitializedName myarrays.adb 8:5 "Result" type@0x7f4e0d81c110
+            │                       │       └──@0x7f4e0c95d010 SgAssignInitializer compilerGenerated 0:0
+            │                       │           └──@0x7f4e0c9df078 SgVarRefExp myarrays.adb 8:37 init name@0x7f4e0cf39010
+            │                       ├──@0x7f4e0c8bc010 SgForStatement myarrays.adb 11:5
+            │                       │   ├──@0x7f4e0c885010 SgForInitStatement myarrays.adb 11:9
+            │                       │   │   └──@0x7f4e0cd808c8 SgVariableDeclaration myarrays.adb 11:9
             │                       │   │       ├── NULL 
-            │                       │   │       └──@0x7f0de9f52e48 SgInitializedName transformation 0:0 "I"
-            │                       │   │           └──@0x7f0de9972078 SgAssignInitializer transformation 0:0
-            │                       │   │               └──@0x7f0de99a50b8 SgTypeTraitBuiltinOperator transformation 0:0
-            │                       │   ├──@0x7f0df58bf010 SgNullStatement transformation 0:0
-            │                       │   ├──@0x7f0de9867010 SgPlusPlusOp transformation 0:0
-            │                       │   │   └──@0x7f0de99f8148 SgVarRefExp transformation 0:0
-            │                       │   ├──@0x7f0de9a2b168 SgBasicBlock transformation 0:0
-            │                       │   │   └──@0x7f0de9793010 SgExprStatement transformation 0:0
-            │                       │   │       └──@0x7f0de97c2010 SgAssignOp transformation 0:0
-            │                       │   │           ├──@0x7f0de9830010 SgPntrArrRefExp myarrays.adb 12:7
-            │                       │   │           │   ├──@0x7f0de99f81b0 SgVarRefExp myarrays.adb 12:7
-            │                       │   │           │   └──@0x7f0de99f8218 SgVarRefExp myarrays.adb 12:15
-            │                       │   │           └──@0x7f0de97f9010 SgAddOp myarrays.adb 12:21
-            │                       │   │               ├──@0x7f0de9830080 SgPntrArrRefExp myarrays.adb 12:21
-            │                       │   │               │   ├──@0x7f0de99f8280 SgVarRefExp myarrays.adb 12:21
-            │                       │   │               │   └──@0x7f0de99f82e8 SgVarRefExp myarrays.adb 12:29
-            │                       │   │               └──@0x7f0de98300f0 SgPntrArrRefExp myarrays.adb 12:34
-            │                       │   │                   ├──@0x7f0de99f8350 SgVarRefExp myarrays.adb 12:34
-            │                       │   │                   └──@0x7f0de99f83b8 SgVarRefExp myarrays.adb 12:41
+            │                       │   │       └──@0x7f4e0cf39e48 SgInitializedName myarrays.adb 11:9 "I" type@0x7f4e0dd19010
+            │                       │   │           └──@0x7f4e0c95d078 SgAssignInitializer compilerGenerated 0:0
+            │                       │   │               └──@0x7f4e0c9900b0 SgAdaAttributeExp myarrays.adb 11:14
+            │                       │   │                   ├──@0x7f4e0c9df0e0 SgVarRefExp myarrays.adb 11:14 init name@0x7f4e0cf39c40
+            │                       │   │                   └──@0x7f4e0d5910e0 SgExprListExp compilerGenerated 0:0
+            │                       │   ├──@0x7f4e188ae010 SgNullStatement compilerGenerated 0:0
+            │                       │   ├──@0x7f4e0c852010 SgPlusPlusOp compilerGenerated 0:0
+            │                       │   │   └──@0x7f4e0c9df148 SgVarRefExp compilerGenerated 0:0 init name@0x7f4e0cf39e48
+            │                       │   ├──@0x7f4e0ca12168 SgBasicBlock compilerGenerated 0:0
+            │                       │   │   └──@0x7f4e0c77e010 SgExprStatement myarrays.adb 12:7
+            │                       │   │       └──@0x7f4e0c7ad010 SgAssignOp myarrays.adb 12:7
+            │                       │   │           ├──@0x7f4e0c81b010 SgPntrArrRefExp myarrays.adb 12:7
+            │                       │   │           │   ├──@0x7f4e0c9df1b0 SgVarRefExp myarrays.adb 12:7 init name@0x7f4e0cf39c40
+            │                       │   │           │   └──@0x7f4e0c9df218 SgVarRefExp myarrays.adb 12:15 init name@0x7f4e0cf39e48
+            │                       │   │           └──@0x7f4e0c7e4010 SgAddOp myarrays.adb 12:21
+            │                       │   │               ├──@0x7f4e0c81b080 SgPntrArrRefExp myarrays.adb 12:21
+            │                       │   │               │   ├──@0x7f4e0c9df280 SgVarRefExp myarrays.adb 12:21 init name@0x7f4e0cf39c40
+            │                       │   │               │   └──@0x7f4e0c9df2e8 SgVarRefExp myarrays.adb 12:29 init name@0x7f4e0cf39e48
+            │                       │   │               └──@0x7f4e0c81b0f0 SgPntrArrRefExp myarrays.adb 12:34
+            │                       │   │                   ├──@0x7f4e0c9df350 SgVarRefExp myarrays.adb 12:34 init name@0x7f4e0cf39218
+            │                       │   │                   └──@0x7f4e0c9df3b8 SgVarRefExp myarrays.adb 12:41 init name@0x7f4e0cf39e48
             │                       │   └── NULL 
-            │                       └──@0x7f0de9764010 SgReturnStmt transformation 0:0
-            │                           └──@0x7f0de99f8420 SgVarRefExp myarrays.adb 15:12
+            │                       └──@0x7f4e0c74f010 SgReturnStmt myarrays.adb 15:5
+            │                           └──@0x7f4e0c9df420 SgVarRefExp myarrays.adb 15:12 init name@0x7f4e0cf39c40
             ├── NULL 
             ├── NULL 
             └── NULL 
