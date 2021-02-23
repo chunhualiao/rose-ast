@@ -70,6 +70,7 @@ choice_parameter_specification.adb \
 complex.adb \
 delay_relative.adb \
 delay_until.adb \
+demo_myarray1.adb \
 entry_call.adb \
 exit_statement.adb \
 fib.adb \
