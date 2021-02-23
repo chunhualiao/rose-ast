@@ -70,6 +70,7 @@ choice_parameter_specification.adb \
 complex.adb \
 delay_relative.adb \
 delay_until.adb \
+demo_scalar.adb \
 demo_myarray1.adb \
 demo_myarray3.adb \
 entry_call.adb \
@@ -90,6 +91,7 @@ loop_exit.adb \
 loop_exit_while.adb \
 loop_statement.adb \
 minimal.adb \
+myarrays1d.adb \
 myarrays.adb \
 my2darrays.adb \
 operator.adb \
