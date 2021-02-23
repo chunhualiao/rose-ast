@@ -38,8 +38,9 @@ CPP_FILES = \
    memberFunc.cpp \
    func2.cpp \
    switch-case.cpp \
+   stringVal.cpp \
    test_120_2020.cpp \
-   stringVal.cpp
+   using.cpp  
 
 CPP_FILES_TXT = $(CPP_FILES:.cpp=.cpp.AST.txt) 
 CPP_FILES_PDF = $(CPP_FILES:.cpp=.cpp.pdf) 
