@@ -35,6 +35,7 @@ CPP_FILES = \
    namespace2.cpp \
    namespace3.cpp \
    namespace-struct.cpp \
+   main.cpp \
    memberFunc.cpp \
    func2.cpp \
    switch-case.cpp \
