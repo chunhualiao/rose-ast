@@ -101,6 +101,7 @@ procedure_call.adb \
 procedure_declaration.adb \
 raise_statement.adb \
 recursive_call.adb \
+scopequal_v2.adb \
 short_circuit.adb \
 task_with_body.adb \
 test.adb \
