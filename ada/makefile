@@ -74,6 +74,7 @@ delay_until.adb \
 demo_scalar.adb \
 demo_myarray1.adb \
 demo_myarray3.adb \
+demo_myarrays3_1.adb \
 entry_call.adb \
 exit_statement.adb \
 fib.adb \
