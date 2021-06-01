@@ -64,6 +64,7 @@ week1.ads
 ADB_FILES = \
 accept_statement.adb \
 array_aggregate.adb \
+array_declare_1.adb \
 block_statement.adb \
 case_function.adb \
 case_statement.adb \
