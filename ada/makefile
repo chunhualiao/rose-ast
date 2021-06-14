@@ -77,6 +77,7 @@ demo_scalar.adb \
 demo_myarray1.adb \
 demo_myarray3.adb \
 demo_myarrays3_1.adb \
+demo_range1.adb \
 entry_call.adb \
 exit_statement.adb \
 fib.adb \
