@@ -1,3 +1,4 @@
+namespace ns1 {
 template <class T>
 class mypair {
     T values [2];
@@ -7,3 +8,4 @@ class mypair {
       values[0]=first; values[1]=second;
     }
 };
+}
