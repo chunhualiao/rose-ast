@@ -2,7 +2,8 @@
 #ROSE_INS=/home/liao6/workspace/autoPar/install
 #ROSE_INS=/home/liao6/workspace/paraDyn-2018-04/install
 #ROSE_INS=/home/liao6/workspace/ada-to-cpp/installDebug
-ROSE_INS=/home/liao6/workspace/ada-to-cpp-FY21/rose/2020-10-04_22-41-09_-0700/installDebug
+#ROSE_INS=/home/liao6/workspace/ada-to-cpp-FY21/rose/2020-10-04_22-41-09_-0700/installDebug
+ROSE_INS=/home/liao6/workspace/rose/rose-with-ada/installDebug
 export ROSE_INS 
 
 PATH=$ROSE_INS/bin:$PATH

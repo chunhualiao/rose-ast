@@ -8,7 +8,7 @@ SHELL := /bin/bash
 #  named.ads
 #  opaque.ads
 #  parent-child.ads
-ADA_FILES = \
+ADS_FILES = \
 all_modes.ads \
 case_function.ads \
 comm.ads \
@@ -28,6 +28,7 @@ exception_rename.ads \
 function_declaration.ads \
 gototest.ads \
 myarrays.ads \
+myarraysv1.ads \
 mytype.ads \
 mytype_2.ads \
 mytype_array.ads \
@@ -64,6 +65,9 @@ week1.ads
 ADB_FILES = \
 array1d.adb \
 accept_statement.adb \
+array_aggregate.adb \
+array_declare_1.adb \
+array_declare_2.adb \
 block_statement.adb \
 case_function.adb \
 case_statement.adb \
@@ -74,6 +78,8 @@ delay_until.adb \
 demo_scalar.adb \
 demo_myarray1.adb \
 demo_myarray3.adb \
+demo_myarrays3_1.adb \
+demo_range1.adb \
 entry_call.adb \
 exit_statement.adb \
 fib.adb \
@@ -112,32 +118,32 @@ unit_2.adb \
 while_loop_statement.adb
 
 
-ADA_FILES_TXT = $(ADA_FILES:.ads=.ads.AST.txt) 
+ADS_FILES_TXT = $(ADS_FILES:.ads=.ads.AST.txt) 
 ADB_FILES_TXT = $(ADB_FILES:.adb=.adb.AST.txt) 
 
-ADA_FILES_PDF = $(ADA_FILES:.ads=.ads.pdf) 
-#ADA_FILES_DOT = $(ADA_FILES:.ads=.ads_WholeAST.dot) 
-ADA_FILES_DOT = $(ADA_FILES:.ads=.ads.dot) 
+ADS_FILES_PDF = $(ADS_FILES:.ads=.ads.pdf) 
+#ADS_FILES_DOT = $(ADS_FILES:.ads=.ads_WholeAST.dot) 
+ADS_FILES_DOT = $(ADS_FILES:.ads=.ads.dot) 
 ADB_FILES_DOT = $(ADB_FILES:.adb=.adb.dot) 
 
 %.dot.pdf:%.dot
 	dot -Tpdf $< -o $@
-$(ADA_FILES_TXT): %.ads.AST.txt:%.ads
+$(ADS_FILES_TXT): %.ads.AST.txt:%.ads
 	source ./set.rose ; textASTGenerator -c $<
 
 $(ADB_FILES_TXT): %.adb.AST.txt:%.adb
 	source ./set.rose ; textASTGenerator -c $<
 
-#$(ADA_FILES_PDF): %.ads.pdf:%.ads
+#$(ADS_FILES_PDF): %.ads.pdf:%.ads
 #	source ./set.rose ; pdfGenerator -c $<
 
-$(ADA_FILES_DOT): %.ads.dot:%.ads
+$(ADS_FILES_DOT): %.ads.dot:%.ads
 	source ./set.rose ; dotGeneratorWholeASTGraph -c $<
 $(ADB_FILES_DOT): %.adb.dot:%.adb
 	source ./set.rose ; dotGeneratorWholeASTGraph -c $<
 
 #--------further convert dot file to pdf and pgn file------
-ALL_FILES_DOT = $(ADA_FILES_DOT) $(ADB_FILES_DOT)
+ALL_FILES_DOT = $(ADS_FILES_DOT) $(ADB_FILES_DOT)
 
 ALL_FILES_DOT_PDF = $(ALL_FILES_DOT:.dot=.dot.pdf)
 ALL_FILES_DOT_PNG = $(ALL_FILES_DOT:.dot=.dot.png)
@@ -147,8 +153,8 @@ $(ALL_FILES_DOT_PDF): %.dot.pdf:%.dot
 
 $(ALL_FILES_DOT_PNG): %.dot.png:%.dot
 	dot -Tpng $< -o $@
-all-txt: $(ADA_FILES_TXT)
-all: $(ADA_FILES_DOT) $(ADA_FILES_TXT) \
+all-txt: $(ADS_FILES_TXT)
+all: $(ADS_FILES_DOT) $(ADS_FILES_TXT) \
      $(ALL_FILES_DOT_PDF) $(ALL_FILES_DOT_PNG)
 
 clean:
