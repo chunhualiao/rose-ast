@@ -62,6 +62,7 @@ variable_declaration.ads \
 week1.ads
 
 ADB_FILES = \
+array1d.adb \
 accept_statement.adb \
 block_statement.adb \
 case_function.adb \
